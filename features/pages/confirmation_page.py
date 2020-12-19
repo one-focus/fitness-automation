@@ -1,0 +1,26 @@
+from selenium.webdriver.common.by import By
+from pages.base_page import BasePage
+
+
+class ConfirmationPage(BasePage):
+
+    @property
+    def _elements_map(self):
+        return {
+            'confirm checkbox': (By.ID, 'usl'),
+            'continue button': (By.ID, 'payButton'),
+
+            'cardnumber field': (By.ID, 'cardNumber'),
+            'month field': (By.ID, 'inputMonth'),
+            'year field': (By.ID, 'inputMonth'),
+            'cardholder field': (By.ID, 'cardHolder'),
+            'cvc field': (By.ID, 'cardCvv'),
+            'pay button': (By.XPATH, '//*[@id="sizingContainer"]//button'),
+
+
+            'policy link': (By.XPATH, '//a[@href="/about/oferta/"]'),
+            'oferta link': (By.XPATH, '//a[@href="/about/oferta/"]')
+        }
+
+    def _verify_page(self):
+        self.on_this_page('oferta link', 'policy link')
