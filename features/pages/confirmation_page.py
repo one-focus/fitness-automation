@@ -10,14 +10,6 @@ class ConfirmationPage(BasePage):
             'confirm checkbox': (By.ID, 'usl'),
             'continue button': (By.ID, 'payButton'),
 
-            'cardnumber field': (By.ID, 'cardNumber'),
-            'month field': (By.ID, 'inputMonth'),
-            'year field': (By.ID, 'inputMonth'),
-            'cardholder field': (By.ID, 'cardHolder'),
-            'cvc field': (By.ID, 'cardCvv'),
-            'pay button': (By.XPATH, '//*[@id="sizingContainer"]//button'),
-
-
             'policy link': (By.XPATH, '//a[@href="/about/oferta/"]'),
             'oferta link': (By.XPATH, '//a[@href="/about/oferta/"]')
         }

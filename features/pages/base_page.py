@@ -20,13 +20,18 @@ class BasePage:
 
     def click_on(self, element_name):
         element = self.get_clickable_element(element_name)
-        # hover = ActionChains(self.driver).move_to_element(element)
-        # hover.perform()
+        from selenium.webdriver import ActionChains
+        hover = ActionChains(self.driver).move_to_element(element)
+        hover.perform()
         element.click()
 
     def type_in(self, element_name, text):
-        self.get_element(element_name).clear()
-        self.get_element(element_name).send_keys(text)
+        from selenium.webdriver import ActionChains
+        element = self.get_clickable_element(element_name)
+        hover = ActionChains(self.driver).move_to_element(element)
+        hover.perform()
+        element.clear()
+        element.send_keys(text)
 
     def get_text(self, element_name):
         return self.get_element(element_name).text

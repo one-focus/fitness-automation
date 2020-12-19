@@ -60,3 +60,8 @@ def step_impl(context, seconds):
 @when("I scroll down")
 def step_impl(context):
     context.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+
+@step("print pagesource")
+def step_impl(context):
+    print(context.driver.page_source)

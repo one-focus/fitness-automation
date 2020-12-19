@@ -49,7 +49,7 @@ def before_all(context):
     # -- Remote driver
     # context.driver = webdriver.Remote(command_executor='http://128.199.172.129:4444/wd/hub', desired_capabilities=caps)
 
-    context.driver.implicitly_wait(15)
+    context.driver.implicitly_wait(1)
 
     # read config
     parser = configparser.ConfigParser()

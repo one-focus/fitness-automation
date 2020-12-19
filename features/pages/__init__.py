@@ -1,9 +1,11 @@
 from .main_page import MainPage
+from .cloudpaymetns_page import CloudPayments
 from .confirmation_page import ConfirmationPage
 
 page_map = {
     "main": MainPage,
-    "confirmation": ConfirmationPage
+    "confirmation": ConfirmationPage,
+    "cloudpayments": CloudPayments
 }
 
 
