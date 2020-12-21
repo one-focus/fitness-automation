@@ -11,7 +11,7 @@ Feature: fitness-online.ru.com
     When calculate time for 'confirmation'
     When go to cloudpayments page
     When calculate time for 'payment'
-    When enter real card details
-    Then I see 3d secure element
+    When enter fake card details
+    Then I see cancel button element
     When calculate time for 'cloudpayments'
     When wait for "1" sec
