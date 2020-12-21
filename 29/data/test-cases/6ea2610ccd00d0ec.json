@@ -1,0 +1,257 @@
+{
+  "uid" : "6ea2610ccd00d0ec",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/fitness-online.ru.com.feature:Email",
+  "historyId" : "4d5510e6048f1ce0d7ea99fea7e3637c",
+  "time" : {
+    "start" : 1608550318883,
+    "stop" : 1608550346177,
+    "duration" : 27294
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608550318884,
+        "stop" : 1608550318885,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open fitness-online.ru.com page",
+      "time" : {
+        "start" : 1608550318885,
+        "stop" : 1608550320253,
+        "duration" : 1368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'home'",
+      "time" : {
+        "start" : 1608550320253,
+        "stop" : 1608550320562,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608550320562,
+        "stop" : 1608550328865,
+        "duration" : 8303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608550328865,
+        "stop" : 1608550329257,
+        "duration" : 392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608550329257,
+        "stop" : 1608550332610,
+        "duration" : 3353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'payment'",
+      "time" : {
+        "start" : 1608550332610,
+        "stop" : 1608550332863,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608550332864,
+        "stop" : 1608550341796,
+        "duration" : 8932
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608550341796,
+        "stop" : 1608550345743,
+        "duration" : 3947
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608550345743,
+        "stop" : 1608550346177,
+        "duration" : 434
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "page_name",
+    "value" : "fitness-online.ru.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "1d29aad522727b42",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/28//#testresult/1d29aad522727b42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608548647183,
+          "stop" : 1608548668881,
+          "duration" : 21698
+        }
+      }, {
+        "uid" : "d05f3e3acf8edd2d",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/27//#testresult/d05f3e3acf8edd2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608547982396,
+          "stop" : 1608548005600,
+          "duration" : 23204
+        }
+      }, {
+        "uid" : "2e99c407a60d94ec",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/26//#testresult/2e99c407a60d94ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608547035452,
+          "stop" : 1608547057040,
+          "duration" : 21588
+        }
+      }, {
+        "uid" : "b01d130f1f9b1beb",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/25//#testresult/b01d130f1f9b1beb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608545507566,
+          "stop" : 1608545535061,
+          "duration" : 27495
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "6ea2610ccd00d0ec.json",
+  "parameterValues" : [ "fitness-online.ru.com" ]
+}
