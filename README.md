@@ -1,17 +1,3 @@
-## Simple project using Page Object model and selenium to automate https://wikipedia.org
-### Structure:
-+ Pages
-```
-+ Base page 
-+ Login page
-+ Main page
-+ Search Results page
-```
-+ Tests:
-```
-+ Regression.feature
-+ Validation.feature
-```
 ### Installation
 ```
 brew install python
@@ -25,11 +11,11 @@ behave
 ```
 + Use tags
 ```
-behave --tags=regression,search
+behave --tags=validation,regression
 ```
 + Generate allure report
 ```
-behave -f allure_behave.formatter:AllureFormatter -o allure-results --tags=regression,search  
+behave -f allure_behave.formatter:AllureFormatter -o allure-results --tags=validation,regression  
 allure generate --clean "allure-results" -o "allure-report"
 allure serve allure-results
 ```
