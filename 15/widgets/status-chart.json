@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d17225f181632df9",
+  "name" : "Email",
+  "time" : {
+    "start" : 1608534332244,
+    "stop" : 1608534356438,
+    "duration" : 24194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
