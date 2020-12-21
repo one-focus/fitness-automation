@@ -1,0 +1,405 @@
+{
+  "uid" : "e18fad9222304add",
+  "name" : "Email",
+  "fullName" : "features/tests/fitness-online.ru.com.feature:Email",
+  "historyId" : "cda65e61228e97a513aa179f7c5c7935",
+  "time" : {
+    "start" : 1608531906171,
+    "stop" : 1608531929030,
+    "duration" : 22859
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608531906171,
+        "stop" : 1608531906172,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open fitness-online.ru.com page",
+      "time" : {
+        "start" : 1608531906172,
+        "stop" : 1608531907678,
+        "duration" : 1506
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'home'",
+      "time" : {
+        "start" : 1608531907679,
+        "stop" : 1608531907984,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608531907984,
+        "stop" : 1608531914472,
+        "duration" : 6488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608531914472,
+        "stop" : 1608531914699,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608531914700,
+        "stop" : 1608531917098,
+        "duration" : 2398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'payment'",
+      "time" : {
+        "start" : 1608531917098,
+        "stop" : 1608531917336,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608531917336,
+        "stop" : 1608531924013,
+        "duration" : 6677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608531924014,
+        "stop" : 1608531927786,
+        "duration" : 3772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608531927786,
+        "stop" : 1608531928028,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When wait for \"1\" sec",
+      "time" : {
+        "start" : 1608531928028,
+        "stop" : 1608531929030,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "94e6b4a7f89e1309",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/12//#testresult/94e6b4a7f89e1309",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608530299770,
+          "stop" : 1608530322887,
+          "duration" : 23117
+        }
+      }, {
+        "uid" : "78210fd5ebb6d99b",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/11//#testresult/78210fd5ebb6d99b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608529819864,
+          "stop" : 1608529842959,
+          "duration" : 23095
+        }
+      }, {
+        "uid" : "715a11ae4fc0c2fe",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/10//#testresult/715a11ae4fc0c2fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608529059308,
+          "stop" : 1608529082908,
+          "duration" : 23600
+        }
+      }, {
+        "uid" : "f7c0a7db66c10c04",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/9//#testresult/f7c0a7db66c10c04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608527520970,
+          "stop" : 1608527548595,
+          "duration" : 27625
+        }
+      }, {
+        "uid" : "f82c6aa6b60a7735",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/8//#testresult/f82c6aa6b60a7735",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608526575577,
+          "stop" : 1608526598944,
+          "duration" : 23367
+        }
+      }, {
+        "uid" : "6f45b0d9333c8b4c",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/7//#testresult/6f45b0d9333c8b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608525264075,
+          "stop" : 1608525294194,
+          "duration" : 30119
+        }
+      }, {
+        "uid" : "61da3f4d377178f7",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/6//#testresult/61da3f4d377178f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608523228909,
+          "stop" : 1608523253102,
+          "duration" : 24193
+        }
+      }, {
+        "uid" : "2fcdf08e69a3c83b",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/5//#testresult/2fcdf08e69a3c83b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608522160206,
+          "stop" : 1608522185201,
+          "duration" : 24995
+        }
+      }, {
+        "uid" : "4117af32ac5cae8d",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/4//#testresult/4117af32ac5cae8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608520409787,
+          "stop" : 1608520432708,
+          "duration" : 22921
+        }
+      }, {
+        "uid" : "bdf2734ab33e41b0",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/3//#testresult/bdf2734ab33e41b0",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608519074688,
+          "stop" : 1608519172707,
+          "duration" : 98019
+        }
+      }, {
+        "uid" : "2be09bd71f6e1330",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/2//#testresult/2be09bd71f6e1330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608516742004,
+          "stop" : 1608516769742,
+          "duration" : 27738
+        }
+      }, {
+        "uid" : "ad736ba3ae1d7903",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/1//#testresult/ad736ba3ae1d7903",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608516715031,
+          "stop" : 1608516740479,
+          "duration" : 25448
+        }
+      }, {
+        "uid" : "465d0e4179dc706e",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/7//#testresult/465d0e4179dc706e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608515069074,
+          "stop" : 1608515097370,
+          "duration" : 28296
+        }
+      }, {
+        "uid" : "7ddb32451cbdd447",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/6//#testresult/7ddb32451cbdd447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608514676908,
+          "stop" : 1608514715410,
+          "duration" : 38502
+        }
+      }, {
+        "uid" : "69cedf81410aee34",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/5//#testresult/69cedf81410aee34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513705704,
+          "stop" : 1608513730185,
+          "duration" : 24481
+        }
+      }, {
+        "uid" : "a222416472d677e0",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/4//#testresult/a222416472d677e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513403269,
+          "stop" : 1608513428423,
+          "duration" : 25154
+        }
+      }, {
+        "uid" : "f97591175682358c",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/3//#testresult/f97591175682358c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513250767,
+          "stop" : 1608513289507,
+          "duration" : 38740
+        }
+      }, {
+        "uid" : "14cf3bec1d7c2dae",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/2//#testresult/14cf3bec1d7c2dae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513021706,
+          "stop" : 1608513046446,
+          "duration" : 24740
+        }
+      }, {
+        "uid" : "6f0ba84a41accad",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/1//#testresult/6f0ba84a41accad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608512546009,
+          "stop" : 1608512569629,
+          "duration" : 23620
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "e18fad9222304add.json",
+  "parameterValues" : [ ]
+}
