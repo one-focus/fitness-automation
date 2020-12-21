@@ -1,0 +1,78 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: target frame detached\n  (Session info: chrome=87.0.4280.66)\n\n",
+      "children" : [ {
+        "name" : "Email -- @1.1 ",
+        "uid" : "8b8913ffcba3fad9",
+        "parentUid" : "9afa9a113d201345fc305fe660aa0b75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608418014229,
+          "stop" : 1608418041237,
+          "duration" : 27008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fake card" ]
+      }, {
+        "name" : "Email1 -- @1.1 ",
+        "uid" : "24aa6aa95b14fd71",
+        "parentUid" : "9afa9a113d201345fc305fe660aa0b75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608418830192,
+          "stop" : 1608418872781,
+          "duration" : 42589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fake card" ]
+      }, {
+        "name" : "Email2 -- @1.1 ",
+        "uid" : "b61381335dc266e",
+        "parentUid" : "9afa9a113d201345fc305fe660aa0b75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608418830214,
+          "stop" : 1608418873115,
+          "duration" : 42901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fake card" ]
+      }, {
+        "name" : "Email4 -- @1.1 ",
+        "uid" : "64bcd02762b766d7",
+        "parentUid" : "9afa9a113d201345fc305fe660aa0b75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608418830276,
+          "stop" : 1608418870329,
+          "duration" : 40053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fake card" ]
+      }, {
+        "name" : "Email3 -- @1.1 ",
+        "uid" : "1b160f283db5310e",
+        "parentUid" : "9afa9a113d201345fc305fe660aa0b75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608418830303,
+          "stop" : 1608418872928,
+          "duration" : 42625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fake card" ]
+      } ],
+      "uid" : "9afa9a113d201345fc305fe660aa0b75"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

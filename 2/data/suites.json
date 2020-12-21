@@ -1,0 +1,1006 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Email -- @1.1 ",
+    "uid" : "8b8913ffcba3fad9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608418014229,
+      "stop" : 1608418041237,
+      "duration" : 27008
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card" ]
+  }, {
+    "name" : "Email -- @1.3 ",
+    "uid" : "3766f6f6f4236ca0",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418061104,
+      "stop" : 1608418079972,
+      "duration" : 18868
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.4 ",
+    "uid" : "30b9901e93e280d6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418079973,
+      "stop" : 1608418103482,
+      "duration" : 23509
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.5 ",
+    "uid" : "df04b16d45057cb8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418103484,
+      "stop" : 1608418126852,
+      "duration" : 23368
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.6 ",
+    "uid" : "2d38adefbac7241b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418126854,
+      "stop" : 1608418146654,
+      "duration" : 19800
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.7 ",
+    "uid" : "42536816c3246e3e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418146656,
+      "stop" : 1608418166324,
+      "duration" : 19668
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.8 ",
+    "uid" : "582c5a25f1721fa1",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418166325,
+      "stop" : 1608418187301,
+      "duration" : 20976
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.9 ",
+    "uid" : "315f19c0841dbfd0",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418187302,
+      "stop" : 1608418209637,
+      "duration" : 22335
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.10 ",
+    "uid" : "ade772ef19101555",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418209639,
+      "stop" : 1608418230169,
+      "duration" : 20530
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.11 ",
+    "uid" : "863951af023caa5e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418230170,
+      "stop" : 1608418250208,
+      "duration" : 20038
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.12 ",
+    "uid" : "589c368dc18e5085",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418250210,
+      "stop" : 1608418272196,
+      "duration" : 21986
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.13 ",
+    "uid" : "9382f99bdbf29579",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418272198,
+      "stop" : 1608418293833,
+      "duration" : 21635
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.14 ",
+    "uid" : "321007d4eef32a9b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418293834,
+      "stop" : 1608418315336,
+      "duration" : 21502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.15 ",
+    "uid" : "126bae95d09c3fe5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418315337,
+      "stop" : 1608418336682,
+      "duration" : 21345
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.1 ",
+    "uid" : "24aa6aa95b14fd71",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608418830192,
+      "stop" : 1608418872781,
+      "duration" : 42589
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d6b6e23d05aa44cb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418830211,
+      "stop" : 1608418873181,
+      "duration" : 42970
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.1 ",
+    "uid" : "b61381335dc266e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608418830214,
+      "stop" : 1608418873115,
+      "duration" : 42901
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card" ]
+  }, {
+    "name" : "Email4 -- @1.1 ",
+    "uid" : "64bcd02762b766d7",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608418830276,
+      "stop" : 1608418870329,
+      "duration" : 40053
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card" ]
+  }, {
+    "name" : "Email3 -- @1.1 ",
+    "uid" : "1b160f283db5310e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608418830303,
+      "stop" : 1608418872928,
+      "duration" : 42625
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card" ]
+  }, {
+    "name" : "Email4 -- @1.2 ",
+    "uid" : "30c6a95bc78d0f4c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418870331,
+      "stop" : 1608418888079,
+      "duration" : 17748
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.2 ",
+    "uid" : "5765a75af06033b5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418872783,
+      "stop" : 1608418897198,
+      "duration" : 24415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.2 ",
+    "uid" : "66778deca354dcba",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418872931,
+      "stop" : 1608418894004,
+      "duration" : 21073
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.2 ",
+    "uid" : "9e4f0c1d54aa35c7",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418873117,
+      "stop" : 1608418897133,
+      "duration" : 24016
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "35ca70860d7f9deb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418873182,
+      "stop" : 1608418891721,
+      "duration" : 18539
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.3 ",
+    "uid" : "4520fa36ca63e458",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418888081,
+      "stop" : 1608418908931,
+      "duration" : 20850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.3 ",
+    "uid" : "dcdaab165c7156ae",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418894005,
+      "stop" : 1608418913528,
+      "duration" : 19523
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.3 ",
+    "uid" : "d3c149f4bf0242ba",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418897134,
+      "stop" : 1608418914752,
+      "duration" : 17618
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.3 ",
+    "uid" : "b8edb0aa4be76733",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418897200,
+      "stop" : 1608418915587,
+      "duration" : 18387
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.4 ",
+    "uid" : "67ee787526dac51",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418908933,
+      "stop" : 1608418924862,
+      "duration" : 15929
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.4 ",
+    "uid" : "2d304959b6aa5ba1",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418913529,
+      "stop" : 1608418929549,
+      "duration" : 16020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.4 ",
+    "uid" : "c725854bf89ad240",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418914753,
+      "stop" : 1608418930741,
+      "duration" : 15988
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.4 ",
+    "uid" : "d6e36bc369981c3",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418915589,
+      "stop" : 1608418931492,
+      "duration" : 15903
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.5 ",
+    "uid" : "bcbec1868b1a46a2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418924863,
+      "stop" : 1608418940808,
+      "duration" : 15945
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.5 ",
+    "uid" : "801dd8e72edcf8bc",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418929550,
+      "stop" : 1608418945804,
+      "duration" : 16254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.5 ",
+    "uid" : "f3b3d24f3b7db919",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418930743,
+      "stop" : 1608418945807,
+      "duration" : 15064
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.5 ",
+    "uid" : "f700c5b7842e6da1",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418931493,
+      "stop" : 1608418959128,
+      "duration" : 27635
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.6 ",
+    "uid" : "b4b32e461525e2a8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418940810,
+      "stop" : 1608418959312,
+      "duration" : 18502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.6 ",
+    "uid" : "ce52b646a98249e9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418945805,
+      "stop" : 1608418961158,
+      "duration" : 15353
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.6 ",
+    "uid" : "fd9f4adcd87d3250",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418945808,
+      "stop" : 1608418961542,
+      "duration" : 15734
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.6 ",
+    "uid" : "168b409a922dfc39",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418959130,
+      "stop" : 1608418977163,
+      "duration" : 18033
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.7 ",
+    "uid" : "8d0a7c4e516369a1",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418959314,
+      "stop" : 1608418976350,
+      "duration" : 17036
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.7 ",
+    "uid" : "581e7e631e0f7069",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418961160,
+      "stop" : 1608418979691,
+      "duration" : 18531
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.7 ",
+    "uid" : "5c5f0447d3998022",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418961544,
+      "stop" : 1608418978347,
+      "duration" : 16803
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.8 ",
+    "uid" : "552918e8f56d9580",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418976351,
+      "stop" : 1608418998635,
+      "duration" : 22284
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.7 ",
+    "uid" : "6dcb4534242e517e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418977164,
+      "stop" : 1608418992496,
+      "duration" : 15332
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.8 ",
+    "uid" : "c641b0929568be38",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418978348,
+      "stop" : 1608418996351,
+      "duration" : 18003
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.8 ",
+    "uid" : "4bdec0bc2edb4b6c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418979692,
+      "stop" : 1608418996235,
+      "duration" : 16543
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.8 ",
+    "uid" : "91dad30c6516911c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418992497,
+      "stop" : 1608419006416,
+      "duration" : 13919
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.9 ",
+    "uid" : "d41e44de84f1f21f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418996236,
+      "stop" : 1608419012160,
+      "duration" : 15924
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.9 ",
+    "uid" : "329aeea4af3fc608",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418996353,
+      "stop" : 1608419013762,
+      "duration" : 17409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.9 ",
+    "uid" : "60e210ff57571ea9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608418998636,
+      "stop" : 1608419015576,
+      "duration" : 16940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.9 ",
+    "uid" : "564846e7684e3321",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419006418,
+      "stop" : 1608419026693,
+      "duration" : 20275
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.10 ",
+    "uid" : "451f41f879a526",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419012161,
+      "stop" : 1608419028160,
+      "duration" : 15999
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.10 ",
+    "uid" : "ebc3c50a5c9efe93",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419013765,
+      "stop" : 1608419033612,
+      "duration" : 19847
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.10 ",
+    "uid" : "41304f85146cee7d",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419015577,
+      "stop" : 1608419035299,
+      "duration" : 19722
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.10 ",
+    "uid" : "e52b3d5acda21051",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419026694,
+      "stop" : 1608419043980,
+      "duration" : 17286
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.11 ",
+    "uid" : "5f61d520ce55050b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419028163,
+      "stop" : 1608419044657,
+      "duration" : 16494
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.11 ",
+    "uid" : "c53e0f66c9e4c86",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419033613,
+      "stop" : 1608419049356,
+      "duration" : 15743
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.11 ",
+    "uid" : "7540ebd5a37033a6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419035300,
+      "stop" : 1608419050003,
+      "duration" : 14703
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.11 ",
+    "uid" : "a737dd0c447b8e45",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419043982,
+      "stop" : 1608419060743,
+      "duration" : 16761
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.12 ",
+    "uid" : "86a7a72fa77138c2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419044659,
+      "stop" : 1608419060507,
+      "duration" : 15848
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.12 ",
+    "uid" : "f1a9c363f4f6f4f4",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419049359,
+      "stop" : 1608419066175,
+      "duration" : 16816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.12 ",
+    "uid" : "3c00f0d81f3c99b2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419050004,
+      "stop" : 1608419067027,
+      "duration" : 17023
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.13 ",
+    "uid" : "cee49f952f3d0dd9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419060509,
+      "stop" : 1608419076414,
+      "duration" : 15905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.12 ",
+    "uid" : "5258f163eb0badcb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419060745,
+      "stop" : 1608419076918,
+      "duration" : 16173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.13 ",
+    "uid" : "8baf1452c5281eba",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419066177,
+      "stop" : 1608419084307,
+      "duration" : 18130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.13 ",
+    "uid" : "4f4181f1f2c66809",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419067028,
+      "stop" : 1608419083425,
+      "duration" : 16397
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.14 ",
+    "uid" : "17b163b2bd5bbd64",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419076416,
+      "stop" : 1608419103063,
+      "duration" : 26647
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.13 ",
+    "uid" : "305ac1c50f4bc431",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419076919,
+      "stop" : 1608419096933,
+      "duration" : 20014
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.14 ",
+    "uid" : "3873d5917fa5b531",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419083426,
+      "stop" : 1608419102257,
+      "duration" : 18831
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.14 ",
+    "uid" : "4726bb5525bce0f0",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419084309,
+      "stop" : 1608419103901,
+      "duration" : 19592
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.14 ",
+    "uid" : "609d83cf89378318",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419096934,
+      "stop" : 1608419111343,
+      "duration" : 14409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email4 -- @1.15 ",
+    "uid" : "f1365803c721e88e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419102258,
+      "stop" : 1608419120189,
+      "duration" : 17931
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email3 -- @1.15 ",
+    "uid" : "13c162f79a0b9b59",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419103064,
+      "stop" : 1608419125817,
+      "duration" : 22753
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email2 -- @1.15 ",
+    "uid" : "b9cb58be43896407",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419103902,
+      "stop" : 1608419120816,
+      "duration" : 16914
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email1 -- @1.15 ",
+    "uid" : "9cd7d2eeaddb3f0f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608419111344,
+      "stop" : 1608419128792,
+      "duration" : 17448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card" ]
+  }, {
+    "name" : "Email",
+    "uid" : "14cf3bec1d7c2dae",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608513021706,
+      "stop" : 1608513046446,
+      "duration" : 24740
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
