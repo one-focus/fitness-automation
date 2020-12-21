@@ -1,0 +1,21 @@
+[ {
+  "uid" : "48de21ec38a851ec",
+  "name" : "Email -- @1.1 ",
+  "time" : {
+    "start" : 1608595067313,
+    "stop" : 1608595090582,
+    "duration" : 23269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59fd59eecd1f8e03",
+  "name" : "Email -- @1.2 ",
+  "time" : {
+    "start" : 1608595090583,
+    "stop" : 1608595115888,
+    "duration" : 25305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
