@@ -1,0 +1,324 @@
+{
+  "uid" : "bdf2734ab33e41b0",
+  "name" : "Email",
+  "fullName" : "features/tests/fitness-online.ru.com.feature:Email",
+  "historyId" : "cda65e61228e97a513aa179f7c5c7935",
+  "time" : {
+    "start" : 1608519074688,
+    "stop" : 1608519172707,
+    "duration" : 98019
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/behave/runner.py\", line 601, in run_hook\n    self.hooks[name](context, *args)\n  File \"features/environment.py\", line 80, in after_step\n    allure.attach(context.driver.get_screenshot_as_png(),\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/behave/runner.py\", line 601, in run_hook\n    self.hooks[name](context, *args)\n  File \"features/environment.py\", line 80, in after_step\n    allure.attach(context.driver.get_screenshot_as_png(),\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608519074688,
+        "stop" : 1608519074689,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open fitness-online.ru.com page",
+      "time" : {
+        "start" : 1608519074689,
+        "stop" : 1608519077747,
+        "duration" : 3058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'home'",
+      "time" : {
+        "start" : 1608519077747,
+        "stop" : 1608519078094,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608519078095,
+        "stop" : 1608519172706,
+        "duration" : 94611
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/behave/runner.py\", line 601, in run_hook\n    self.hooks[name](context, *args)\n  File \"features/environment.py\", line 80, in after_step\n    allure.attach(context.driver.get_screenshot_as_png(),\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'payment'",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When wait for \"1\" sec",
+      "time" : {
+        "start" : 1608519172707,
+        "stop" : 1608519172707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "2be09bd71f6e1330",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/2//#testresult/2be09bd71f6e1330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608516742004,
+          "stop" : 1608516769742,
+          "duration" : 27738
+        }
+      }, {
+        "uid" : "ad736ba3ae1d7903",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/1//#testresult/ad736ba3ae1d7903",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608516715031,
+          "stop" : 1608516740479,
+          "duration" : 25448
+        }
+      }, {
+        "uid" : "465d0e4179dc706e",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/7//#testresult/465d0e4179dc706e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608515069074,
+          "stop" : 1608515097370,
+          "duration" : 28296
+        }
+      }, {
+        "uid" : "7ddb32451cbdd447",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/6//#testresult/7ddb32451cbdd447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608514676908,
+          "stop" : 1608514715410,
+          "duration" : 38502
+        }
+      }, {
+        "uid" : "69cedf81410aee34",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/5//#testresult/69cedf81410aee34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513705704,
+          "stop" : 1608513730185,
+          "duration" : 24481
+        }
+      }, {
+        "uid" : "a222416472d677e0",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/4//#testresult/a222416472d677e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513403269,
+          "stop" : 1608513428423,
+          "duration" : 25154
+        }
+      }, {
+        "uid" : "f97591175682358c",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/3//#testresult/f97591175682358c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513250767,
+          "stop" : 1608513289507,
+          "duration" : 38740
+        }
+      }, {
+        "uid" : "14cf3bec1d7c2dae",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/2//#testresult/14cf3bec1d7c2dae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608513021706,
+          "stop" : 1608513046446,
+          "duration" : 24740
+        }
+      }, {
+        "uid" : "6f0ba84a41accad",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/1//#testresult/6f0ba84a41accad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608512546009,
+          "stop" : 1608512569629,
+          "duration" : 23620
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "bdf2734ab33e41b0.json",
+  "parameterValues" : [ ]
+}

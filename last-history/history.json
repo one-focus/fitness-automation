@@ -851,13 +851,23 @@
   "cda65e61228e97a513aa179f7c5c7935" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "bdf2734ab33e41b0",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/3//#testresult/bdf2734ab33e41b0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608519074688,
+        "stop" : 1608519172707,
+        "duration" : 98019
+      }
+    }, {
       "uid" : "2be09bd71f6e1330",
       "reportUrl" : "https://one-focus.github.io/fitness-automation/2//#testresult/2be09bd71f6e1330",
       "status" : "passed",
