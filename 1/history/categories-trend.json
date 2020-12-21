@@ -2,6 +2,43 @@
   "buildOrder" : 1,
   "reportUrl" : "https://one-focus.github.io/fitness-automation/1/",
   "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/7/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/6/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/5/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/4/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/3/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Test defects" : 5
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/1/",
+  "reportName" : "Allure Report with history",
   "data" : {
     "Test defects" : 5
   }

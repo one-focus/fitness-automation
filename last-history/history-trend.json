@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+}, {
   "buildOrder" : 7,
   "reportUrl" : "https://one-focus.github.io/fitness-automation/7/",
   "reportName" : "Allure Report with history",
