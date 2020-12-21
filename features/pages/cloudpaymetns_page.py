@@ -7,6 +7,8 @@ class CloudPayments(BasePage):
     @property
     def _elements_map(self):
         return {
+            'iframe': (By.TAG_NAME, 'iframe'),
+
             'cardnumber field': (By.ID, 'cardNumber'),
             'cardnumber label': (By.XPATH, '//label[@for="cardNumber"]'),
             'month field': (By.ID, 'inputMonth'),
@@ -15,7 +17,9 @@ class CloudPayments(BasePage):
             'cvc field': (By.ID, 'cardCvv'),
             'pay button': (By.XPATH, '//*[@id="sizingContainer"]//button'),
 
-            'iframe': (By.TAG_NAME, 'iframe'),
+            '3d secure': (By.ID, 'pwdInputVisible'),
+            'repeat button': (By.XPATH, '//*[@id="statusContainer"]//button[1]'),
+            'cancel button': (By.XPATH, '//*[@id="statusContainer"]//button[2]'),
         }
 
     def _verify_page(self):

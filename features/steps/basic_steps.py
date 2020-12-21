@@ -1,3 +1,4 @@
+import datetime
 import random
 import string
 import time
@@ -6,16 +7,17 @@ from behave import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
 
 import pages
 
 
-@step('I click on {element_name}')
+@step('click on {element_name}')
 def step_impl(context, element_name):
     context.current_page.click_on(element_name)
 
 
-@step('I type "{text}" in {field_name}')
+@step('type "{text}" in {field_name}')
 def step_impl(context, text, field_name):
     if text == 'random':
         text = random_char(7) + "@gmail.com"
@@ -26,14 +28,14 @@ def random_char(y):
     return ''.join(random.choice(string.ascii_letters) for x in range(y))
 
 
-@step('I see "{text}" in {element}')
+@step('see "{text}" in {element}')
 def step_impl(context, text, element):
     element_text = context.current_page.get_text(element)
     if text not in element_text:
         raise RuntimeError(f'{element} text is {element_text}. Expected: {text}')
 
 
-@step('I see "{text}" on the page')
+@step('see "{text}" on the page')
 def step_impl(context, text):
     element = (By.TAG_NAME, 'body')
     WebDriverWait(context.driver, 5).until(
@@ -47,17 +49,17 @@ def init_screen(context, page_name):
     context.current_page = page_class(context.driver)
 
 
-@step('I open url: "{url}"')
+@step('open url: "{url}"')
 def step_impl(context, url):
     context.driver.get(url)
 
 
-@step('I wait for "{seconds}" sec')
+@step('wait for "{seconds}" sec')
 def step_impl(context, seconds):
     time.sleep(int(seconds))
 
 
-@when("I scroll down")
+@when("scroll down")
 def step_impl(context):
     context.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
@@ -65,3 +67,34 @@ def step_impl(context):
 @step("print pagesource")
 def step_impl(context):
     print(context.driver.page_source)
+
+
+@step("clear time")
+def step_impl(context):
+    context.time = datetime.datetime.now()
+
+
+@step("calculate time for '{name}'")
+def step_impl(context, name):
+    time_diff = datetime.datetime.now() - context.time
+    context.time = datetime.datetime.now()
+    context.data_worksheet.append_rows(values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'), name, float(time_diff.total_seconds())]])
+
+
+@then("I see {element_name} element")
+def step_impl(context, element_name):
+    if element_name != '3d secure':
+        context.current_page.get_element(element_name, timeout=50)
+    else:
+        for i in range(50):
+            try:
+                context.current_page.get_element(element_name, timeout=1)
+                break
+            except (TimeoutException, WebDriverException):
+                try:
+                    context.driver.switch_to.frame(context.driver.find_element_by_tag_name('iframe'))
+                except NoSuchElementException:
+                    pass
+        else:
+            print(4)
+            raise RuntimeError(f'{element_name} not found')
