@@ -851,13 +851,77 @@
   "cda65e61228e97a513aa179f7c5c7935" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 4
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "4117af32ac5cae8d",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/4//#testresult/4117af32ac5cae8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608520409787,
+        "stop" : 1608520432708,
+        "duration" : 22921
+      }
+    }, {
+      "uid" : "bdf2734ab33e41b0",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/3//#testresult/bdf2734ab33e41b0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608519074688,
+        "stop" : 1608519172707,
+        "duration" : 98019
+      }
+    }, {
+      "uid" : "2be09bd71f6e1330",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/2//#testresult/2be09bd71f6e1330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608516742004,
+        "stop" : 1608516769742,
+        "duration" : 27738
+      }
+    }, {
+      "uid" : "ad736ba3ae1d7903",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/1//#testresult/ad736ba3ae1d7903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608516715031,
+        "stop" : 1608516740479,
+        "duration" : 25448
+      }
+    }, {
+      "uid" : "465d0e4179dc706e",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/7//#testresult/465d0e4179dc706e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608515069074,
+        "stop" : 1608515097370,
+        "duration" : 28296
+      }
+    }, {
+      "uid" : "7ddb32451cbdd447",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/6//#testresult/7ddb32451cbdd447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608514676908,
+        "stop" : 1608514715410,
+        "duration" : 38502
+      }
+    }, {
+      "uid" : "69cedf81410aee34",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/5//#testresult/69cedf81410aee34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608513705704,
+        "stop" : 1608513730185,
+        "duration" : 24481
+      }
+    }, {
       "uid" : "a222416472d677e0",
       "reportUrl" : "https://one-focus.github.io/fitness-automation/4//#testresult/a222416472d677e0",
       "status" : "passed",
