@@ -1,0 +1,771 @@
+[ {
+  "uid" : "2a11cd2ecc55749c",
+  "name" : "Email2 -- @1.3 ",
+  "time" : {
+    "start" : 1608418897134,
+    "stop" : 1608418914752,
+    "duration" : 17618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ddeccf5c03fd043",
+  "name" : "Email1 -- @1.6 ",
+  "time" : {
+    "start" : 1608418959130,
+    "stop" : 1608418977163,
+    "duration" : 18033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a1bbaae90e428c4",
+  "name" : "Email -- @1.9 ",
+  "time" : {
+    "start" : 1608418187302,
+    "stop" : 1608418209637,
+    "duration" : 22335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e39f3f675a8a7d9e",
+  "name" : "Email1 -- @1.13 ",
+  "time" : {
+    "start" : 1608419076919,
+    "stop" : 1608419096933,
+    "duration" : 20014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f399c825a57cd2cf",
+  "name" : "Email4 -- @1.14 ",
+  "time" : {
+    "start" : 1608419083426,
+    "stop" : 1608419102257,
+    "duration" : 18831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "482e1e371152042a",
+  "name" : "Email3 -- @1.3 ",
+  "time" : {
+    "start" : 1608418894005,
+    "stop" : 1608418913528,
+    "duration" : 19523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3424642f40530055",
+  "name" : "Email -- @1.14 ",
+  "time" : {
+    "start" : 1608418293834,
+    "stop" : 1608418315336,
+    "duration" : 21502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16aa103bad46dedf",
+  "name" : "Email3 -- @1.2 ",
+  "time" : {
+    "start" : 1608418872931,
+    "stop" : 1608418894004,
+    "duration" : 21073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed8ab71220cda97d",
+  "name" : "Email4 -- @1.4 ",
+  "time" : {
+    "start" : 1608418908933,
+    "stop" : 1608418924862,
+    "duration" : 15929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f52a88f1fcaccf06",
+  "name" : "Email1 -- @1.10 ",
+  "time" : {
+    "start" : 1608419026694,
+    "stop" : 1608419043980,
+    "duration" : 17286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "399921c15baefdaf",
+  "name" : "Email3 -- @1.13 ",
+  "time" : {
+    "start" : 1608419060509,
+    "stop" : 1608419076414,
+    "duration" : 15905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a623f3da24a30ba",
+  "name" : "Email -- @1.1 ",
+  "time" : {
+    "start" : 1608418830211,
+    "stop" : 1608418873181,
+    "duration" : 42970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cbc443b89610394",
+  "name" : "Email -- @1.15 ",
+  "time" : {
+    "start" : 1608418315337,
+    "stop" : 1608418336682,
+    "duration" : 21345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c39d883b35bdadb",
+  "name" : "Email4 -- @1.11 ",
+  "time" : {
+    "start" : 1608419035300,
+    "stop" : 1608419050003,
+    "duration" : 14703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7217fbbcb7b660a",
+  "name" : "Email -- @1.4 ",
+  "time" : {
+    "start" : 1608418079973,
+    "stop" : 1608418103482,
+    "duration" : 23509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ed045d4e26ef932",
+  "name" : "Email3 -- @1.11 ",
+  "time" : {
+    "start" : 1608419028163,
+    "stop" : 1608419044657,
+    "duration" : 16494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45dedc3cc6b03d62",
+  "name" : "Email -- @1.12 ",
+  "time" : {
+    "start" : 1608418250210,
+    "stop" : 1608418272196,
+    "duration" : 21986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd7135ddfcb78b9",
+  "name" : "Email2 -- @1.4 ",
+  "time" : {
+    "start" : 1608418914753,
+    "stop" : 1608418930741,
+    "duration" : 15988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c09e6398880ad4f",
+  "name" : "Email3 -- @1.14 ",
+  "time" : {
+    "start" : 1608419076416,
+    "stop" : 1608419103063,
+    "duration" : 26647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20897f15ea1d3b34",
+  "name" : "Email4 -- @1.3 ",
+  "time" : {
+    "start" : 1608418888081,
+    "stop" : 1608418908931,
+    "duration" : 20850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23a7fbb486ff08fb",
+  "name" : "Email -- @1.5 ",
+  "time" : {
+    "start" : 1608418103484,
+    "stop" : 1608418126852,
+    "duration" : 23368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9c1171f5d50b122",
+  "name" : "Email -- @1.13 ",
+  "time" : {
+    "start" : 1608418272198,
+    "stop" : 1608418293833,
+    "duration" : 21635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cbda35dbbe74ca5",
+  "name" : "Email1 -- @1.1 ",
+  "time" : {
+    "start" : 1608418830192,
+    "stop" : 1608418872781,
+    "duration" : 42589
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24b099542bb8de17",
+  "name" : "Email3 -- @1.9 ",
+  "time" : {
+    "start" : 1608418996236,
+    "stop" : 1608419012160,
+    "duration" : 15924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a310475a4bc30d8",
+  "name" : "Email -- @1.7 ",
+  "time" : {
+    "start" : 1608418146656,
+    "stop" : 1608418166324,
+    "duration" : 19668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fa5cedfaa216bb7",
+  "name" : "Email2 -- @1.7 ",
+  "time" : {
+    "start" : 1608418961544,
+    "stop" : 1608418978347,
+    "duration" : 16803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f915a352e2c16312",
+  "name" : "Email2 -- @1.8 ",
+  "time" : {
+    "start" : 1608418978348,
+    "stop" : 1608418996351,
+    "duration" : 18003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3775f1e5e2142a62",
+  "name" : "Email3 -- @1.15 ",
+  "time" : {
+    "start" : 1608419103064,
+    "stop" : 1608419125817,
+    "duration" : 22753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2c1b32a86cdf417",
+  "name" : "Email4 -- @1.12 ",
+  "time" : {
+    "start" : 1608419050004,
+    "stop" : 1608419067027,
+    "duration" : 17023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29934cee754619bb",
+  "name" : "Email4 -- @1.1 ",
+  "time" : {
+    "start" : 1608418830276,
+    "stop" : 1608418870329,
+    "duration" : 40053
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "97cf019f14a2d715",
+  "name" : "Email3 -- @1.10 ",
+  "time" : {
+    "start" : 1608419012161,
+    "stop" : 1608419028160,
+    "duration" : 15999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac0240794bdef11b",
+  "name" : "Email2 -- @1.2 ",
+  "time" : {
+    "start" : 1608418873117,
+    "stop" : 1608418897133,
+    "duration" : 24016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "806a06676e4fb071",
+  "name" : "Email2 -- @1.6 ",
+  "time" : {
+    "start" : 1608418945808,
+    "stop" : 1608418961542,
+    "duration" : 15734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74eba4b70c62dfca",
+  "name" : "Email2 -- @1.12 ",
+  "time" : {
+    "start" : 1608419049359,
+    "stop" : 1608419066175,
+    "duration" : 16816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "516d0c6c2dbe8c71",
+  "name" : "Email4 -- @1.7 ",
+  "time" : {
+    "start" : 1608418959314,
+    "stop" : 1608418976350,
+    "duration" : 17036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aef1977a53662de",
+  "name" : "Email1 -- @1.12 ",
+  "time" : {
+    "start" : 1608419060745,
+    "stop" : 1608419076918,
+    "duration" : 16173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "195d4204c7da0f98",
+  "name" : "Email2 -- @1.5 ",
+  "time" : {
+    "start" : 1608418930743,
+    "stop" : 1608418945807,
+    "duration" : 15064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2b411de80c85841",
+  "name" : "Email4 -- @1.13 ",
+  "time" : {
+    "start" : 1608419067028,
+    "stop" : 1608419083425,
+    "duration" : 16397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f978fa82b23c52a8",
+  "name" : "Email3 -- @1.5 ",
+  "time" : {
+    "start" : 1608418929550,
+    "stop" : 1608418945804,
+    "duration" : 16254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1892b3682c29f0f",
+  "name" : "Email2 -- @1.15 ",
+  "time" : {
+    "start" : 1608419103902,
+    "stop" : 1608419120816,
+    "duration" : 16914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53a37d493ece6b54",
+  "name" : "Email3 -- @1.7 ",
+  "time" : {
+    "start" : 1608418961160,
+    "stop" : 1608418979691,
+    "duration" : 18531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b85c9d8170d28b35",
+  "name" : "Email2 -- @1.14 ",
+  "time" : {
+    "start" : 1608419084309,
+    "stop" : 1608419103901,
+    "duration" : 19592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a25e1b98b50c5d8",
+  "name" : "Email3 -- @1.6 ",
+  "time" : {
+    "start" : 1608418945805,
+    "stop" : 1608418961158,
+    "duration" : 15353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a040d6d433c9667",
+  "name" : "Email1 -- @1.7 ",
+  "time" : {
+    "start" : 1608418977164,
+    "stop" : 1608418992496,
+    "duration" : 15332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72bb8185655875eb",
+  "name" : "Email3 -- @1.4 ",
+  "time" : {
+    "start" : 1608418913529,
+    "stop" : 1608418929549,
+    "duration" : 16020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54b63dd755084f7",
+  "name" : "Email1 -- @1.9 ",
+  "time" : {
+    "start" : 1608419006418,
+    "stop" : 1608419026693,
+    "duration" : 20275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8bbd62fe1d91d9a",
+  "name" : "Email2 -- @1.9 ",
+  "time" : {
+    "start" : 1608418996353,
+    "stop" : 1608419013762,
+    "duration" : 17409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4375133bfb690b56",
+  "name" : "Email4 -- @1.8 ",
+  "time" : {
+    "start" : 1608418976351,
+    "stop" : 1608418998635,
+    "duration" : 22284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "830d34f64f6148b2",
+  "name" : "Email1 -- @1.2 ",
+  "time" : {
+    "start" : 1608418872783,
+    "stop" : 1608418897198,
+    "duration" : 24415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2544c470d7d5c66e",
+  "name" : "Email1 -- @1.4 ",
+  "time" : {
+    "start" : 1608418915589,
+    "stop" : 1608418931492,
+    "duration" : 15903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e635af459f102ae9",
+  "name" : "Email -- @1.3 ",
+  "time" : {
+    "start" : 1608418061104,
+    "stop" : 1608418079972,
+    "duration" : 18868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e800977f04be249e",
+  "name" : "Email -- @1.11 ",
+  "time" : {
+    "start" : 1608418230170,
+    "stop" : 1608418250208,
+    "duration" : 20038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d3a4a5908f6c4f1",
+  "name" : "Email2 -- @1.1 ",
+  "time" : {
+    "start" : 1608418830214,
+    "stop" : 1608418873115,
+    "duration" : 42901
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e0e1e4bccf235a42",
+  "name" : "Email1 -- @1.8 ",
+  "time" : {
+    "start" : 1608418992497,
+    "stop" : 1608419006416,
+    "duration" : 13919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a16e4d58600ad3a1",
+  "name" : "Email4 -- @1.6 ",
+  "time" : {
+    "start" : 1608418940810,
+    "stop" : 1608418959312,
+    "duration" : 18502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "829973ea77fa621a",
+  "name" : "Email3 -- @1.8 ",
+  "time" : {
+    "start" : 1608418979692,
+    "stop" : 1608418996235,
+    "duration" : 16543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef9d4897205795c9",
+  "name" : "Email1 -- @1.5 ",
+  "time" : {
+    "start" : 1608418931493,
+    "stop" : 1608418959128,
+    "duration" : 27635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63834ee4408b01be",
+  "name" : "Email1 -- @1.15 ",
+  "time" : {
+    "start" : 1608419111344,
+    "stop" : 1608419128792,
+    "duration" : 17448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f7d5868cc4643d",
+  "name" : "Email2 -- @1.13 ",
+  "time" : {
+    "start" : 1608419066177,
+    "stop" : 1608419084307,
+    "duration" : 18130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba9669fb99b314a9",
+  "name" : "Email3 -- @1.1 ",
+  "time" : {
+    "start" : 1608418830303,
+    "stop" : 1608418872928,
+    "duration" : 42625
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54ea7d8252f10e7d",
+  "name" : "Email -- @1.10 ",
+  "time" : {
+    "start" : 1608418209639,
+    "stop" : 1608418230169,
+    "duration" : 20530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12ff73de2b829079",
+  "name" : "Email4 -- @1.5 ",
+  "time" : {
+    "start" : 1608418924863,
+    "stop" : 1608418940808,
+    "duration" : 15945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b69b6391fdd35de",
+  "name" : "Email2 -- @1.10 ",
+  "time" : {
+    "start" : 1608419013765,
+    "stop" : 1608419033612,
+    "duration" : 19847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3759d760593d1cc6",
+  "name" : "Email4 -- @1.2 ",
+  "time" : {
+    "start" : 1608418870331,
+    "stop" : 1608418888079,
+    "duration" : 17748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "862923ac0b22e662",
+  "name" : "Email3 -- @1.12 ",
+  "time" : {
+    "start" : 1608419044659,
+    "stop" : 1608419060507,
+    "duration" : 15848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31290f9afa3b411",
+  "name" : "Email1 -- @1.3 ",
+  "time" : {
+    "start" : 1608418897200,
+    "stop" : 1608418915587,
+    "duration" : 18387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ca3fee2638c362f",
+  "name" : "Email1 -- @1.14 ",
+  "time" : {
+    "start" : 1608419096934,
+    "stop" : 1608419111343,
+    "duration" : 14409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16b10baf8812b414",
+  "name" : "Email2 -- @1.11 ",
+  "time" : {
+    "start" : 1608419033613,
+    "stop" : 1608419049356,
+    "duration" : 15743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeee21f49bdccf90",
+  "name" : "Email4 -- @1.9 ",
+  "time" : {
+    "start" : 1608418998636,
+    "stop" : 1608419015576,
+    "duration" : 16940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f0ba84a41accad",
+  "name" : "Email",
+  "time" : {
+    "start" : 1608512546009,
+    "stop" : 1608512569629,
+    "duration" : 23620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81acfa74aff7a908",
+  "name" : "Email1 -- @1.11 ",
+  "time" : {
+    "start" : 1608419043982,
+    "stop" : 1608419060743,
+    "duration" : 16761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d37da576a3c8f013",
+  "name" : "Email4 -- @1.15 ",
+  "time" : {
+    "start" : 1608419102258,
+    "stop" : 1608419120189,
+    "duration" : 17931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "668de25cf2dd74be",
+  "name" : "Email -- @1.2 ",
+  "time" : {
+    "start" : 1608418873182,
+    "stop" : 1608418891721,
+    "duration" : 18539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a129a4d915ce29aa",
+  "name" : "Email -- @1.8 ",
+  "time" : {
+    "start" : 1608418166325,
+    "stop" : 1608418187301,
+    "duration" : 20976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a696cf7bb326191d",
+  "name" : "Email -- @1.6 ",
+  "time" : {
+    "start" : 1608418126854,
+    "stop" : 1608418146654,
+    "duration" : 19800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34885247aeb4664d",
+  "name" : "Email4 -- @1.10 ",
+  "time" : {
+    "start" : 1608419015577,
+    "stop" : 1608419035299,
+    "duration" : 19722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e6692014aa2bdd9",
+  "name" : "Email -- @1.1 ",
+  "time" : {
+    "start" : 1608418014229,
+    "stop" : 1608418041237,
+    "duration" : 27008
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
