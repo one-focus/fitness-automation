@@ -9,6 +9,7 @@ def step_impl(context, page_name):
         url = page_name
     else:
         url = context.config.get('websites', page_name)
+    context.landing = page_name
     context.driver.get(url)
     context.current_page = MainPage(context.driver)
 

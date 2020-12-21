@@ -19,11 +19,11 @@ def before_all(context):
                 'enableVNC': True,
                 'enableVideo': False
             },
-        # # -- Chrome browser mobile emulation and headless options
-        # 'goog:chromeOptions': {
-        #     # 'mobileEmulation': {'deviceName': 'iPhone X'},
-        #     'args': ['headless']
-        # }
+        # -- Chrome browser mobile emulation and headless options
+        'goog:chromeOptions': {
+            'mobileEmulation': {'deviceName': 'iPhone X'},
+            # 'args': ['headless']
+        }
     }
     '''
         -- Android browser Selenoid options

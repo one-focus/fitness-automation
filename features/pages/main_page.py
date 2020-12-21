@@ -16,4 +16,5 @@ class MainPage(BasePage):
         }
 
     def _verify_page(self):
-        self.on_this_page('oferta link', "policy link")
+        pass
+        # self.on_this_page('oferta link', "policy link")
