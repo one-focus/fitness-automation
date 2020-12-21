@@ -2,13 +2,13 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
     "name" : "Email",
-    "uid" : "3ad7645218cce946",
+    "uid" : "6731e32b3f1d7d7a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1608545030849,
-      "stop" : 1608545053699,
-      "duration" : 22850
+      "start" : 1608546324237,
+      "stop" : 1608546351983,
+      "duration" : 27746
     },
     "flaky" : false,
     "newFailed" : false,
