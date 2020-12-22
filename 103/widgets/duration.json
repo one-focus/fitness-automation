@@ -1,10 +1,10 @@
 [ {
-  "uid" : "e1460a4c65ab788c",
+  "uid" : "47134d6291f702c5",
   "name" : "Email -- @1.1 ",
   "time" : {
-    "start" : 1608647750953,
-    "stop" : 1608647770846,
-    "duration" : 19893
+    "start" : 1608647815275,
+    "stop" : 1608647833995,
+    "duration" : 18720
   },
   "status" : "passed",
   "severity" : "normal"
