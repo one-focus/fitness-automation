@@ -2,7 +2,8 @@
 
 name: Test2
 
-on: 
+on:
+  push:
   schedule:
     - cron: '5,15,25,35,45,55 * * * *'
 
