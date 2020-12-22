@@ -4,7 +4,7 @@
     "name" : "fitness-online.ru.com",
     "children" : [ {
       "name" : "Email -- @1.1 ",
-      "uid" : "e4060400e5dfb58e",
+      "uid" : "d1da9238fd7f12e5",
       "parentUid" : "999b413c9ce9c2f5cb563e6ebacb0a20",
       "status" : "broken",
       "time" : {
@@ -17,7 +17,7 @@
       "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
     }, {
       "name" : "Email -- @1.2 ",
-      "uid" : "30fe02edcaf496a3",
+      "uid" : "ea73f621dd55e919",
       "parentUid" : "999b413c9ce9c2f5cb563e6ebacb0a20",
       "status" : "passed",
       "time" : {
@@ -30,7 +30,7 @@
       "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
     }, {
       "name" : "Email -- @1.1 ",
-      "uid" : "9773ed68d3a58602",
+      "uid" : "60e1677a5c633992",
       "parentUid" : "999b413c9ce9c2f5cb563e6ebacb0a20",
       "status" : "passed",
       "time" : {

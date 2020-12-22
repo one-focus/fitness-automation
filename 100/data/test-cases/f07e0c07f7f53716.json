@@ -1,0 +1,217 @@
+{
+  "uid" : "f07e0c07f7f53716",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/cloudpayments10.feature:Email",
+  "historyId" : "055759470ca507e62b8429e2c3fe0615",
+  "time" : {
+    "start" : 1608640190627,
+    "stop" : 1608640208989,
+    "duration" : 18362
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+  "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/main_steps.py\", line 20, in step_impl\n    context.execute_steps('''\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 404, in execute_steps\n    assert False, message\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/main_steps.py\", line 20, in step_impl\n    context.execute_steps('''\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 404, in execute_steps\n    assert False, message\n",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608640190628,
+        "stop" : 1608640190628,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608640190629,
+        "stop" : 1608640193059,
+        "duration" : 2430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608640193059,
+        "stop" : 1608640193059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608640193060,
+        "stop" : 1608640208987,
+        "duration" : 15927
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/main_steps.py\", line 20, in step_impl\n    context.execute_steps('''\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 404, in execute_steps\n    assert False, message\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10316045f62bf865",
+        "name" : "bug.png",
+        "source" : "10316045f62bf865.png",
+        "type" : "image/png",
+        "size" : 79947
+      }, {
+        "uid" : "fd1719e6c12006b5",
+        "name" : "bug.png",
+        "source" : "fd1719e6c12006b5.png",
+        "type" : "image/png",
+        "size" : 79947
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608640208989,
+        "stop" : 1608640208989,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608640208989,
+        "stop" : 1608640208989,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608640208989,
+        "stop" : 1608640208989,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608640208989,
+        "stop" : 1608640208989,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608640208989,
+        "stop" : 1608640208989,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "fake card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "cancel button"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "validation" ]
+  },
+  "source" : "f07e0c07f7f53716.json",
+  "parameterValues" : [ "fake card", "f.gum24.online", "cancel button" ]
+}

@@ -2321,8 +2321,8 @@
       "total" : 9
     },
     "items" : [ {
-      "uid" : "e4060400e5dfb58e",
-      "reportUrl" : "https://one-focus.github.io/fitness-automation/100//#testresult/e4060400e5dfb58e",
+      "uid" : "d1da9238fd7f12e5",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/100//#testresult/d1da9238fd7f12e5",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
       "time" : {
@@ -2480,8 +2480,8 @@
       "total" : 9
     },
     "items" : [ {
-      "uid" : "30fe02edcaf496a3",
-      "reportUrl" : "https://one-focus.github.io/fitness-automation/100//#testresult/30fe02edcaf496a3",
+      "uid" : "ea73f621dd55e919",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/100//#testresult/ea73f621dd55e919",
       "status" : "passed",
       "time" : {
         "start" : 1608640872208,
@@ -3372,8 +3372,8 @@
       "total" : 9
     },
     "items" : [ {
-      "uid" : "9773ed68d3a58602",
-      "reportUrl" : "https://one-focus.github.io/fitness-automation/100//#testresult/9773ed68d3a58602",
+      "uid" : "60e1677a5c633992",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/100//#testresult/60e1677a5c633992",
       "status" : "passed",
       "time" : {
         "start" : 1608641898461,

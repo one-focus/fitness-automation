@@ -1,0 +1,199 @@
+{
+  "uid" : "dc0e9695507f478f",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/4/cloudpayments7.feature:Email",
+  "historyId" : "055759470ca507e62b8429e2c3fe0615",
+  "time" : {
+    "start" : 1608636349082,
+    "stop" : 1608636367511,
+    "duration" : 18429
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608636349083,
+        "stop" : 1608636349083,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608636349084,
+        "stop" : 1608636350775,
+        "duration" : 1691
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608636350775,
+        "stop" : 1608636350776,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608636350776,
+        "stop" : 1608636354178,
+        "duration" : 3402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608636354179,
+        "stop" : 1608636354913,
+        "duration" : 734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608636354914,
+        "stop" : 1608636355427,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608636355427,
+        "stop" : 1608636357125,
+        "duration" : 1698
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608636357126,
+        "stop" : 1608636366959,
+        "duration" : 9833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608636366959,
+        "stop" : 1608636367511,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "fake card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "cancel button"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "validation" ]
+  },
+  "source" : "dc0e9695507f478f.json",
+  "parameterValues" : [ "fake card", "f.gum24.online", "cancel button" ]
+}
