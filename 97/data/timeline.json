@@ -1,0 +1,4399 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Email -- @1.1 ",
+    "uid" : "60f11ec19aa684ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634808990,
+      "stop" : 1608634914287,
+      "duration" : 105297
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.4 ",
+    "uid" : "679069d41c6bcd8c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608644570780,
+      "stop" : 1608644583758,
+      "duration" : 12978
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "980cd74689c97bde",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640436380,
+      "stop" : 1608640467263,
+      "duration" : 30883
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6afb7c6b2f542780",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636950726,
+      "stop" : 1608636970294,
+      "duration" : 19568
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "76f0d47747e05ac0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635965839,
+      "stop" : 1608635983145,
+      "duration" : 17306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "df13a32f4ea78848",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634454268,
+      "stop" : 1608634461596,
+      "duration" : 7328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4c96cdb2e15f5a7b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608639053514,
+      "stop" : 1608639074162,
+      "duration" : 20648
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "11d1fcfd1fd29c9f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608640190627,
+      "stop" : 1608640208989,
+      "duration" : 18362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "331939c9f8dc7500",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636997192,
+      "stop" : 1608637017190,
+      "duration" : 19998
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "95de6054ecbc2f9d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640410135,
+      "stop" : 1608640433457,
+      "duration" : 23322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b5db7406c4cb7e4c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634814700,
+      "stop" : 1608634995925,
+      "duration" : 181225
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "43f401096afc6570",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640236413,
+      "stop" : 1608640265318,
+      "duration" : 28905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "46e5a9be10f748db",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634501987,
+      "stop" : 1608634584718,
+      "duration" : 82731
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "fa465418f4b0d1a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635399467,
+      "stop" : 1608635517513,
+      "duration" : 118046
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "bd9c85e40de1e294",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608644532571,
+      "stop" : 1608644545851,
+      "duration" : 13280
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "fd0c17a5619eee35",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636702669,
+      "stop" : 1608636722607,
+      "duration" : 19938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "676747a19f60d83b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608639053465,
+      "stop" : 1608639074876,
+      "duration" : 21411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bd59d75f3ad62393",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635592941,
+      "stop" : 1608635619702,
+      "duration" : 26761
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.3 ",
+    "uid" : "dab4e96af7ffce5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608644545852,
+      "stop" : 1608644570779,
+      "duration" : 24927
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c19ca4f6fc8a7ba8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635291040,
+      "stop" : 1608635391739,
+      "duration" : 100699
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "8bf5bab81263af00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634503846,
+      "stop" : 1608634591675,
+      "duration" : 87829
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "911201bc5eb321d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456352,
+      "stop" : 1608634461716,
+      "duration" : 5364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6767881cad2e2139",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635291321,
+      "stop" : 1608635490964,
+      "duration" : 199643
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "26680fb59337206",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641856774,
+      "stop" : 1608641890247,
+      "duration" : 33473
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2f0eb2478d7421a4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634803089,
+      "stop" : 1608634993858,
+      "duration" : 190769
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "83d6289c1583c527",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640618088,
+      "stop" : 1608640641964,
+      "duration" : 23876
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "39939264175758cd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635115001,
+      "stop" : 1608635176552,
+      "duration" : 61551
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "871e17eb1e40125b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640872208,
+      "stop" : 1608640899855,
+      "duration" : 27647
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9106e340d00ad51e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635525050,
+      "stop" : 1608635526519,
+      "duration" : 1469
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4ce8bafa3d947219",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608638886242,
+      "stop" : 1608638922287,
+      "duration" : 36045
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "afbae64472ad7bfd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640076800,
+      "stop" : 1608640107105,
+      "duration" : 30305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "be7130a244ada0ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639053465,
+      "stop" : 1608639065952,
+      "duration" : 12487
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "60950c141b923c09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640375387,
+      "stop" : 1608640405897,
+      "duration" : 30510
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "58947dd2d3ebb11",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635196249,
+      "stop" : 1608635259809,
+      "duration" : 63560
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1895e06b58882323",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456921,
+      "stop" : 1608634461627,
+      "duration" : 4706
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f3831fa80cbfeaca",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640587302,
+      "stop" : 1608640618443,
+      "duration" : 31141
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "35b90ae8834314e7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634455637,
+      "stop" : 1608634462457,
+      "duration" : 6820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c712d1ec81e52d29",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641761712,
+      "stop" : 1608641796167,
+      "duration" : 34455
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "89f0a422e83f9103",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636749136,
+      "stop" : 1608636768126,
+      "duration" : 18990
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ffecd157e27344c5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044017,
+      "stop" : 1608635113034,
+      "duration" : 69017
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "98084f9d6b874e92",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636770970,
+      "stop" : 1608636795012,
+      "duration" : 24042
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6629e7eb9985a40f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634812991,
+      "stop" : 1608635001662,
+      "duration" : 188671
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ad1bd71327d6c72f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636317942,
+      "stop" : 1608636343726,
+      "duration" : 25784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6a33badf567b1f5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635291546,
+      "stop" : 1608635387918,
+      "duration" : 96372
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e2e1368a732e38e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453152,
+      "stop" : 1608634462445,
+      "duration" : 9293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "54529fdf61f2bb37",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639082694,
+      "stop" : 1608639108068,
+      "duration" : 25374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3241432a2002165",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636677861,
+      "stop" : 1608636699862,
+      "duration" : 22001
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f18ac80ec81fa86e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640587567,
+      "stop" : 1608640617649,
+      "duration" : 30082
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c39e340703788ab0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636030516,
+      "stop" : 1608636048804,
+      "duration" : 18288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "867b9eede5f6c78f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640676526,
+      "stop" : 1608640701133,
+      "duration" : 24607
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "785f383df9f22f07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640104693,
+      "stop" : 1608640130518,
+      "duration" : 25825
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2ff8d3272d373100",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636105687,
+      "stop" : 1608636126271,
+      "duration" : 20584
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d2ca2358c87c0960",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635644078,
+      "stop" : 1608635661824,
+      "duration" : 17746
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9029b37669c41a65",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635291609,
+      "stop" : 1608635448014,
+      "duration" : 156405
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6f13eb6f180d521d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640646969,
+      "stop" : 1608640671657,
+      "duration" : 24688
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ff4626bd97095679",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635525425,
+      "stop" : 1608635525453,
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d325bc21d4515130",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640937695,
+      "stop" : 1608640981946,
+      "duration" : 44251
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c4c234cea696b10b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640212103,
+      "stop" : 1608640243754,
+      "duration" : 31651
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a409b888e05831d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634502539,
+      "stop" : 1608634616714,
+      "duration" : 114175
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "81a1fc49c5db2668",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641879869,
+      "stop" : 1608641904183,
+      "duration" : 24314
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ba0f92951daee664",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635517977,
+      "stop" : 1608635518001,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c3cb31b78165cf6c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453266,
+      "stop" : 1608634462443,
+      "duration" : 9177
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "201848d653707723",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635538534,
+      "stop" : 1608635538549,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "402412e468799192",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811660,
+      "stop" : 1608634995740,
+      "duration" : 184080
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "fe7f949709f5c8ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640696626,
+      "stop" : 1608640723409,
+      "duration" : 26783
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "740dd7b00486ae65",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640822771,
+      "stop" : 1608640874027,
+      "duration" : 51256
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "adaefcbde73f19dd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636197770,
+      "stop" : 1608636218392,
+      "duration" : 20622
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7d734a24666a5101",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456298,
+      "stop" : 1608634461601,
+      "duration" : 5303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "690b2aa77d98f59f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641888723,
+      "stop" : 1608641917045,
+      "duration" : 28322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9b1cf3a19b5e3f68",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634452995,
+      "stop" : 1608634461587,
+      "duration" : 8592
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5dbbe88e3ee7524",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811759,
+      "stop" : 1608634995609,
+      "duration" : 183850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "639bfd1d461ad4b9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635805586,
+      "stop" : 1608635821858,
+      "duration" : 16272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "cac622ae8fc7a55c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634504894,
+      "stop" : 1608634580663,
+      "duration" : 75769
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5dbb984fbf014b1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456545,
+      "stop" : 1608634461629,
+      "duration" : 5084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6b3819f75ae2f6f5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608639966415,
+      "stop" : 1608640000755,
+      "duration" : 34340
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "fbdaa5a8bc05cc82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608639966237,
+      "stop" : 1608639995414,
+      "duration" : 29177
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6c796586a4b58935",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635128385,
+      "stop" : 1608635189393,
+      "duration" : 61008
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bbf07d74516d5b9f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608641239867,
+      "stop" : 1608641311454,
+      "duration" : 71587
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1ca584d16f44821f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044237,
+      "stop" : 1608635109773,
+      "duration" : 65536
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "979d0ec014d8d73f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634454157,
+      "stop" : 1608634462439,
+      "duration" : 8282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b28d839c6c49569e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635716906,
+      "stop" : 1608635732847,
+      "duration" : 15941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e17868b0751e118d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635532708,
+      "stop" : 1608635532727,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "5347c7011c16a7ef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640467266,
+      "stop" : 1608640488215,
+      "duration" : 20949
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4f784dc840c3c22e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636585667,
+      "stop" : 1608636608738,
+      "duration" : 23071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2b776feb5ea7b3c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641895442,
+      "stop" : 1608641926042,
+      "duration" : 30600
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a9396e1135d7b9d4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634504246,
+      "stop" : 1608634583101,
+      "duration" : 78855
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "913feff3430841c9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640587908,
+      "stop" : 1608640618086,
+      "duration" : 30178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "637d550193161590",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641720659,
+      "stop" : 1608641758100,
+      "duration" : 37441
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "73724e5efdf57194",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636655792,
+      "stop" : 1608636674608,
+      "duration" : 18816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "a2fb382af108d772",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608640347903,
+      "stop" : 1608640496835,
+      "duration" : 148932
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f93795f6716af7d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634508460,
+      "stop" : 1608634592312,
+      "duration" : 83852
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "634d1b84065292b4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635502782,
+      "stop" : 1608635521143,
+      "duration" : 18361
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d503c945a5df8595",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634505960,
+      "stop" : 1608634585339,
+      "duration" : 79379
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7605cfd7a9c9bf20",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640190673,
+      "stop" : 1608640230254,
+      "duration" : 39581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2881616c22c35298",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639084874,
+      "stop" : 1608639108814,
+      "duration" : 23940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "46f1d69375cb912a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636079872,
+      "stop" : 1608636102024,
+      "duration" : 22152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "64daee8db3d3dcf0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635527638,
+      "stop" : 1608635533575,
+      "duration" : 5937
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b9661c9fc1ffac95",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635120656,
+      "stop" : 1608635178206,
+      "duration" : 57550
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bb6a8b4556b80f1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634503907,
+      "stop" : 1608634616517,
+      "duration" : 112610
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d8162b6b99fbc651",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640111323,
+      "stop" : 1608640138532,
+      "duration" : 27209
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bf918d19b1238267",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635916236,
+      "stop" : 1608635937187,
+      "duration" : 20951
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6912d6525316465",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640236889,
+      "stop" : 1608640265486,
+      "duration" : 28597
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "65180b277e6c0bc9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636798106,
+      "stop" : 1608636818667,
+      "duration" : 20561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "901dc16cfa948d59",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640467225,
+      "stop" : 1608640487790,
+      "duration" : 20565
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e94323e095babc44",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635458996,
+      "stop" : 1608635515916,
+      "duration" : 56920
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "aebb29a3f7048844",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634813670,
+      "stop" : 1608634996043,
+      "duration" : 182373
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "64f3949704931937",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635459838,
+      "stop" : 1608635518340,
+      "duration" : 58502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ebefcf2ded048417",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634455424,
+      "stop" : 1608634461587,
+      "duration" : 6163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "2e030524dd745a73",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640416907,
+      "stop" : 1608640437213,
+      "duration" : 20306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b59f414747249e81",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640937675,
+      "stop" : 1608640981822,
+      "duration" : 44147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7158b6c77a37f3ed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636633245,
+      "stop" : 1608636652548,
+      "duration" : 19303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c748c5ae582661af",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634501241,
+      "stop" : 1608634617397,
+      "duration" : 116156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c928e672c42df128",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637230429,
+      "stop" : 1608637260970,
+      "duration" : 30541
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a5c22918b53c3b51",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634454184,
+      "stop" : 1608634462480,
+      "duration" : 8296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "80a598c83a113688",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635200841,
+      "stop" : 1608635262281,
+      "duration" : 61440
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d5f2dbe4d5035387",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453082,
+      "stop" : 1608634461611,
+      "duration" : 8529
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "c28ca1698fddc625",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608640618445,
+      "stop" : 1608640766501,
+      "duration" : 148056
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7de22ba769f15969",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636129437,
+      "stop" : 1608636148148,
+      "duration" : 18711
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5189a57edc074de6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634490221,
+      "stop" : 1608634613756,
+      "duration" : 123535
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4442582f356739c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635291607,
+      "stop" : 1608635435842,
+      "duration" : 144235
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "45add76eb08bf626",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634814359,
+      "stop" : 1608634995766,
+      "duration" : 181407
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4c60977f65008f3d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044429,
+      "stop" : 1608635116542,
+      "duration" : 72113
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "170bf41f995e0019",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640621194,
+      "stop" : 1608640643099,
+      "duration" : 21905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "26b2df1ca365da1c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636009216,
+      "stop" : 1608636027123,
+      "duration" : 17907
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a2f53d306c6eda61",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456146,
+      "stop" : 1608634462447,
+      "duration" : 6301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "57ddbc6d2066c24",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635185264,
+      "stop" : 1608635248150,
+      "duration" : 62886
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "8c6619b022edec9d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635077786,
+      "stop" : 1608635136203,
+      "duration" : 58417
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b38278b80eb2da23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635189460,
+      "stop" : 1608635259766,
+      "duration" : 70306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d48a16cc6c8e177",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453984,
+      "stop" : 1608634462446,
+      "duration" : 8462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9b58ac249593abc6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811074,
+      "stop" : 1608634995786,
+      "duration" : 184712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d09b18daa540f821",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641743401,
+      "stop" : 1608641765920,
+      "duration" : 22519
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d25f033531f4c611",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640937722,
+      "stop" : 1608640986475,
+      "duration" : 48753
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "52048e5ac0baf94a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453163,
+      "stop" : 1608634462458,
+      "duration" : 9295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "acec4d23a218aad7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634504412,
+      "stop" : 1608634581322,
+      "duration" : 76910
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "402af0706c460718",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635129237,
+      "stop" : 1608635192191,
+      "duration" : 62954
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9e5e713b2055e140",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635896064,
+      "stop" : 1608635912907,
+      "duration" : 16843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "79127ef1799a20a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044055,
+      "stop" : 1608635109260,
+      "duration" : 65205
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "db2bac70bb0aefef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634810433,
+      "stop" : 1608634995766,
+      "duration" : 185333
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "718061cc8cae772d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044351,
+      "stop" : 1608635115224,
+      "duration" : 70873
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "2c3dc9be31347560",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608640349924,
+      "stop" : 1608640370535,
+      "duration" : 20611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "371c59dccb958c23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635460595,
+      "stop" : 1608635519923,
+      "duration" : 59328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "daa950f4a3274b47",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456284,
+      "stop" : 1608634461587,
+      "duration" : 5303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a50041d05cf52f69",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637205597,
+      "stop" : 1608637227450,
+      "duration" : 21853
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "13124e6152d30861",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636875202,
+      "stop" : 1608636896490,
+      "duration" : 21288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "958b423f0a4f2406",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641856747,
+      "stop" : 1608641894059,
+      "duration" : 37312
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "d72e2284a7a5ec66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640405900,
+      "stop" : 1608640431781,
+      "duration" : 25881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "62c82f37aa1e914c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635525102,
+      "stop" : 1608635527390,
+      "duration" : 2288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "cbe37c64b2388a89",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636973885,
+      "stop" : 1608636994005,
+      "duration" : 20120
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "82ee42f5397ffa63",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640010079,
+      "stop" : 1608640041791,
+      "duration" : 31712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "aaf716f0d980cd37",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635182507,
+      "stop" : 1608635245396,
+      "duration" : 62889
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "cefb13a017a6bb71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636926725,
+      "stop" : 1608636947825,
+      "duration" : 21100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "25a645d3cce04593",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640342534,
+      "stop" : 1608640373862,
+      "duration" : 31328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "818d1b73b71c701c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635458387,
+      "stop" : 1608635493513,
+      "duration" : 35126
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "91d8c65867cd29c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640617650,
+      "stop" : 1608640641858,
+      "duration" : 24208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3a228770fcbd3553",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637074719,
+      "stop" : 1608637099370,
+      "duration" : 24651
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ef07241f1dfe2c69",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634454205,
+      "stop" : 1608634461627,
+      "duration" : 7422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "8876737198bb48cc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641239336,
+      "stop" : 1608641299358,
+      "duration" : 60022
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f75437ff8dec6afd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634809920,
+      "stop" : 1608634995741,
+      "duration" : 185821
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3374911bf9f6d843",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044288,
+      "stop" : 1608635116394,
+      "duration" : 72106
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "337c9f158d645b20",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640678340,
+      "stop" : 1608640701667,
+      "duration" : 23327
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ca41e7855f745c24",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635529725,
+      "stop" : 1608635547436,
+      "duration" : 17711
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d103dc9b8912cea2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641898461,
+      "stop" : 1608641929632,
+      "duration" : 31171
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "23a657d55d70e58f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634503490,
+      "stop" : 1608634617627,
+      "duration" : 114137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bf3d598dfaa286bd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641335382,
+      "stop" : 1608641365947,
+      "duration" : 30565
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6b017e68ad4a40a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634815523,
+      "stop" : 1608634995971,
+      "duration" : 180448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2d45aa2ccc1d47f6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634816366,
+      "stop" : 1608634995891,
+      "duration" : 179525
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "391a423af10fad06",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634807849,
+      "stop" : 1608635006503,
+      "duration" : 198654
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f632a07ae2b7ab9e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640006701,
+      "stop" : 1608640037600,
+      "duration" : 30899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d85eaff7ed3eaf59",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608644513340,
+      "stop" : 1608644532570,
+      "duration" : 19230
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "14fb76a1b9fa78b8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636612151,
+      "stop" : 1608636630298,
+      "duration" : 18147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c17176ed0d0e45c9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636537844,
+      "stop" : 1608636557526,
+      "duration" : 19682
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2f8e76b20f222f7e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637325160,
+      "stop" : 1608637344808,
+      "duration" : 19648
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "12b7e2ad43209736",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640111979,
+      "stop" : 1608640140445,
+      "duration" : 28466
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5809f8f12f248ded",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641305278,
+      "stop" : 1608641342833,
+      "duration" : 37555
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "fd93693d24e862d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636370642,
+      "stop" : 1608636388485,
+      "duration" : 17843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "12a6d0958e772318",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636828592,
+      "stop" : 1608636848418,
+      "duration" : 19826
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5e2f04797e647202",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635524300,
+      "stop" : 1608635531370,
+      "duration" : 7070
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "78cf296f2974e4c0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640111733,
+      "stop" : 1608640141223,
+      "duration" : 29490
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "536fd41b201acdf8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640191106,
+      "stop" : 1608640232860,
+      "duration" : 41754
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4d6e8a5cdc517bec",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640436990,
+      "stop" : 1608640467224,
+      "duration" : 30234
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7b04520cb696ed13",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641752739,
+      "stop" : 1608641780499,
+      "duration" : 27760
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2da6ead5e9cfda2e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640321817,
+      "stop" : 1608640349922,
+      "duration" : 28105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6dc60a68111235dd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640587932,
+      "stop" : 1608640621193,
+      "duration" : 33261
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "409f4f769423d9b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640321476,
+      "stop" : 1608640347901,
+      "duration" : 26425
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a1c2f9a1ee0405b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635986664,
+      "stop" : 1608636005957,
+      "duration" : 19293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b68ec3e906dbd659",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635736132,
+      "stop" : 1608635802420,
+      "duration" : 66288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "28645f643b3f9342",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635119094,
+      "stop" : 1608635179266,
+      "duration" : 60172
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "693adaca2b8e5776",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608640349825,
+      "stop" : 1608640496500,
+      "duration" : 146675
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "32e67f152ffddbd3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636052065,
+      "stop" : 1608636076572,
+      "duration" : 24507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e7d670608c584526",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608640076507,
+      "stop" : 1608640095262,
+      "duration" : 18755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bccee2a28c1923cb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636851521,
+      "stop" : 1608636871337,
+      "duration" : 19816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6773c8f6523b440b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641331289,
+      "stop" : 1608641375354,
+      "duration" : 44065
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "293a04b7c5e9926",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635185675,
+      "stop" : 1608635249196,
+      "duration" : 63521
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f039181e9bf3c014",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634812007,
+      "stop" : 1608634995853,
+      "duration" : 183846
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2714501462a228f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640190747,
+      "stop" : 1608640232429,
+      "duration" : 41682
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "586e8b23b8aa6615",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636725366,
+      "stop" : 1608636746277,
+      "duration" : 20911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d6d9d39447988419",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635519295,
+      "stop" : 1608635529054,
+      "duration" : 9759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "543f3ed21ba5a03c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634504517,
+      "stop" : 1608634581064,
+      "duration" : 76547
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1de21e7409bdd1e3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608640321441,
+      "stop" : 1608640342532,
+      "duration" : 21091
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c73489ba6f87c9d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635568907,
+      "stop" : 1608635589584,
+      "duration" : 20677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "199d8dade68b5576",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639151543,
+      "stop" : 1608639170044,
+      "duration" : 18501
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1c83170c2128a3ea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044226,
+      "stop" : 1608635113133,
+      "duration" : 68907
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4f478b0bc076eba1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640234497,
+      "stop" : 1608640258356,
+      "duration" : 23859
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "45ffee4530c1c77c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634452984,
+      "stop" : 1608634461601,
+      "duration" : 8617
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "8459df38230fe5a3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634505959,
+      "stop" : 1608634591896,
+      "duration" : 85937
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7586aed94a1112a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640822947,
+      "stop" : 1608640874755,
+      "duration" : 51808
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2ccf7d92c17baac4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641856723,
+      "stop" : 1608641893584,
+      "duration" : 36861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2bd807226fa89492",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635191066,
+      "stop" : 1608635258752,
+      "duration" : 67686
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "77c3c5cc35d31bf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635394592,
+      "stop" : 1608635508476,
+      "duration" : 113884
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "eca5d2b569b2b557",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635290952,
+      "stop" : 1608635452813,
+      "duration" : 161861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9d7862ec12604614",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641720458,
+      "stop" : 1608641748914,
+      "duration" : 28456
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5ada7b51ae01508b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641239979,
+      "stop" : 1608641326707,
+      "duration" : 86728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a25d7baf68099072",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635186611,
+      "stop" : 1608635255020,
+      "duration" : 68409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "37f2b82659b653cd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635291216,
+      "stop" : 1608635453482,
+      "duration" : 162266
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "69d9295ae8e5b5ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637141148,
+      "stop" : 1608637160507,
+      "duration" : 19359
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4f7825e3284d050a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456194,
+      "stop" : 1608634461588,
+      "duration" : 5394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "51b9c60dc1e2e52f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641239959,
+      "stop" : 1608641318680,
+      "duration" : 78721
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "79d20b2e3a23e60d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634507059,
+      "stop" : 1608634586922,
+      "duration" : 79863
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "94f4d66d327ef4ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453084,
+      "stop" : 1608634462976,
+      "duration" : 9892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f8276709390aacff",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635665390,
+      "stop" : 1608635713685,
+      "duration" : 48295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "294044067e7780b8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608639966238,
+      "stop" : 1608640000078,
+      "duration" : 33840
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "892853a353b32fb8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608641856818,
+      "stop" : 1608641875893,
+      "duration" : 19075
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5e0383fb342d86cd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456100,
+      "stop" : 1608634461611,
+      "duration" : 5511
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f6be584450d3159b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639079397,
+      "stop" : 1608639107540,
+      "duration" : 28143
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ce4becbf577cf99e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634813110,
+      "stop" : 1608634995982,
+      "duration" : 182872
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4ac31a66b4a448a5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634812235,
+      "stop" : 1608634957229,
+      "duration" : 144994
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "911c984cf536fbaa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636349082,
+      "stop" : 1608636367511,
+      "duration" : 18429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9eaf719dfac34f5a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641898446,
+      "stop" : 1608641926797,
+      "duration" : 28351
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c2d93f939ad7fc27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635044100,
+      "stop" : 1608635071584,
+      "duration" : 27484
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bf47e83d931ed171",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641760320,
+      "stop" : 1608641802701,
+      "duration" : 42381
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "aa52f3d783074fbe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637263723,
+      "stop" : 1608637283388,
+      "duration" : 19665
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7131055ed470782a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635825532,
+      "stop" : 1608635841822,
+      "duration" : 16290
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1768d4c7eef25ce1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635142087,
+      "stop" : 1608635202044,
+      "duration" : 59957
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ab519c31dfbcd7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640190600,
+      "stop" : 1608640229798,
+      "duration" : 39198
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1ece3f1afe980569",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811053,
+      "stop" : 1608635005980,
+      "duration" : 194927
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "464b3d9fad5e140a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640643213,
+      "stop" : 1608640676525,
+      "duration" : 33312
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "afbfca99b7005b10",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634812116,
+      "stop" : 1608635016190,
+      "duration" : 204074
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "88f254d744fad2a3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635459900,
+      "stop" : 1608635518140,
+      "duration" : 58240
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "29ffac1622880244",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637020040,
+      "stop" : 1608637040193,
+      "duration" : 20153
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6e4a3c7b0ba4c162",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640587682,
+      "stop" : 1608640617183,
+      "duration" : 29501
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c4ea6641c4971ea3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641720736,
+      "stop" : 1608641755677,
+      "duration" : 34941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7e80dda19d5f2bfa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639069649,
+      "stop" : 1608639079336,
+      "duration" : 9687
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7b4a4ef3e7ed81fe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641760349,
+      "stop" : 1608641796258,
+      "duration" : 35909
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ae4a97f197e85e73",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456463,
+      "stop" : 1608634461716,
+      "duration" : 5253
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "68eef33d53ec3449",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608639966237,
+      "stop" : 1608639985142,
+      "duration" : 18905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d8a40107e9877850",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634506545,
+      "stop" : 1608634585597,
+      "duration" : 79052
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "d07d762d110677c3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640348211,
+      "stop" : 1608640380328,
+      "duration" : 32117
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "aadacd04fb5ef4c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639079522,
+      "stop" : 1608639108655,
+      "duration" : 29133
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6b72f5d5fbb38880",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634498609,
+      "stop" : 1608634616267,
+      "duration" : 117658
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "55a05848ab218f4c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640076463,
+      "stop" : 1608640106283,
+      "duration" : 29820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bde0b59fb2d119c6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640321493,
+      "stop" : 1608640349823,
+      "duration" : 28330
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f47cfc8f7f46370",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456092,
+      "stop" : 1608634462439,
+      "duration" : 6347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "96ca15d16309ba95",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640006355,
+      "stop" : 1608640035101,
+      "duration" : 28746
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4a1f37638ada9878",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456791,
+      "stop" : 1608634462526,
+      "duration" : 5735
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a5b67957e7ae13f7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634503023,
+      "stop" : 1608634585254,
+      "duration" : 82231
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "104b5592436fa53c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634499032,
+      "stop" : 1608634582530,
+      "duration" : 83498
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "603ee48de509c0d7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635940327,
+      "stop" : 1608635962324,
+      "duration" : 21997
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.5 ",
+    "uid" : "d735c25d861479b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608644583759,
+      "stop" : 1608644597866,
+      "duration" : 14107
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "73554bdc4d96d93",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640100676,
+      "stop" : 1608640126965,
+      "duration" : 26289
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f8c93e73b5ee2b51",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637102837,
+      "stop" : 1608637138199,
+      "duration" : 35362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "25ac296f9fa3e1a5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640646317,
+      "stop" : 1608640678337,
+      "duration" : 32020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c80bc0da97e1b40d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636173568,
+      "stop" : 1608636194341,
+      "duration" : 20773
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "371126a17d935569",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634499122,
+      "stop" : 1608634618060,
+      "duration" : 118938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d3999cdd8b0ca2a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634496428,
+      "stop" : 1608634583101,
+      "duration" : 86673
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2758369fb5c3aa9c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635291029,
+      "stop" : 1608635472767,
+      "duration" : 181738
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "12f9025ec135edbd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608641720390,
+      "stop" : 1608641739317,
+      "duration" : 18927
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "358bec9bdb215862",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811259,
+      "stop" : 1608634995925,
+      "duration" : 184666
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f835dd205e4a4a74",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634497499,
+      "stop" : 1608634616739,
+      "duration" : 119240
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b7912e5f6b670cac",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639069649,
+      "stop" : 1608639078016,
+      "duration" : 8367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "12d22ce3d42927c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640076767,
+      "stop" : 1608640101084,
+      "duration" : 24317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1a10396ab60c2598",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640001218,
+      "stop" : 1608640031178,
+      "duration" : 29960
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "12fdc4c272b44ccc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811459,
+      "stop" : 1608634995890,
+      "duration" : 184431
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "635ee448425716fb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608639053465,
+      "stop" : 1608639074084,
+      "duration" : 20619
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "dd8bbf7c1c74430a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634809460,
+      "stop" : 1608634992392,
+      "duration" : 182932
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "8807939052cd3192",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634501258,
+      "stop" : 1608634585109,
+      "duration" : 83851
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ea233ce10cf552eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635875663,
+      "stop" : 1608635892787,
+      "duration" : 17124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "530ab85415ba0105",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608634502951,
+      "stop" : 1608634616476,
+      "duration" : 113525
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f0ab6f0bd9f9a9b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453000,
+      "stop" : 1608634462469,
+      "duration" : 9469
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "acccc314e565825f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044073,
+      "stop" : 1608635121993,
+      "duration" : 77920
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9f9d3632f5d57421",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635845190,
+      "stop" : 1608635872178,
+      "duration" : 26988
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "164e67ce8f126734",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635121844,
+      "stop" : 1608635182204,
+      "duration" : 60360
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3602ff43fbd22523",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453152,
+      "stop" : 1608634461668,
+      "duration" : 8516
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3289fba3bb820d30",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634809683,
+      "stop" : 1608635006476,
+      "duration" : 196793
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e9c66e1b7537bf6b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641325733,
+      "stop" : 1608641362335,
+      "duration" : 36602
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "80f5fc531311d299",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634504710,
+      "stop" : 1608634585648,
+      "duration" : 80938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4bef914b026eeced",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640818428,
+      "stop" : 1608640873367,
+      "duration" : 54939
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7b24a41a54db9e77",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641239336,
+      "stop" : 1608641331372,
+      "duration" : 92036
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "4f19b1d929c63175",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635209320,
+      "stop" : 1608635265744,
+      "duration" : 56424
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5a01a33d52aea933",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637165588,
+      "stop" : 1608637202253,
+      "duration" : 36665
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d67daeea35f37d45",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635623356,
+      "stop" : 1608635640949,
+      "duration" : 17593
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f9d523351b413bdd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636151204,
+      "stop" : 1608636170483,
+      "duration" : 19279
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c5cee38c62e5eea4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640321454,
+      "stop" : 1608640348209,
+      "duration" : 26755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d1ac4a4694211251",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634501446,
+      "stop" : 1608634582624,
+      "duration" : 81178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "65e399184733f367",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635497796,
+      "stop" : 1608635530122,
+      "duration" : 32326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "36c2349aca75de8e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640818346,
+      "stop" : 1608640872203,
+      "duration" : 53857
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "43b57c8cf13bddb4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635290988,
+      "stop" : 1608635416885,
+      "duration" : 125897
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b641d827a6d9b183",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608639966254,
+      "stop" : 1608640003267,
+      "duration" : 37013
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a9996329ada05606",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636560640,
+      "stop" : 1608636582056,
+      "duration" : 21416
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e7abe67a4ba3e601",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641319727,
+      "stop" : 1608641352861,
+      "duration" : 33134
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "907bc08889de011",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641720861,
+      "stop" : 1608641756180,
+      "duration" : 35319
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c395b8527a36396b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635114751,
+      "stop" : 1608635176968,
+      "duration" : 62217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "134a893dd7208bb8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635044474,
+      "stop" : 1608635121784,
+      "duration" : 77310
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "cb8427b134a6b3d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640671751,
+      "stop" : 1608640693399,
+      "duration" : 21648
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b389a3b7847c2b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639079395,
+      "stop" : 1608639109016,
+      "duration" : 29621
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "483dcd24ad118220",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640384920,
+      "stop" : 1608640416905,
+      "duration" : 31985
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9d120439c0bb677",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636899176,
+      "stop" : 1608636923699,
+      "duration" : 24523
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "9e97b52003f3795",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608636246374,
+      "stop" : 1608636313593,
+      "duration" : 67219
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "bc7f3e5145d45f50",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634811234,
+      "stop" : 1608635004539,
+      "duration" : 193305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "71009f93a72020d8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640671659,
+      "stop" : 1608640691919,
+      "duration" : 20260
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2a19f1d1779f1f95",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634505087,
+      "stop" : 1608634585551,
+      "duration" : 80464
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3a6656ea12e457ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608639991902,
+      "stop" : 1608640021721,
+      "duration" : 29819
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "7a927201431b98c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634805684,
+      "stop" : 1608635000884,
+      "duration" : 195200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "40656f8d3095265f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634804073,
+      "stop" : 1608634993829,
+      "duration" : 189756
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "d110f253e7c510c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635399440,
+      "stop" : 1608635514751,
+      "duration" : 115311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "34a962363aa4842e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634503167,
+      "stop" : 1608634582343,
+      "duration" : 79176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e4e71e98e0d10dec",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635119392,
+      "stop" : 1608635180430,
+      "duration" : 61038
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b95baffdd9a4c6b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640234625,
+      "stop" : 1608640259392,
+      "duration" : 24767
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b10029361d8e0451",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640076743,
+      "stop" : 1608640106974,
+      "duration" : 30231
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "2aad73821733153b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635121745,
+      "stop" : 1608635184054,
+      "duration" : 62309
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "700bf6f908412964",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608641856712,
+      "stop" : 1608641884812,
+      "duration" : 28100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5bdf4ff901781a31",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634815222,
+      "stop" : 1608634996035,
+      "duration" : 180813
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "801d3a6579ac764c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636391681,
+      "stop" : 1608636411606,
+      "duration" : 19925
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ff345ce6c743cebf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608635183568,
+      "stop" : 1608635245012,
+      "duration" : 61444
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b9d98974a5bd700f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634814466,
+      "stop" : 1608634995925,
+      "duration" : 181459
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "a97f6d76f752fc01",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634810907,
+      "stop" : 1608635006502,
+      "duration" : 195595
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ade6231b7f8b88bc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634504607,
+      "stop" : 1608634583568,
+      "duration" : 78961
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "e255bdcd4526ee60",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634456353,
+      "stop" : 1608634461650,
+      "duration" : 5297
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "1fc2b0eea61650c1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1608635291145,
+      "stop" : 1608635388305,
+      "duration" : 97160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "b1ff1b9e46aad736",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640377829,
+      "stop" : 1608640410133,
+      "duration" : 32304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "f55ec4a04bd87944",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608635524761,
+      "stop" : 1608635535016,
+      "duration" : 10255
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "5858ec0cb8077a99",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640646211,
+      "stop" : 1608640671750,
+      "duration" : 25539
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "3715f34885df1cee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634507948,
+      "stop" : 1608634592406,
+      "duration" : 84458
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "892b20ce5b8caa1e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637286598,
+      "stop" : 1608637322424,
+      "duration" : 35826
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "6d55420360cdd95f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608634453080,
+      "stop" : 1608634461696,
+      "duration" : 8616
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "c51f4bfd0a792dc0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608636222047,
+      "stop" : 1608636243123,
+      "duration" : 21076
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "fdc7598ae40e25df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608637043151,
+      "stop" : 1608637071846,
+      "duration" : 28695
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "ad8dfdf9375e64f5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608639053472,
+      "stop" : 1608639065807,
+      "duration" : 12335
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+  }, {
+    "name" : "Email -- @1.2 ",
+    "uid" : "d05b5a73ee7f206c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640617187,
+      "stop" : 1608640638895,
+      "duration" : 21708
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+  } ],
+  "name" : "timeline"
+}

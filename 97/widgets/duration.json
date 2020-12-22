@@ -1,0 +1,71 @@
+[ {
+  "uid" : "679069d41c6bcd8c",
+  "name" : "Email -- @1.4 ",
+  "time" : {
+    "start" : 1608644570780,
+    "stop" : 1608644583758,
+    "duration" : 12978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dab4e96af7ffce5",
+  "name" : "Email -- @1.3 ",
+  "time" : {
+    "start" : 1608644545852,
+    "stop" : 1608644570779,
+    "duration" : 24927
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d735c25d861479b",
+  "name" : "Email -- @1.5 ",
+  "time" : {
+    "start" : 1608644583759,
+    "stop" : 1608644597866,
+    "duration" : 14107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d85eaff7ed3eaf59",
+  "name" : "Email -- @1.1 ",
+  "time" : {
+    "start" : 1608644513340,
+    "stop" : 1608644532570,
+    "duration" : 19230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd9c85e40de1e294",
+  "name" : "Email -- @1.2 ",
+  "time" : {
+    "start" : 1608644532571,
+    "stop" : 1608644545851,
+    "duration" : 13280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f93795f6716af7d2",
+  "name" : "Email -- @1.1 ",
+  "time" : {
+    "start" : 1608634508460,
+    "stop" : 1608634592312,
+    "duration" : 83852
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "871e17eb1e40125b",
+  "name" : "Email -- @1.2 ",
+  "time" : {
+    "start" : 1608640872208,
+    "stop" : 1608640899855,
+    "duration" : 27647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
