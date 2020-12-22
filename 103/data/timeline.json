@@ -1,18 +1,5 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ {
-    "name" : "Email -- @1.1 ",
-    "uid" : "88d89726bed2e787",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1608647036476,
-      "stop" : 1608647061264,
-      "duration" : 24788
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
-  } ],
+  "children" : [ ],
   "name" : "timeline"
 }
