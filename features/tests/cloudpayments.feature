@@ -15,5 +15,6 @@ Feature: fitness-online.ru.com
     When calculate time for 'cloudpayments'
 
     Examples:
-      | page_name      | card      | type          |
-      | f.gum24.online | fake card | cancel button |
+      | page_name             | card      | type          |
+      | fitness-online.ru.com | fake card | cancel button |
+      | f.gum24.online        | fake card | cancel button |
