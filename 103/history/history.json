@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1563ff3c392be860",
+      "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/1563ff3c392be860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608647526709,
+        "stop" : 1608647547826,
+        "duration" : 21117
+      }
+    }, {
       "uid" : "13b5232532022108",
       "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/13b5232532022108",
       "status" : "passed",
