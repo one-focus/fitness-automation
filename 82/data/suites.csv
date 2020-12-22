@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 22 09:02:24 GMT 2020","Tue Dec 22 09:02:49 GMT 2020","24728","","","","","","Email -- @1.2 ",""
+"passed","Tue Dec 22 09:02:01 GMT 2020","Tue Dec 22 09:02:24 GMT 2020","22930","","","","","","Email -- @1.1 ",""
