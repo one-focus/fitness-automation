@@ -1,12 +1,12 @@
 {
-  "uid" : "aa2ee8f9d7d7a121",
+  "uid" : "97ccb0d07fe757b2",
   "name" : "Email -- @1.1 ",
   "fullName" : "features/tests/cloudpayments.feature:Email",
   "historyId" : "055759470ca507e62b8429e2c3fe0615",
   "time" : {
-    "start" : 1608646950934,
-    "stop" : 1608646972576,
-    "duration" : 21642
+    "start" : 1608646986494,
+    "stop" : 1608647007252,
+    "duration" : 20758
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "Given clear time",
       "time" : {
-        "start" : 1608646950935,
-        "stop" : 1608646950936,
-        "duration" : 1
+        "start" : 1608646986495,
+        "stop" : 1608646986495,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "When open f.gum24.online page",
       "time" : {
-        "start" : 1608646950937,
-        "stop" : 1608646954978,
-        "duration" : 4041
+        "start" : 1608646986496,
+        "stop" : 1608646990201,
+        "duration" : 3705
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "When clear time",
       "time" : {
-        "start" : 1608646954979,
-        "stop" : 1608646954979,
+        "start" : 1608646990202,
+        "stop" : 1608646990202,
         "duration" : 0
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "When go to confirmation page",
       "time" : {
-        "start" : 1608646954979,
-        "stop" : 1608646960482,
-        "duration" : 5503
+        "start" : 1608646990202,
+        "stop" : 1608646996329,
+        "duration" : 6127
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "When calculate time for 'confirmation'",
       "time" : {
-        "start" : 1608646960482,
-        "stop" : 1608646961079,
-        "duration" : 597
+        "start" : 1608646996329,
+        "stop" : 1608646996864,
+        "duration" : 535
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "When go to cloudpayments page",
       "time" : {
-        "start" : 1608646961079,
-        "stop" : 1608646963016,
-        "duration" : 1937
+        "start" : 1608646996864,
+        "stop" : 1608646998503,
+        "duration" : 1639
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,8 +107,8 @@
     }, {
       "name" : "When enter fake card details",
       "time" : {
-        "start" : 1608646963017,
-        "stop" : 1608646964309,
+        "start" : 1608646998504,
+        "stop" : 1608646999796,
         "duration" : 1292
       },
       "status" : "passed",
@@ -122,9 +122,9 @@
     }, {
       "name" : "Then I see cancel button element",
       "time" : {
-        "start" : 1608646964310,
-        "stop" : 1608646972052,
-        "duration" : 7742
+        "start" : 1608646999796,
+        "stop" : 1608647006697,
+        "duration" : 6901
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "When calculate time for 'cloudpayments'",
       "time" : {
-        "start" : 1608646972053,
-        "stop" : 1608646972576,
-        "duration" : 523
+        "start" : 1608647006697,
+        "stop" : 1608647007252,
+        "duration" : 555
       },
       "status" : "passed",
       "steps" : [ ],
@@ -279,6 +279,6 @@
     },
     "tags" : [ "validation" ]
   },
-  "source" : "aa2ee8f9d7d7a121.json",
+  "source" : "97ccb0d07fe757b2.json",
   "parameterValues" : [ "fake card", "f.gum24.online", "cancel button" ]
 }
