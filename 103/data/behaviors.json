@@ -4,13 +4,13 @@
     "name" : "fitness-online.ru.com",
     "children" : [ {
       "name" : "Email -- @1.1 ",
-      "uid" : "4f7d85b573ef86a9",
+      "uid" : "a2a4d2f0c4b39fa6",
       "parentUid" : "999b413c9ce9c2f5cb563e6ebacb0a20",
       "status" : "passed",
       "time" : {
-        "start" : 1608647936442,
-        "stop" : 1608647956394,
-        "duration" : 19952
+        "start" : 1608648064211,
+        "stop" : 1608648084307,
+        "duration" : 20096
       },
       "flaky" : false,
       "newFailed" : false,
