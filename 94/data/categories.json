@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "children" : [ {
+        "name" : "Email -- @1.1 ",
+        "uid" : "f67eb4cbd770832e",
+        "parentUid" : "72adecaf3a294cb40acb37661538eb56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
+      } ],
+      "uid" : "72adecaf3a294cb40acb37661538eb56"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
