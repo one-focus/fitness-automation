@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "fitness-online.ru.com",
+    "children" : [ {
+      "name" : "Email -- @1.1 ",
+      "uid" : "f6403e5e8f0f9e0d",
+      "parentUid" : "999b413c9ce9c2f5cb563e6ebacb0a20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608646392576,
+        "stop" : 1608646418939,
+        "duration" : 26363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "fake card", "f.gum24.online", "cancel button" ]
+    } ],
+    "uid" : "999b413c9ce9c2f5cb563e6ebacb0a20"
+  } ],
+  "name" : "behaviors"
+}
