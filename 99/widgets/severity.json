@@ -1,5 +1,5 @@
 [ {
-  "uid" : "190d0a9fdc30a785",
+  "uid" : "a6e24697fe4da2b4",
   "name" : "Email -- @1.1 ",
   "time" : {
     "start" : 1608641898461,
@@ -9,7 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "52ef1f533739806",
+  "uid" : "efb85a079de35ca7",
   "name" : "Email -- @1.1 ",
   "time" : {
     "start" : 1608634508460,
@@ -19,7 +19,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "576cd40d9a26a00f",
+  "uid" : "ac824d8d4b27e8ea",
   "name" : "Email -- @1.2 ",
   "time" : {
     "start" : 1608640872208,

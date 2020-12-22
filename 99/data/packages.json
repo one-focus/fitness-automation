@@ -2,7 +2,7 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "Email -- @1.1 ",
-    "uid" : "52ef1f533739806",
+    "uid" : "efb85a079de35ca7",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
@@ -15,7 +15,7 @@
     "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
   }, {
     "name" : "Email -- @1.2 ",
-    "uid" : "576cd40d9a26a00f",
+    "uid" : "ac824d8d4b27e8ea",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -28,7 +28,7 @@
     "parameters" : [ "real card", "f.gum24.online", "3d secure" ]
   }, {
     "name" : "Email -- @1.1 ",
-    "uid" : "190d0a9fdc30a785",
+    "uid" : "a6e24697fe4da2b4",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {

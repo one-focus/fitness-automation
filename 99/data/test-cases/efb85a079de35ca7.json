@@ -1,0 +1,814 @@
+{
+  "uid" : "efb85a079de35ca7",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/2/cloudpayments3.feature:Email",
+  "historyId" : "c6dfed3eb102db2d6e0447e5687959b3",
+  "time" : {
+    "start" : 1608634508460,
+    "stop" : 1608634592312,
+    "duration" : 83852
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+  "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 545, in run_hook\n    self.hooks[name](context, *args)\n  File \"features/environment.py\", line 78, in after_step\n    allure.attach(context.driver.get_screenshot_as_png(),\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 545, in run_hook\n    self.hooks[name](context, *args)\n  File \"features/environment.py\", line 78, in after_step\n    allure.attach(context.driver.get_screenshot_as_png(),\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608634508461,
+        "stop" : 1608634508461,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608634508462,
+        "stop" : 1608634588573,
+        "duration" : 80111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608634588574,
+        "stop" : 1608634588574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608634588574,
+        "stop" : 1608634592309,
+        "duration" : 3735
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 545, in run_hook\n    self.hooks[name](context, *args)\n  File \"features/environment.py\", line 78, in after_step\n    allure.attach(context.driver.get_screenshot_as_png(),\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608634592312,
+        "stop" : 1608634592312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608634592312,
+        "stop" : 1608634592312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter real card details",
+      "time" : {
+        "start" : 1608634592312,
+        "stop" : 1608634592312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see 3d secure element",
+      "time" : {
+        "start" : 1608634592312,
+        "stop" : 1608634592312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608634592312,
+        "stop" : 1608634592312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "real card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "3d secure"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5332aea49f18c193",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634507948,
+        "stop" : 1608634592406,
+        "duration" : 84458
+      }
+    }, {
+      "uid" : "20de306e82efcc8f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634507059,
+        "stop" : 1608634586922,
+        "duration" : 79863
+      }
+    }, {
+      "uid" : "f92740514b1b2cea",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634506545,
+        "stop" : 1608634585597,
+        "duration" : 79052
+      }
+    }, {
+      "uid" : "c81f54f0dba9ab99",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634505960,
+        "stop" : 1608634585339,
+        "duration" : 79379
+      }
+    }, {
+      "uid" : "33dee72b5931502d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634505959,
+        "stop" : 1608634591896,
+        "duration" : 85937
+      }
+    }, {
+      "uid" : "e84e20e8f33587a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634505087,
+        "stop" : 1608634585551,
+        "duration" : 80464
+      }
+    }, {
+      "uid" : "73ef1b49e6cbb53",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634504894,
+        "stop" : 1608634580663,
+        "duration" : 75769
+      }
+    }, {
+      "uid" : "3053d2e95215c9dd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634504710,
+        "stop" : 1608634585648,
+        "duration" : 80938
+      }
+    }, {
+      "uid" : "43b563a835b32545",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634504607,
+        "stop" : 1608634583568,
+        "duration" : 78961
+      }
+    }, {
+      "uid" : "aa8fd5af18748b9c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634504517,
+        "stop" : 1608634581064,
+        "duration" : 76547
+      }
+    }, {
+      "uid" : "2fc31cfc6ee50595",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634504412,
+        "stop" : 1608634581322,
+        "duration" : 76910
+      }
+    }, {
+      "uid" : "36fe3233ee492483",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634504246,
+        "stop" : 1608634583101,
+        "duration" : 78855
+      }
+    }, {
+      "uid" : "21dc1133d0f1b537",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 26, in click_on\n    element.click()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634503907,
+        "stop" : 1608634616517,
+        "duration" : 112610
+      }
+    }, {
+      "uid" : "6f352e2d582b3309",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634503846,
+        "stop" : 1608634591675,
+        "duration" : 87829
+      }
+    }, {
+      "uid" : "d5d772ca33678735",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634503490,
+        "stop" : 1608634617627,
+        "duration" : 114137
+      }
+    }, {
+      "uid" : "826aa8c36e746fd8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634503167,
+        "stop" : 1608634582343,
+        "duration" : 79176
+      }
+    }, {
+      "uid" : "45b5b1ba59d485d6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634503023,
+        "stop" : 1608634585254,
+        "duration" : 82231
+      }
+    }, {
+      "uid" : "7274a84945b6fef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 411, in _find_element\n    return driver.find_element(*by)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 976, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1230, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1276, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1225, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1004, in _send_output\n    self.send(msg)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 944, in send\n    self.connect()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py\", line 187, in connect\n    conn = self._new_conn()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connection.py\", line 159, in _new_conn\n    conn = connection.create_connection(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/util/connection.py\", line 74, in create_connection\n    sock.connect(sa)\n\n",
+      "time" : {
+        "start" : 1608634502951,
+        "stop" : 1608634616476,
+        "duration" : 113525
+      }
+    }, {
+      "uid" : "9481f6d1e6722dcb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: Given click on confirm checkbox\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 26, in click_on\n    element.click()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634502539,
+        "stop" : 1608634616714,
+        "duration" : 114175
+      }
+    }, {
+      "uid" : "669d625f6ef61d4f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634501987,
+        "stop" : 1608634584718,
+        "duration" : 82731
+      }
+    }, {
+      "uid" : "843ea82fa37a45e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634501446,
+        "stop" : 1608634582624,
+        "duration" : 81178
+      }
+    }, {
+      "uid" : "ced1436c8f821b2e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634501258,
+        "stop" : 1608634585109,
+        "duration" : 83851
+      }
+    }, {
+      "uid" : "3c366103ae3a3339",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634501241,
+        "stop" : 1608634617397,
+        "duration" : 116156
+      }
+    }, {
+      "uid" : "15d6d23a8d9e8efa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634499122,
+        "stop" : 1608634618060,
+        "duration" : 118938
+      }
+    }, {
+      "uid" : "f62748ce4f88d6fe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634499032,
+        "stop" : 1608634582530,
+        "duration" : 83498
+      }
+    }, {
+      "uid" : "ab454b7dd743b96f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: Given click on confirm checkbox\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 26, in click_on\n    element.click()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634498609,
+        "stop" : 1608634616267,
+        "duration" : 117658
+      }
+    }, {
+      "uid" : "69045df4c533b134",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "time" : {
+        "start" : 1608634497499,
+        "stop" : 1608634616739,
+        "duration" : 119240
+      }
+    }, {
+      "uid" : "d96e7958b24c385d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634496428,
+        "stop" : 1608634583101,
+        "duration" : 86673
+      }
+    }, {
+      "uid" : "6c64a7998d1a5a39",
+      "status" : "broken",
+      "statusDetails" : "KeyboardInterrupt\n",
+      "time" : {
+        "start" : 1608634490221,
+        "stop" : 1608634613756,
+        "duration" : 123535
+      }
+    }, {
+      "uid" : "bf0ed8a62ee67c71",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50854): Max retries exceeded with url: /session/8f57c3b173c84a69692db28a9d338be3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fed9aa12430>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456921,
+        "stop" : 1608634461627,
+        "duration" : 4706
+      }
+    }, {
+      "uid" : "dc51d05a81bb21b0",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50850): Max retries exceeded with url: /session/8efb803b829b6fa8c571be6c61e74a04/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feded2114c0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456791,
+        "stop" : 1608634462526,
+        "duration" : 5735
+      }
+    }, {
+      "uid" : "146cd85d15518d8b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50855): Max retries exceeded with url: /session/76f002d0b212798400023b6415b51736/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faa5e2114c0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456545,
+        "stop" : 1608634461629,
+        "duration" : 5084
+      }
+    }, {
+      "uid" : "98b63fdfae728e31",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50896): Max retries exceeded with url: /session/082816fe086f6d109e87eb426a34f174/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f98830df490>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456463,
+        "stop" : 1608634461716,
+        "duration" : 5253
+      }
+    }, {
+      "uid" : "1b9737984e08dc0c",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50895): Max retries exceeded with url: /session/9136e72bdedb03b4ce747bd2bdc4e4f2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9caca11490>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456353,
+        "stop" : 1608634461650,
+        "duration" : 5297
+      }
+    }, {
+      "uid" : "f95bd5e673547d44",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50840): Max retries exceeded with url: /session/50c9e31cf11a77401215895bff720a37/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdfca211400>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456352,
+        "stop" : 1608634461716,
+        "duration" : 5364
+      }
+    }, {
+      "uid" : "431d1448b4cfdf4b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50856): Max retries exceeded with url: /session/bc3368ace9793d6defb4bdb61685d2a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffec10df430>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456298,
+        "stop" : 1608634461601,
+        "duration" : 5303
+      }
+    }, {
+      "uid" : "70ebeb3c509719f9",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50853): Max retries exceeded with url: /session/46cc67442446ca878ffcceb99290a5e8/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb9308e4280>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456284,
+        "stop" : 1608634461587,
+        "duration" : 5303
+      }
+    }, {
+      "uid" : "8dc3e7e70fe4df5b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50839): Max retries exceeded with url: /session/662a6e1d4eae7583472c41bcae80cbfe/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdea0a142e0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456194,
+        "stop" : 1608634461588,
+        "duration" : 5394
+      }
+    }, {
+      "uid" : "4b5c26bc3549772f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50893): Max retries exceeded with url: /session/f505c8324c09c07c70aabccf1b29c178/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f963c8df430>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456146,
+        "stop" : 1608634462447,
+        "duration" : 6301
+      }
+    }, {
+      "uid" : "7c696c10431372eb",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50841): Max retries exceeded with url: /session/eb080359fd38d5d6aeaa75db127d874d/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fca8d8db370>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456100,
+        "stop" : 1608634461611,
+        "duration" : 5511
+      }
+    }, {
+      "uid" : "47669388e1f2305f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50951): Max retries exceeded with url: /session/e0b8f56776cccf4aef06e03608f5cee5/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fccad211490>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634456092,
+        "stop" : 1608634462439,
+        "duration" : 6347
+      }
+    }, {
+      "uid" : "32bc63db2e63c43e",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50834): Max retries exceeded with url: /session/01fb72981934ae63ba58d72ae9b8390e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd27e0d94c0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634455637,
+        "stop" : 1608634462457,
+        "duration" : 6820
+      }
+    }, {
+      "uid" : "1c83b99cdd739f73",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50838): Max retries exceeded with url: /session/37fa48f7591962b39fdc969e84f7c878/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecb4214340>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634455424,
+        "stop" : 1608634461587,
+        "duration" : 6163
+      }
+    }, {
+      "uid" : "23673a47959c6cc5",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50907): Max retries exceeded with url: /session/9f34aa7173d2a9c5f3b4297c19ffc91c/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbb9e2123d0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634454268,
+        "stop" : 1608634461596,
+        "duration" : 7328
+      }
+    }, {
+      "uid" : "749a67a37f25f752",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50950): Max retries exceeded with url: /session/940f97e7138504dfd9a30893713c0a2e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff6708da3d0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634454205,
+        "stop" : 1608634461627,
+        "duration" : 7422
+      }
+    }, {
+      "uid" : "b46edffa276eb33d",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50902): Max retries exceeded with url: /session/099c03901a18a677b95d7e24e486fd89/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7fc2114c0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634454184,
+        "stop" : 1608634462480,
+        "duration" : 8296
+      }
+    }, {
+      "uid" : "d864ec6ea477f3b9",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50837): Max retries exceeded with url: /session/efc0e534016e49527350339c6c42d838/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc90b0d94c0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634454157,
+        "stop" : 1608634462439,
+        "duration" : 8282
+      }
+    }, {
+      "uid" : "f089067e9042a6b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50901): Max retries exceeded with url: /session/58b25027ec6d723aa844536d0747707e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe7fe0e03a0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453984,
+        "stop" : 1608634462446,
+        "duration" : 8462
+      }
+    }, {
+      "uid" : "b0ec8c26b80a9704",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50884): Max retries exceeded with url: /session/d8905749d53a8adc3516ddf3ef9b8c7d/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9ba58d9430>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453266,
+        "stop" : 1608634462443,
+        "duration" : 9177
+      }
+    }, {
+      "uid" : "f82084c8902e0072",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50906): Max retries exceeded with url: /session/fe21bf16de3f90daf5913d2afaf0c30b/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5120d9490>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453163,
+        "stop" : 1608634462458,
+        "duration" : 9295
+      }
+    }, {
+      "uid" : "489a75eb981f1f46",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50886): Max retries exceeded with url: /session/6330b5c61cc81c674dd2a4ebfaa07a32/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa151211430>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453152,
+        "stop" : 1608634462445,
+        "duration" : 9293
+      }
+    }, {
+      "uid" : "30de13d32de1b0c3",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50953): Max retries exceeded with url: /session/75b9d174fb6ccd60beb12de155b691df/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd5948e03d0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453152,
+        "stop" : 1608634461668,
+        "duration" : 8516
+      }
+    }, {
+      "uid" : "87f17b6271ac3c6c",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50878): Max retries exceeded with url: /session/fb527b76e497402e1e60558894bb06b4/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa673a124c0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453084,
+        "stop" : 1608634462976,
+        "duration" : 9892
+      }
+    }, {
+      "uid" : "e168126ab06a427e",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50885): Max retries exceeded with url: /session/8109440638aacca8d8f390683cc7e552/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa60c8e03d0>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453082,
+        "stop" : 1608634461611,
+        "duration" : 8529
+      }
+    }, {
+      "uid" : "22cc94313cc58f5d",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50910): Max retries exceeded with url: /session/842159a4edb34f01dfb2a9e9937fa46b/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbeca8df250>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453080,
+        "stop" : 1608634461696,
+        "duration" : 8616
+      }
+    }, {
+      "uid" : "cd1e90f4f6ead371",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50851): Max retries exceeded with url: /session/4f7b127123cc9d60efe9603abe36e82e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc09f0e1370>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634453000,
+        "stop" : 1608634462469,
+        "duration" : 9469
+      }
+    }, {
+      "uid" : "6f485496c08fa188",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50952): Max retries exceeded with url: /session/1ad01237e9c722ac26783f8b5a6d1115/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff9c78d9490>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634452995,
+        "stop" : 1608634461587,
+        "duration" : 8592
+      }
+    }, {
+      "uid" : "b9c736933606a1d8",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50852): Max retries exceeded with url: /session/c786b8c25b7457fe92a193379e9adcfe/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8c600db340>: Failed to establish a new connection: [Errno 61] Connection refused'))\n",
+      "time" : {
+        "start" : 1608634452984,
+        "stop" : 1608634461601,
+        "duration" : 8617
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "571270b022b9330f",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/98//#testresult/571270b022b9330f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      }, {
+        "uid" : "f93795f6716af7d2",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/97//#testresult/f93795f6716af7d2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      }, {
+        "uid" : "f9d80ac18e177dbf",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/96//#testresult/f9d80ac18e177dbf",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      }, {
+        "uid" : "b6e0befbb3c2d241",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/95//#testresult/b6e0befbb3c2d241",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      }, {
+        "uid" : "f67eb4cbd770832e",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/94//#testresult/f67eb4cbd770832e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      }, {
+        "uid" : "5597908832cde25",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/93//#testresult/5597908832cde25",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      }, {
+        "uid" : "beb4ec33458058d6",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/92//#testresult/beb4ec33458058d6",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+        "time" : {
+          "start" : 1608634508460,
+          "stop" : 1608634592312,
+          "duration" : 83852
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "efb85a079de35ca7.json",
+  "parameterValues" : [ "real card", "f.gum24.online", "3d secure" ]
+}
