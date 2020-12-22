@@ -1,3 +1,5 @@
+from datetime import datetime, timezone, timedelta
+
 from behave import *
 
 from pages import MainPage
@@ -32,4 +34,11 @@ def step_impl(context, page_name):
                         When clear time
                         And click on continue button
                         Then I am on cloudpayments page
+                        ''')
+    elif page_name == 'alfabank':
+        context.execute_steps('''
+                        Given click on confirm checkbox
+                        When clear time
+                        And click on continue button
+                        Then I am on alfabank page
                         ''')

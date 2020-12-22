@@ -1,6 +1,7 @@
 import configparser
 
 import allure
+import telebot
 from allure_commons.types import AttachmentType
 from selenium import webdriver
 from behave.contrib.scenario_autoretry import patch_scenario_with_autoretry
@@ -22,7 +23,7 @@ def before_all(context):
         # -- Chrome browser mobile emulation and headless options
         'goog:chromeOptions': {
             'mobileEmulation': {'deviceName': 'iPhone X'},
-            'args': ['headless']
+            # 'args': ['headless']
         }
     }
     '''
@@ -76,8 +77,10 @@ def before_all(context):
 
 def after_step(context, step) -> None:
     if step.status == 'failed':
-        allure.attach('Hello there!', name='attachment', attachment_type=allure.attachment_type.TEXT)
+        bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
+        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=step.name)
         allure.attach('screenshot', context.driver.get_screenshot_as_png(), type=AttachmentType.PNG)
+
 
 def after_all(context):
     context.driver.quit()

@@ -74,13 +74,31 @@ def step_impl(context):
     context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
 
 
-@step("calculate time for '{name}'")
+@step('calculate time for "{name}"')
 def step_impl(context, name):
     time_diff = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3) - context.time
     context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
+    if name == 'confirmation':
+        context.confirmation = float(time_diff.total_seconds())
+    elif name == 'home':
+        context.home = float(time_diff.total_seconds())
+    elif name == 'payment_before':
+        context.payment_before = float(time_diff.total_seconds())
+    elif name == 'payment_after':
+        context.payment_after = float(time_diff.total_seconds())
+    else:
+        context.payment = float(time_diff.total_seconds())
+
+
+@step("send results to google sheet")
+def step_impl(context):
     context.data_worksheet.insert_rows(
-        values=[
-            [context.time.strftime('%Y-%m-%d %H:%M:%S'), name, float(time_diff.total_seconds()), context.landing]], row=2)
+        values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
+                 float(context.home),
+                 float(context.confirmation),
+                 float(context.payment_before),
+                 float(context.payment_after),
+                 context.landing]], row=2)
 
 
 @then("I see {element_name} element")
