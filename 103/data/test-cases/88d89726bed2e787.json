@@ -1,0 +1,293 @@
+{
+  "uid" : "88d89726bed2e787",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/cloudpayments.feature:Email",
+  "historyId" : "055759470ca507e62b8429e2c3fe0615",
+  "time" : {
+    "start" : 1608647036476,
+    "stop" : 1608647061264,
+    "duration" : 24788
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608647036477,
+        "stop" : 1608647036477,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608647036478,
+        "stop" : 1608647040372,
+        "duration" : 3894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608647040372,
+        "stop" : 1608647040372,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608647040372,
+        "stop" : 1608647049686,
+        "duration" : 9314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608647049686,
+        "stop" : 1608647050079,
+        "duration" : 393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608647050079,
+        "stop" : 1608647051563,
+        "duration" : 1484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608647051563,
+        "stop" : 1608647053303,
+        "duration" : 1740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608647053304,
+        "stop" : 1608647060900,
+        "duration" : 7596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608647060901,
+        "stop" : 1608647061264,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "fake card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "cancel button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "97ccb0d07fe757b2",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/97ccb0d07fe757b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646986494,
+          "stop" : 1608647007252,
+          "duration" : 20758
+        }
+      }, {
+        "uid" : "bbcab25b478cdf6",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/bbcab25b478cdf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646827200,
+          "stop" : 1608646846715,
+          "duration" : 19515
+        }
+      }, {
+        "uid" : "3ade903d0c2ecbcb",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/3ade903d0c2ecbcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646749967,
+          "stop" : 1608646771014,
+          "duration" : 21047
+        }
+      }, {
+        "uid" : "17281b8d23454f23",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/17281b8d23454f23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646699019,
+          "stop" : 1608646737483,
+          "duration" : 38464
+        }
+      }, {
+        "uid" : "1feb930ed16a5dce",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/1feb930ed16a5dce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646631294,
+          "stop" : 1608646659355,
+          "duration" : 28061
+        }
+      }, {
+        "uid" : "ee6e53e1ddcb358c",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/ee6e53e1ddcb358c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646564199,
+          "stop" : 1608646582858,
+          "duration" : 18659
+        }
+      }, {
+        "uid" : "b8fdf4fd6d0e8d90",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/b8fdf4fd6d0e8d90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646510718,
+          "stop" : 1608646530561,
+          "duration" : 19843
+        }
+      }, {
+        "uid" : "34bef38605f515b",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/34bef38605f515b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646449893,
+          "stop" : 1608646471080,
+          "duration" : 21187
+        }
+      }, {
+        "uid" : "f6403e5e8f0f9e0d",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/103//#testresult/f6403e5e8f0f9e0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608646392576,
+          "stop" : 1608646418939,
+          "duration" : 26363
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "88d89726bed2e787.json",
+  "parameterValues" : [ "fake card", "f.gum24.online", "cancel button" ]
+}
