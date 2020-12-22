@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 22 13:28:10 GMT 2020","Tue Dec 22 13:28:30 GMT 2020","19656","","","","","","Email -- @1.1 ",""
+"passed","Tue Dec 22 13:29:09 GMT 2020","Tue Dec 22 13:29:20 GMT 2020","11188","","","","","","Email -- @1.5 ",""
+"passed","Tue Dec 22 12:41:12 GMT 2020","Tue Dec 22 12:41:39 GMT 2020","27647","","","","","","Email -- @1.2 ",""
+"passed","Tue Dec 22 13:28:30 GMT 2020","Tue Dec 22 13:28:44 GMT 2020","13620","","","","","","Email -- @1.2 ",""
+"broken","Tue Dec 22 10:55:08 GMT 2020","Tue Dec 22 10:56:32 GMT 2020","83852","","","","","","Email -- @1.1 ",""
+"passed","Tue Dec 22 13:28:44 GMT 2020","Tue Dec 22 13:28:56 GMT 2020","12766","","","","","","Email -- @1.3 ",""
+"passed","Tue Dec 22 13:28:56 GMT 2020","Tue Dec 22 13:29:09 GMT 2020","12809","","","","","","Email -- @1.4 ",""
