@@ -1,6 +1,14 @@
-from datetime import datetime, timezone, timedelta
+import requests
 
-dt = datetime.now(timezone.utc) + timedelta(hours=3)
+for i in range(10):
+    # Making a get request
+    response = requests.post('https://gym-face.ru/my/cart/login/?ref=&fb=&product_id=4974&form_id=winf&email=asdfsadf%40fasdfsdf.df&external=Y')
 
-date = dt.strftime('%H:%M:%S')
-print(date)
+    # print elapsed time
+    print(response.elapsed)
+
+print("----")
+for i in range(10):
+    response = requests.get('https://gym-face.ru/my/cart/B31ZG5Z2M2020/')
+
+    print(response.elapsed)

@@ -4,7 +4,6 @@ import allure
 from selenium import webdriver
 from behave.contrib.scenario_autoretry import patch_scenario_with_autoretry
 
-
 # TODO check all context attributes on https://behave.readthedocs.io/en/latest/context_attributes.html#user-attributes
 from utils.google_sheets import GoogleSheets
 
@@ -50,8 +49,8 @@ def before_all(context):
     # context.driver = webdriver.Chrome(desired_capabilities=caps)
 
     # -- Remote driver
-    # context.driver = webdriver.Remote(command_executor='http://0.0.0.0:4444/wd/hub', desired_capabilities=caps)
-    context.driver = webdriver.Remote(command_executor='http://159.65.195.102:4444/wd/hub', desired_capabilities=caps)
+    context.driver = webdriver.Remote(command_executor='http://0.0.0.0:4444/wd/hub', desired_capabilities=caps)
+    # context.driver = webdriver.Remote(command_executor='http://159.65.195.102:4444/wd/hub', desired_capabilities=caps)
 
     context.driver.implicitly_wait(1)
 
@@ -61,7 +60,6 @@ def before_all(context):
     context.config = parser
 
     context.data_worksheet = GoogleSheets().authorize('Data')
-
 
 
 # def before_feature(context, feature):
