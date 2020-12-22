@@ -1,0 +1,217 @@
+{
+  "uid" : "77c59a7e0f29d656",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/2/cloudpayments.feature:Email",
+  "historyId" : "c6dfed3eb102db2d6e0447e5687959b3",
+  "time" : {
+    "start" : 1608634499122,
+    "stop" : 1608634618060,
+    "duration" : 118938
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+  "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/main_steps.py\", line 30, in step_impl\n    context.execute_steps('''\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 404, in execute_steps\n    assert False, message\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/main_steps.py\", line 30, in step_impl\n    context.execute_steps('''\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 404, in execute_steps\n    assert False, message\n",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608634499122,
+        "stop" : 1608634499123,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608634499124,
+        "stop" : 1608634513053,
+        "duration" : 13929
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608634513053,
+        "stop" : 1608634513053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608634513054,
+        "stop" : 1608634606030,
+        "duration" : 92976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608634606030,
+        "stop" : 1608634606361,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608634606361,
+        "stop" : 1608634618059,
+        "duration" : 11698
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: FAILED SUB-STEP: And click on continue button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 71, in until\n    value = method(self._driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 297, in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 128, in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py\", line 148, in _element_if_visible\n    return element if element.is_displayed() == visibility else False\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py\", line 486, in is_displayed\n    return self.parent.execute_script(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 634, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py\", line 402, in _request\n    resp = http.request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 79, in request\n    return self.request_encode_body(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/request.py\", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 426, in _make_request\n    six.raise_from(e, None)\n  File \"<string>\", line 3, in raise_from\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/urllib3/connectionpool.py\", line 421, in _make_request\n    httplib_response = conn.getresponse()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 1322, in getresponse\n    response.begin()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 303, in begin\n    version, status, reason = self._read_status()\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py\", line 264, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py\", line 669, in readinto\n    return self._sock.recv_into(b)\n\n",
+      "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/main_steps.py\", line 30, in step_impl\n    context.execute_steps('''\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/runner.py\", line 404, in execute_steps\n    assert False, message\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e369dca12ef44d4",
+        "name" : "bug.png",
+        "source" : "3e369dca12ef44d4.png",
+        "type" : "image/png",
+        "size" : 183381
+      }, {
+        "uid" : "d7945c9cf54519e9",
+        "name" : "bug.png",
+        "source" : "d7945c9cf54519e9.png",
+        "type" : "image/png",
+        "size" : 183381
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When enter real card details",
+      "time" : {
+        "start" : 1608634618060,
+        "stop" : 1608634618060,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I see 3d secure element",
+      "time" : {
+        "start" : 1608634618060,
+        "stop" : 1608634618060,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608634618060,
+        "stop" : 1608634618060,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "real card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "3d secure"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "validation" ]
+  },
+  "source" : "77c59a7e0f29d656.json",
+  "parameterValues" : [ "real card", "f.gum24.online", "3d secure" ]
+}

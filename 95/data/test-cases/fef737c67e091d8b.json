@@ -1,0 +1,2354 @@
+{
+  "uid" : "fef737c67e091d8b",
+  "name" : "Email -- @1.1 ",
+  "fullName" : "features/tests/cloudpayments.feature:Email",
+  "historyId" : "055759470ca507e62b8429e2c3fe0615",
+  "time" : {
+    "start" : 1608643296973,
+    "stop" : 1608643316884,
+    "duration" : 19911
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608643296974,
+        "stop" : 1608643296975,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608643296975,
+        "stop" : 1608643300521,
+        "duration" : 3546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608643300521,
+        "stop" : 1608643300521,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608643300521,
+        "stop" : 1608643306284,
+        "duration" : 5763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When calculate time for 'confirmation'",
+      "time" : {
+        "start" : 1608643306284,
+        "stop" : 1608643306533,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608643306533,
+        "stop" : 1608643308070,
+        "duration" : 1537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When enter fake card details",
+      "time" : {
+        "start" : 1608643308070,
+        "stop" : 1608643309717,
+        "duration" : 1647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I see cancel button element",
+      "time" : {
+        "start" : 1608643309717,
+        "stop" : 1608643316675,
+        "duration" : 6958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608643316675,
+        "stop" : 1608643316884,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "fake card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "cancel button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aaf882c97af1e3ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641898461,
+        "stop" : 1608641929632,
+        "duration" : 31171
+      }
+    }, {
+      "uid" : "848b412e7fbdc9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641898446,
+        "stop" : 1608641926797,
+        "duration" : 28351
+      }
+    }, {
+      "uid" : "2e073d7f7a5ea015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641895442,
+        "stop" : 1608641926042,
+        "duration" : 30600
+      }
+    }, {
+      "uid" : "622413776973cc41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641888723,
+        "stop" : 1608641917045,
+        "duration" : 28322
+      }
+    }, {
+      "uid" : "3d25ae6d78672801",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641879869,
+        "stop" : 1608641904183,
+        "duration" : 24314
+      }
+    }, {
+      "uid" : "d5eb1861b0346f6b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608641856818,
+        "stop" : 1608641875893,
+        "duration" : 19075
+      }
+    }, {
+      "uid" : "df5a6d0aa91da466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641856774,
+        "stop" : 1608641890247,
+        "duration" : 33473
+      }
+    }, {
+      "uid" : "5329439a8b97d8b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641856747,
+        "stop" : 1608641894059,
+        "duration" : 37312
+      }
+    }, {
+      "uid" : "66d956c89364fa7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641856723,
+        "stop" : 1608641893584,
+        "duration" : 36861
+      }
+    }, {
+      "uid" : "445ca9b566128fa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641856712,
+        "stop" : 1608641884812,
+        "duration" : 28100
+      }
+    }, {
+      "uid" : "37ce783d6338b1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641761712,
+        "stop" : 1608641796167,
+        "duration" : 34455
+      }
+    }, {
+      "uid" : "37bd3edeaae5856a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641760349,
+        "stop" : 1608641796258,
+        "duration" : 35909
+      }
+    }, {
+      "uid" : "6576035c0fe59b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641760320,
+        "stop" : 1608641802701,
+        "duration" : 42381
+      }
+    }, {
+      "uid" : "50caa5f29c1159f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641752739,
+        "stop" : 1608641780499,
+        "duration" : 27760
+      }
+    }, {
+      "uid" : "5552485abf3e1ca5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641743401,
+        "stop" : 1608641765920,
+        "duration" : 22519
+      }
+    }, {
+      "uid" : "e771fd84f6069132",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641720861,
+        "stop" : 1608641756180,
+        "duration" : 35319
+      }
+    }, {
+      "uid" : "76c8955f3533828a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641720736,
+        "stop" : 1608641755677,
+        "duration" : 34941
+      }
+    }, {
+      "uid" : "daa0511457c22853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641720659,
+        "stop" : 1608641758100,
+        "duration" : 37441
+      }
+    }, {
+      "uid" : "f043d9688942d29e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641720458,
+        "stop" : 1608641748914,
+        "duration" : 28456
+      }
+    }, {
+      "uid" : "1026bb4544f6691d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608641720390,
+        "stop" : 1608641739317,
+        "duration" : 18927
+      }
+    }, {
+      "uid" : "c418c9ebba3da857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641335382,
+        "stop" : 1608641365947,
+        "duration" : 30565
+      }
+    }, {
+      "uid" : "fee075a3b598c839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641331289,
+        "stop" : 1608641375354,
+        "duration" : 44065
+      }
+    }, {
+      "uid" : "11c54ab1c314c730",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641325733,
+        "stop" : 1608641362335,
+        "duration" : 36602
+      }
+    }, {
+      "uid" : "bcf7ae89a5ab2514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641319727,
+        "stop" : 1608641352861,
+        "duration" : 33134
+      }
+    }, {
+      "uid" : "921e7cefaa0c5972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641305278,
+        "stop" : 1608641342833,
+        "duration" : 37555
+      }
+    }, {
+      "uid" : "a95b8552039c6a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641239979,
+        "stop" : 1608641326707,
+        "duration" : 86728
+      }
+    }, {
+      "uid" : "fa228dc8caeafcee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641239959,
+        "stop" : 1608641318680,
+        "duration" : 78721
+      }
+    }, {
+      "uid" : "12b079a28b64c335",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608641239867,
+        "stop" : 1608641311454,
+        "duration" : 71587
+      }
+    }, {
+      "uid" : "3dc4cccf39bf77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641239336,
+        "stop" : 1608641299358,
+        "duration" : 60022
+      }
+    }, {
+      "uid" : "77476b46f60ffc4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608641239336,
+        "stop" : 1608641331372,
+        "duration" : 92036
+      }
+    }, {
+      "uid" : "7c7fd40514bfab0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640937722,
+        "stop" : 1608640986475,
+        "duration" : 48753
+      }
+    }, {
+      "uid" : "ae99ec1dc6207195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640937695,
+        "stop" : 1608640981946,
+        "duration" : 44251
+      }
+    }, {
+      "uid" : "b5f6976dc1c79b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640937675,
+        "stop" : 1608640981822,
+        "duration" : 44147
+      }
+    }, {
+      "uid" : "84649d0d7631ec87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640822947,
+        "stop" : 1608640874755,
+        "duration" : 51808
+      }
+    }, {
+      "uid" : "7e8d66735b64eb7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640822771,
+        "stop" : 1608640874027,
+        "duration" : 51256
+      }
+    }, {
+      "uid" : "47000877b8e26faa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640818428,
+        "stop" : 1608640873367,
+        "duration" : 54939
+      }
+    }, {
+      "uid" : "5a3cbb2efe576673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640818346,
+        "stop" : 1608640872203,
+        "duration" : 53857
+      }
+    }, {
+      "uid" : "5f81ec01fde2d6af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640696626,
+        "stop" : 1608640723409,
+        "duration" : 26783
+      }
+    }, {
+      "uid" : "d9a1d2fcfdcb908b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640646969,
+        "stop" : 1608640671657,
+        "duration" : 24688
+      }
+    }, {
+      "uid" : "9f0a768d951f6085",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640646317,
+        "stop" : 1608640678337,
+        "duration" : 32020
+      }
+    }, {
+      "uid" : "5cd7c50d9cd29a8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640646211,
+        "stop" : 1608640671750,
+        "duration" : 25539
+      }
+    }, {
+      "uid" : "afa13cfb7e4db87c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640643213,
+        "stop" : 1608640676525,
+        "duration" : 33312
+      }
+    }, {
+      "uid" : "b0ee286963592562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640587932,
+        "stop" : 1608640621193,
+        "duration" : 33261
+      }
+    }, {
+      "uid" : "d056c77f124022b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640587908,
+        "stop" : 1608640618086,
+        "duration" : 30178
+      }
+    }, {
+      "uid" : "a9c8e74730930f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640587682,
+        "stop" : 1608640617183,
+        "duration" : 29501
+      }
+    }, {
+      "uid" : "230d1b839b4f0a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640587567,
+        "stop" : 1608640617649,
+        "duration" : 30082
+      }
+    }, {
+      "uid" : "35e588fe99057616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640587302,
+        "stop" : 1608640618443,
+        "duration" : 31141
+      }
+    }, {
+      "uid" : "57826f342e55bd4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640436990,
+        "stop" : 1608640467224,
+        "duration" : 30234
+      }
+    }, {
+      "uid" : "ec0c74b0954d4ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640436380,
+        "stop" : 1608640467263,
+        "duration" : 30883
+      }
+    }, {
+      "uid" : "a37ce7de873d9d4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640384920,
+        "stop" : 1608640416905,
+        "duration" : 31985
+      }
+    }, {
+      "uid" : "733afdb6da6b5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640377829,
+        "stop" : 1608640410133,
+        "duration" : 32304
+      }
+    }, {
+      "uid" : "302878ac2ecadecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640375387,
+        "stop" : 1608640405897,
+        "duration" : 30510
+      }
+    }, {
+      "uid" : "ed893f732a05e42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640321817,
+        "stop" : 1608640349922,
+        "duration" : 28105
+      }
+    }, {
+      "uid" : "78900ac91af9d4f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640321493,
+        "stop" : 1608640349823,
+        "duration" : 28330
+      }
+    }, {
+      "uid" : "c6cc0cc9eb7299bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640321476,
+        "stop" : 1608640347901,
+        "duration" : 26425
+      }
+    }, {
+      "uid" : "aa30e54a680d3051",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640321454,
+        "stop" : 1608640348209,
+        "duration" : 26755
+      }
+    }, {
+      "uid" : "1c4775a2154dd4dc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608640321441,
+        "stop" : 1608640342532,
+        "duration" : 21091
+      }
+    }, {
+      "uid" : "d595375400a1fc6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640236889,
+        "stop" : 1608640265486,
+        "duration" : 28597
+      }
+    }, {
+      "uid" : "4a3957f1195fd28b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640236413,
+        "stop" : 1608640265318,
+        "duration" : 28905
+      }
+    }, {
+      "uid" : "1c9e5c4dbeed63d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640234625,
+        "stop" : 1608640259392,
+        "duration" : 24767
+      }
+    }, {
+      "uid" : "339bae9b3d19de9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640234497,
+        "stop" : 1608640258356,
+        "duration" : 23859
+      }
+    }, {
+      "uid" : "7cd1993b552866a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640212103,
+        "stop" : 1608640243754,
+        "duration" : 31651
+      }
+    }, {
+      "uid" : "4b8fad4666bb7412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640191106,
+        "stop" : 1608640232860,
+        "duration" : 41754
+      }
+    }, {
+      "uid" : "c6b64a36e2bbbf0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640190747,
+        "stop" : 1608640232429,
+        "duration" : 41682
+      }
+    }, {
+      "uid" : "696e310a85410019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640190673,
+        "stop" : 1608640230254,
+        "duration" : 39581
+      }
+    }, {
+      "uid" : "cea547dba380752d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608640190627,
+        "stop" : 1608640208989,
+        "duration" : 18362
+      }
+    }, {
+      "uid" : "479b07388183d1bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640190600,
+        "stop" : 1608640229798,
+        "duration" : 39198
+      }
+    }, {
+      "uid" : "6fb1ee8ee4672d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640111979,
+        "stop" : 1608640140445,
+        "duration" : 28466
+      }
+    }, {
+      "uid" : "e956076fc78078f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640111733,
+        "stop" : 1608640141223,
+        "duration" : 29490
+      }
+    }, {
+      "uid" : "da413b17497f4ee8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640111323,
+        "stop" : 1608640138532,
+        "duration" : 27209
+      }
+    }, {
+      "uid" : "58551a20c3b0ce5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640104693,
+        "stop" : 1608640130518,
+        "duration" : 25825
+      }
+    }, {
+      "uid" : "51b3a6a86a8ccaa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640100676,
+        "stop" : 1608640126965,
+        "duration" : 26289
+      }
+    }, {
+      "uid" : "be230c1b7b8fd92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640076800,
+        "stop" : 1608640107105,
+        "duration" : 30305
+      }
+    }, {
+      "uid" : "b48ab150d21d0d90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640076767,
+        "stop" : 1608640101084,
+        "duration" : 24317
+      }
+    }, {
+      "uid" : "5028dcf10c322bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640076743,
+        "stop" : 1608640106974,
+        "duration" : 30231
+      }
+    }, {
+      "uid" : "3c5e538a41a36dc8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608640076507,
+        "stop" : 1608640095262,
+        "duration" : 18755
+      }
+    }, {
+      "uid" : "8cd03181dc2832d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640076463,
+        "stop" : 1608640106283,
+        "duration" : 29820
+      }
+    }, {
+      "uid" : "3f91e17304d7de01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640010079,
+        "stop" : 1608640041791,
+        "duration" : 31712
+      }
+    }, {
+      "uid" : "9a77a1563a9740e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640006701,
+        "stop" : 1608640037600,
+        "duration" : 30899
+      }
+    }, {
+      "uid" : "efb23a8e59cd5f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640006355,
+        "stop" : 1608640035101,
+        "duration" : 28746
+      }
+    }, {
+      "uid" : "b12e5604eb9eb5a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640001218,
+        "stop" : 1608640031178,
+        "duration" : 29960
+      }
+    }, {
+      "uid" : "734551b075c00931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608639991902,
+        "stop" : 1608640021721,
+        "duration" : 29819
+      }
+    }, {
+      "uid" : "1831bd8926187421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608639966415,
+        "stop" : 1608640000755,
+        "duration" : 34340
+      }
+    }, {
+      "uid" : "3e1f69f5828d4a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608639966254,
+        "stop" : 1608640003267,
+        "duration" : 37013
+      }
+    }, {
+      "uid" : "70d94f9ea635753a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608639966238,
+        "stop" : 1608640000078,
+        "duration" : 33840
+      }
+    }, {
+      "uid" : "36848685ceda7b28",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608639966237,
+        "stop" : 1608639985142,
+        "duration" : 18905
+      }
+    }, {
+      "uid" : "de9b1c2f7b4f4549",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608639966237,
+        "stop" : 1608639995414,
+        "duration" : 29177
+      }
+    }, {
+      "uid" : "e4d2ea089d4ac65e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639151543,
+        "stop" : 1608639170044,
+        "duration" : 18501
+      }
+    }, {
+      "uid" : "c3a563e07e98212b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639084874,
+        "stop" : 1608639108814,
+        "duration" : 23940
+      }
+    }, {
+      "uid" : "cebaca7ad87cb319",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639082694,
+        "stop" : 1608639108068,
+        "duration" : 25374
+      }
+    }, {
+      "uid" : "985aa729809855f1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639079522,
+        "stop" : 1608639108655,
+        "duration" : 29133
+      }
+    }, {
+      "uid" : "22bdf0343b88fe30",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639079397,
+        "stop" : 1608639107540,
+        "duration" : 28143
+      }
+    }, {
+      "uid" : "c280fdfdd3fe77ee",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639079395,
+        "stop" : 1608639109016,
+        "duration" : 29621
+      }
+    }, {
+      "uid" : "1ed27ac57b330c6d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639069649,
+        "stop" : 1608639079336,
+        "duration" : 9687
+      }
+    }, {
+      "uid" : "66cc994ef0a5b737",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639069649,
+        "stop" : 1608639078016,
+        "duration" : 8367
+      }
+    }, {
+      "uid" : "9f5c9b1213a6e867",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608639053514,
+        "stop" : 1608639074162,
+        "duration" : 20648
+      }
+    }, {
+      "uid" : "3e30612c60dd55e2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639053472,
+        "stop" : 1608639065807,
+        "duration" : 12335
+      }
+    }, {
+      "uid" : "e60c515c2e0e5a05",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608639053465,
+        "stop" : 1608639074876,
+        "duration" : 21411
+      }
+    }, {
+      "uid" : "cb6d28c8cde12d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608639053465,
+        "stop" : 1608639074084,
+        "duration" : 20619
+      }
+    }, {
+      "uid" : "cff34e409daaa836",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608639053465,
+        "stop" : 1608639065952,
+        "duration" : 12487
+      }
+    }, {
+      "uid" : "62e81a4ea82b5353",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type timedelta is not JSON serializable\n",
+      "time" : {
+        "start" : 1608638886242,
+        "stop" : 1608638922287,
+        "duration" : 36045
+      }
+    }, {
+      "uid" : "70f2648d3732e935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637325160,
+        "stop" : 1608637344808,
+        "duration" : 19648
+      }
+    }, {
+      "uid" : "c6af8fabfd41ba90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637286598,
+        "stop" : 1608637322424,
+        "duration" : 35826
+      }
+    }, {
+      "uid" : "a899b2ab861727ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637263723,
+        "stop" : 1608637283388,
+        "duration" : 19665
+      }
+    }, {
+      "uid" : "6dd8fa5bdfe1d566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637230429,
+        "stop" : 1608637260970,
+        "duration" : 30541
+      }
+    }, {
+      "uid" : "590f94245705da1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637205597,
+        "stop" : 1608637227450,
+        "duration" : 21853
+      }
+    }, {
+      "uid" : "64fe080115b14809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637165588,
+        "stop" : 1608637202253,
+        "duration" : 36665
+      }
+    }, {
+      "uid" : "2ae14f07503e2027",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637141148,
+        "stop" : 1608637160507,
+        "duration" : 19359
+      }
+    }, {
+      "uid" : "6bbd445abbf803a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637102837,
+        "stop" : 1608637138199,
+        "duration" : 35362
+      }
+    }, {
+      "uid" : "760cc2544161c2b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637074719,
+        "stop" : 1608637099370,
+        "duration" : 24651
+      }
+    }, {
+      "uid" : "c8a147234672fccc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637043151,
+        "stop" : 1608637071846,
+        "duration" : 28695
+      }
+    }, {
+      "uid" : "6f283e1f3b52d13a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608637020040,
+        "stop" : 1608637040193,
+        "duration" : 20153
+      }
+    }, {
+      "uid" : "3e6a7551894b4aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636997192,
+        "stop" : 1608637017190,
+        "duration" : 19998
+      }
+    }, {
+      "uid" : "322ba7077b93b2ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636973885,
+        "stop" : 1608636994005,
+        "duration" : 20120
+      }
+    }, {
+      "uid" : "3a2ee4114ed940d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636950726,
+        "stop" : 1608636970294,
+        "duration" : 19568
+      }
+    }, {
+      "uid" : "d27b56b3017e5e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636926725,
+        "stop" : 1608636947825,
+        "duration" : 21100
+      }
+    }, {
+      "uid" : "ab491adb47488d84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636899176,
+        "stop" : 1608636923699,
+        "duration" : 24523
+      }
+    }, {
+      "uid" : "f3c226554b1f5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636875202,
+        "stop" : 1608636896490,
+        "duration" : 21288
+      }
+    }, {
+      "uid" : "8c6de4847c035751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636851521,
+        "stop" : 1608636871337,
+        "duration" : 19816
+      }
+    }, {
+      "uid" : "d39d1d20c567cc1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636828592,
+        "stop" : 1608636848418,
+        "duration" : 19826
+      }
+    }, {
+      "uid" : "46a5d9760e1fffdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636798106,
+        "stop" : 1608636818667,
+        "duration" : 20561
+      }
+    }, {
+      "uid" : "ce484cc5e7704b6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636770970,
+        "stop" : 1608636795012,
+        "duration" : 24042
+      }
+    }, {
+      "uid" : "4e983c13a23a16c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636749136,
+        "stop" : 1608636768126,
+        "duration" : 18990
+      }
+    }, {
+      "uid" : "3705c9c7fa590ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636725366,
+        "stop" : 1608636746277,
+        "duration" : 20911
+      }
+    }, {
+      "uid" : "d2b72386e3c5f9c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636702669,
+        "stop" : 1608636722607,
+        "duration" : 19938
+      }
+    }, {
+      "uid" : "bc44cd8f556ebeaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636677861,
+        "stop" : 1608636699862,
+        "duration" : 22001
+      }
+    }, {
+      "uid" : "88d57c72b4413ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636655792,
+        "stop" : 1608636674608,
+        "duration" : 18816
+      }
+    }, {
+      "uid" : "60092a2fb2eb706c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636633245,
+        "stop" : 1608636652548,
+        "duration" : 19303
+      }
+    }, {
+      "uid" : "1b05a54bb3cea391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636612151,
+        "stop" : 1608636630298,
+        "duration" : 18147
+      }
+    }, {
+      "uid" : "b0e953137613d48c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636585667,
+        "stop" : 1608636608738,
+        "duration" : 23071
+      }
+    }, {
+      "uid" : "cb96348238294d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636560640,
+        "stop" : 1608636582056,
+        "duration" : 21416
+      }
+    }, {
+      "uid" : "137708c61a8ec786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636537844,
+        "stop" : 1608636557526,
+        "duration" : 19682
+      }
+    }, {
+      "uid" : "3c50f1cdba83d2cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636391681,
+        "stop" : 1608636411606,
+        "duration" : 19925
+      }
+    }, {
+      "uid" : "6c4a7838f38c6cf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636370642,
+        "stop" : 1608636388485,
+        "duration" : 17843
+      }
+    }, {
+      "uid" : "11c6db48e9f1a292",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636349082,
+        "stop" : 1608636367511,
+        "duration" : 18429
+      }
+    }, {
+      "uid" : "15c8a67258149057",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636317942,
+        "stop" : 1608636343726,
+        "duration" : 25784
+      }
+    }, {
+      "uid" : "11b65b923ef43917",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to locate element: \"cancel button\"\n\n",
+      "time" : {
+        "start" : 1608636246374,
+        "stop" : 1608636313593,
+        "duration" : 67219
+      }
+    }, {
+      "uid" : "3776597328b085c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636222047,
+        "stop" : 1608636243123,
+        "duration" : 21076
+      }
+    }, {
+      "uid" : "7c44ff7d7504e9bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636197770,
+        "stop" : 1608636218392,
+        "duration" : 20622
+      }
+    }, {
+      "uid" : "5dfdb6ae8b4afac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636173568,
+        "stop" : 1608636194341,
+        "duration" : 20773
+      }
+    }, {
+      "uid" : "32ea6d6ff4c1632b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636151204,
+        "stop" : 1608636170483,
+        "duration" : 19279
+      }
+    }, {
+      "uid" : "44d290bf843dd846",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636129437,
+        "stop" : 1608636148148,
+        "duration" : 18711
+      }
+    }, {
+      "uid" : "9f515cf17b631b89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636105687,
+        "stop" : 1608636126271,
+        "duration" : 20584
+      }
+    }, {
+      "uid" : "d3a74e72c014db5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636079872,
+        "stop" : 1608636102024,
+        "duration" : 22152
+      }
+    }, {
+      "uid" : "71cfc08e61f7b5c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636052065,
+        "stop" : 1608636076572,
+        "duration" : 24507
+      }
+    }, {
+      "uid" : "c04a80e56ec5f93b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636030516,
+        "stop" : 1608636048804,
+        "duration" : 18288
+      }
+    }, {
+      "uid" : "6696891a00051490",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608636009216,
+        "stop" : 1608636027123,
+        "duration" : 17907
+      }
+    }, {
+      "uid" : "4e91bdf939966a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635986664,
+        "stop" : 1608636005957,
+        "duration" : 19293
+      }
+    }, {
+      "uid" : "4a7b56a076825ea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635965839,
+        "stop" : 1608635983145,
+        "duration" : 17306
+      }
+    }, {
+      "uid" : "9309f8ede17cad8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635940327,
+        "stop" : 1608635962324,
+        "duration" : 21997
+      }
+    }, {
+      "uid" : "fe16183d868ce338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635916236,
+        "stop" : 1608635937187,
+        "duration" : 20951
+      }
+    }, {
+      "uid" : "7906e6234873f526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635896064,
+        "stop" : 1608635912907,
+        "duration" : 16843
+      }
+    }, {
+      "uid" : "59b0fa3c168bff29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635875663,
+        "stop" : 1608635892787,
+        "duration" : 17124
+      }
+    }, {
+      "uid" : "2895f15508d75f3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635845190,
+        "stop" : 1608635872178,
+        "duration" : 26988
+      }
+    }, {
+      "uid" : "3d313749aaa3c268",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635825532,
+        "stop" : 1608635841822,
+        "duration" : 16290
+      }
+    }, {
+      "uid" : "c6684da220e07c31",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635805586,
+        "stop" : 1608635821858,
+        "duration" : 16272
+      }
+    }, {
+      "uid" : "c029495761acdbb8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to locate element: \"cancel button\"\n\n",
+      "time" : {
+        "start" : 1608635736132,
+        "stop" : 1608635802420,
+        "duration" : 66288
+      }
+    }, {
+      "uid" : "b8da5fc38c0eaf50",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635716906,
+        "stop" : 1608635732847,
+        "duration" : 15941
+      }
+    }, {
+      "uid" : "78a963b6c135fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635665390,
+        "stop" : 1608635713685,
+        "duration" : 48295
+      }
+    }, {
+      "uid" : "28c9b4288755a09c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635644078,
+        "stop" : 1608635661824,
+        "duration" : 17746
+      }
+    }, {
+      "uid" : "9b826875e0cc9488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635623356,
+        "stop" : 1608635640949,
+        "duration" : 17593
+      }
+    }, {
+      "uid" : "b406c2d308a6eb42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635592941,
+        "stop" : 1608635619702,
+        "duration" : 26761
+      }
+    }, {
+      "uid" : "e40e98bbbba07ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635568907,
+        "stop" : 1608635589584,
+        "duration" : 20677
+      }
+    }, {
+      "uid" : "6aa3451ce0fa22cc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635538534,
+        "stop" : 1608635538549,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "e6b62eb7d7a98b83",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635532708,
+        "stop" : 1608635532727,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "6b37c05efd679d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635529725,
+        "stop" : 1608635547436,
+        "duration" : 17711
+      }
+    }, {
+      "uid" : "4192032fffef7c7f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635527638,
+        "stop" : 1608635533575,
+        "duration" : 5937
+      }
+    }, {
+      "uid" : "442b61d0f3885b90",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635525425,
+        "stop" : 1608635525453,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "a89d516b10c213c5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635525102,
+        "stop" : 1608635527390,
+        "duration" : 2288
+      }
+    }, {
+      "uid" : "a110d8b72baf7bf4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635525050,
+        "stop" : 1608635526519,
+        "duration" : 1469
+      }
+    }, {
+      "uid" : "54c2c5294312e616",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635524761,
+        "stop" : 1608635535016,
+        "duration" : 10255
+      }
+    }, {
+      "uid" : "500387e8c951efbc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635524300,
+        "stop" : 1608635531370,
+        "duration" : 7070
+      }
+    }, {
+      "uid" : "30f62a6f8144eb06",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635519295,
+        "stop" : 1608635529054,
+        "duration" : 9759
+      }
+    }, {
+      "uid" : "e7f55623f84ba88",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635517977,
+        "stop" : 1608635518001,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "c91afd86370723ac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635502782,
+        "stop" : 1608635521143,
+        "duration" : 18361
+      }
+    }, {
+      "uid" : "609b3594b95c564c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635497796,
+        "stop" : 1608635530122,
+        "duration" : 32326
+      }
+    }, {
+      "uid" : "9b6baa26af2fd96c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635460595,
+        "stop" : 1608635519923,
+        "duration" : 59328
+      }
+    }, {
+      "uid" : "6f8bb5b834048f11",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635459900,
+        "stop" : 1608635518140,
+        "duration" : 58240
+      }
+    }, {
+      "uid" : "7004d71f43b9c29c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635459838,
+        "stop" : 1608635518340,
+        "duration" : 58502
+      }
+    }, {
+      "uid" : "8ec1823b4e1c4bbe",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'encode'\n",
+      "time" : {
+        "start" : 1608635458996,
+        "stop" : 1608635515916,
+        "duration" : 56920
+      }
+    }, {
+      "uid" : "330a01e83bb5965d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And click on email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635458387,
+        "stop" : 1608635493513,
+        "duration" : 35126
+      }
+    }, {
+      "uid" : "70ed9bfc55d9e272",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635399467,
+        "stop" : 1608635517513,
+        "duration" : 118046
+      }
+    }, {
+      "uid" : "4c9186eed637962d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635399440,
+        "stop" : 1608635514751,
+        "duration" : 115311
+      }
+    }, {
+      "uid" : "fbee92aacf055df2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635394592,
+        "stop" : 1608635508476,
+        "duration" : 113884
+      }
+    }, {
+      "uid" : "3f2ed626598fe18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635291609,
+        "stop" : 1608635448014,
+        "duration" : 156405
+      }
+    }, {
+      "uid" : "f341fa0403efb3ca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=87.0.4280.88)\n\n",
+      "time" : {
+        "start" : 1608635291607,
+        "stop" : 1608635435842,
+        "duration" : 144235
+      }
+    }, {
+      "uid" : "54b427b623b5dbc2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635291546,
+        "stop" : 1608635387918,
+        "duration" : 96372
+      }
+    }, {
+      "uid" : "cf4471f4990aa5df",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: Then I am on cloudpayments page\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 49, in init_screen\n    context.current_page = page_class(context.driver)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 12, in __init__\n    self._verify_page()\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/cloudpaymetns_page.py\", line 26, in _verify_page\n    self.on_this_page('iframe')\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 19, in on_this_page\n    self.get_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 49, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: \"iframe\"\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 49, in init_screen\n    context.current_page = page_class(context.driver)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 12, in __init__\n    self._verify_page()\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/cloudpaymetns_page.py\", line 26, in _verify_page\n    self.on_this_page('iframe')\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 19, in on_this_page\n    self.get_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 49, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635291321,
+        "stop" : 1608635490964,
+        "duration" : 199643
+      }
+    }, {
+      "uid" : "f16dbc612d1433aa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to locate element: \"cancel button\"\n\n",
+      "time" : {
+        "start" : 1608635291216,
+        "stop" : 1608635453482,
+        "duration" : 162266
+      }
+    }, {
+      "uid" : "4a411920e654480a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: Given click on confirm checkbox\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: confirm checkbox\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 17, in step_impl\n    context.current_page.click_on(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 22, in click_on\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635291145,
+        "stop" : 1608635388305,
+        "duration" : 97160
+      }
+    }, {
+      "uid" : "f99211dc875febdb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635291040,
+        "stop" : 1608635391739,
+        "duration" : 100699
+      }
+    }, {
+      "uid" : "137275511ebc6523",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to locate element: cardnumber field\n\n",
+      "time" : {
+        "start" : 1608635291029,
+        "stop" : 1608635472767,
+        "duration" : 181738
+      }
+    }, {
+      "uid" : "9f442a8f3064ccc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635290988,
+        "stop" : 1608635416885,
+        "duration" : 125897
+      }
+    }, {
+      "uid" : "1239987f0b1f38a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635290952,
+        "stop" : 1608635452813,
+        "duration" : 161861
+      }
+    }, {
+      "uid" : "f753920528012e4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635209320,
+        "stop" : 1608635265744,
+        "duration" : 56424
+      }
+    }, {
+      "uid" : "2a71a5c2990adaf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635200841,
+        "stop" : 1608635262281,
+        "duration" : 61440
+      }
+    }, {
+      "uid" : "203951187d37f8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635196249,
+        "stop" : 1608635259809,
+        "duration" : 63560
+      }
+    }, {
+      "uid" : "498731330b8f975a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635191066,
+        "stop" : 1608635258752,
+        "duration" : 67686
+      }
+    }, {
+      "uid" : "e33ac02083f75413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635189460,
+        "stop" : 1608635259766,
+        "duration" : 70306
+      }
+    }, {
+      "uid" : "bc90c1a8d1e1fad0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635186611,
+        "stop" : 1608635255020,
+        "duration" : 68409
+      }
+    }, {
+      "uid" : "373c119a98dc11b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635185675,
+        "stop" : 1608635249196,
+        "duration" : 63521
+      }
+    }, {
+      "uid" : "aa4d08914d7ba9ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635185264,
+        "stop" : 1608635248150,
+        "duration" : 62886
+      }
+    }, {
+      "uid" : "d1e4d01c968ff8fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635183568,
+        "stop" : 1608635245012,
+        "duration" : 61444
+      }
+    }, {
+      "uid" : "b5e8a5c82d88773b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635182507,
+        "stop" : 1608635245396,
+        "duration" : 62889
+      }
+    }, {
+      "uid" : "2dbe89224e81970a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635142087,
+        "stop" : 1608635202044,
+        "duration" : 59957
+      }
+    }, {
+      "uid" : "85ce72bd9690285e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635129237,
+        "stop" : 1608635192191,
+        "duration" : 62954
+      }
+    }, {
+      "uid" : "dbf634ac031455d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635128385,
+        "stop" : 1608635189393,
+        "duration" : 61008
+      }
+    }, {
+      "uid" : "75fd9c01b0328493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635121844,
+        "stop" : 1608635182204,
+        "duration" : 60360
+      }
+    }, {
+      "uid" : "b2c25f229678909d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635121745,
+        "stop" : 1608635184054,
+        "duration" : 62309
+      }
+    }, {
+      "uid" : "c072601f55ea09f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635120656,
+        "stop" : 1608635178206,
+        "duration" : 57550
+      }
+    }, {
+      "uid" : "ba3a5c7665a2b6fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635119392,
+        "stop" : 1608635180430,
+        "duration" : 61038
+      }
+    }, {
+      "uid" : "4521070ec6af49f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635119094,
+        "stop" : 1608635179266,
+        "duration" : 60172
+      }
+    }, {
+      "uid" : "7951a77d2716382e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635115001,
+        "stop" : 1608635176552,
+        "duration" : 61551
+      }
+    }, {
+      "uid" : "9edb889bd246663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635114751,
+        "stop" : 1608635176968,
+        "duration" : 62217
+      }
+    }, {
+      "uid" : "961f8eeb5f2411bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635077786,
+        "stop" : 1608635136203,
+        "duration" : 58417
+      }
+    }, {
+      "uid" : "d1d2546ad9869539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044474,
+        "stop" : 1608635121784,
+        "duration" : 77310
+      }
+    }, {
+      "uid" : "2f2b14cd6b656798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044429,
+        "stop" : 1608635116542,
+        "duration" : 72113
+      }
+    }, {
+      "uid" : "45746e5bf452a593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044351,
+        "stop" : 1608635115224,
+        "duration" : 70873
+      }
+    }, {
+      "uid" : "e00e1961cc0bf1b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044288,
+        "stop" : 1608635116394,
+        "duration" : 72106
+      }
+    }, {
+      "uid" : "4607278cfef02209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044237,
+        "stop" : 1608635109773,
+        "duration" : 65536
+      }
+    }, {
+      "uid" : "ab5a6449df4e3393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044226,
+        "stop" : 1608635113133,
+        "duration" : 68907
+      }
+    }, {
+      "uid" : "2a59ce0c6de7b928",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608635044100,
+        "stop" : 1608635071584,
+        "duration" : 27484
+      }
+    }, {
+      "uid" : "6cee33f10ab77aee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044073,
+        "stop" : 1608635121993,
+        "duration" : 77920
+      }
+    }, {
+      "uid" : "e23f1f7b0ed62149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044055,
+        "stop" : 1608635109260,
+        "duration" : 65205
+      }
+    }, {
+      "uid" : "d134e31e4016f918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608635044017,
+        "stop" : 1608635113034,
+        "duration" : 69017
+      }
+    }, {
+      "uid" : "d559b185213befcd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634816366,
+        "stop" : 1608634995891,
+        "duration" : 179525
+      }
+    }, {
+      "uid" : "c34c753c1e675b2e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634815523,
+        "stop" : 1608634995971,
+        "duration" : 180448
+      }
+    }, {
+      "uid" : "32413d3d9049d577",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634815222,
+        "stop" : 1608634996035,
+        "duration" : 180813
+      }
+    }, {
+      "uid" : "73a4e4184eef9ade",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634814700,
+        "stop" : 1608634995925,
+        "duration" : 181225
+      }
+    }, {
+      "uid" : "b6b21fe73c80624c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634814466,
+        "stop" : 1608634995925,
+        "duration" : 181459
+      }
+    }, {
+      "uid" : "a4ef740ed84613c3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634814359,
+        "stop" : 1608634995766,
+        "duration" : 181407
+      }
+    }, {
+      "uid" : "4caf19d5f32e9ea2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634813670,
+        "stop" : 1608634996043,
+        "duration" : 182373
+      }
+    }, {
+      "uid" : "e7ab0e868f01c991",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634813110,
+        "stop" : 1608634995982,
+        "duration" : 182872
+      }
+    }, {
+      "uid" : "5783e591896ba323",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634812991,
+        "stop" : 1608635001662,
+        "duration" : 188671
+      }
+    }, {
+      "uid" : "5c679687459cebfb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634812235,
+        "stop" : 1608634957229,
+        "duration" : 144994
+      }
+    }, {
+      "uid" : "bc05d5c08f3be767",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634812116,
+        "stop" : 1608635016190,
+        "duration" : 204074
+      }
+    }, {
+      "uid" : "c0bdd1ff4266c40",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634812007,
+        "stop" : 1608634995853,
+        "duration" : 183846
+      }
+    }, {
+      "uid" : "a15e1cf96a290994",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634811759,
+        "stop" : 1608634995609,
+        "duration" : 183850
+      }
+    }, {
+      "uid" : "39b5f30557e728be",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634811660,
+        "stop" : 1608634995740,
+        "duration" : 184080
+      }
+    }, {
+      "uid" : "a86c973e2f70a01a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634811459,
+        "stop" : 1608634995890,
+        "duration" : 184431
+      }
+    }, {
+      "uid" : "43cfccc72af2367d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634811259,
+        "stop" : 1608634995925,
+        "duration" : 184666
+      }
+    }, {
+      "uid" : "b3bf7267ac903bb6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634811234,
+        "stop" : 1608635004539,
+        "duration" : 193305
+      }
+    }, {
+      "uid" : "ba118cb6a3afb11c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634811074,
+        "stop" : 1608634995786,
+        "duration" : 184712
+      }
+    }, {
+      "uid" : "530b855d96194356",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634811053,
+        "stop" : 1608635005980,
+        "duration" : 194927
+      }
+    }, {
+      "uid" : "9e7c15f2d5ee2363",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634810907,
+        "stop" : 1608635006502,
+        "duration" : 195595
+      }
+    }, {
+      "uid" : "d34756dd2bbda369",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634810433,
+        "stop" : 1608634995766,
+        "duration" : 185333
+      }
+    }, {
+      "uid" : "6a82dc194ca86d14",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634809920,
+        "stop" : 1608634995741,
+        "duration" : 185821
+      }
+    }, {
+      "uid" : "6f73def1813e502d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634809683,
+        "stop" : 1608635006476,
+        "duration" : 196793
+      }
+    }, {
+      "uid" : "5b59a7ed4953d8f3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot activate web view\n  (Session info: chrome=87.0.4280.66)\n\n",
+      "time" : {
+        "start" : 1608634809460,
+        "stop" : 1608634992392,
+        "duration" : 182932
+      }
+    }, {
+      "uid" : "7dbaee25c5609fd1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: \n\n",
+      "time" : {
+        "start" : 1608634808990,
+        "stop" : 1608634914287,
+        "duration" : 105297
+      }
+    }, {
+      "uid" : "717423253a007df8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634807849,
+        "stop" : 1608635006503,
+        "duration" : 198654
+      }
+    }, {
+      "uid" : "b980e75ec2d7925d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634805684,
+        "stop" : 1608635000884,
+        "duration" : 195200
+      }
+    }, {
+      "uid" : "28fd237ea40e4f2a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634804073,
+        "stop" : 1608634993829,
+        "duration" : 189756
+      }
+    }, {
+      "uid" : "8de17519026f0631",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Session timed out or not found\n\n",
+      "time" : {
+        "start" : 1608634803089,
+        "stop" : 1608634993858,
+        "duration" : 190769
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f1288b1b242a9426",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/94//#testresult/f1288b1b242a9426",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608642825129,
+          "stop" : 1608642844558,
+          "duration" : 19429
+        }
+      }, {
+        "uid" : "5641be3060e4ad1",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/93//#testresult/5641be3060e4ad1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608642382775,
+          "stop" : 1608642401513,
+          "duration" : 18738
+        }
+      }, {
+        "uid" : "1d7284d183a7a8fc",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/92//#testresult/1d7284d183a7a8fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608641898461,
+          "stop" : 1608641929632,
+          "duration" : 31171
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "fef737c67e091d8b.json",
+  "parameterValues" : [ "fake card", "f.gum24.online", "cancel button" ]
+}
