@@ -46,10 +46,10 @@ def before_all(context):
     '''
 
     # -- Local driver
-    # context.driver = webdriver.Chrome(desired_capabilities=caps)
+    context.driver = webdriver.Chrome(desired_capabilities=caps)
 
     # -- Remote driver
-    context.driver = webdriver.Remote(command_executor='http://0.0.0.0:4444/wd/hub', desired_capabilities=caps)
+    # context.driver = webdriver.Remote(command_executor='http://0.0.0.0:4444/wd/hub', desired_capabilities=caps)
     # context.driver = webdriver.Remote(command_executor='http://159.65.195.102:4444/wd/hub', desired_capabilities=caps)
 
     context.driver.implicitly_wait(1)
