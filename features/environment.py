@@ -76,8 +76,8 @@ def before_all(context):
 
 def after_step(context, step) -> None:
     if step.status == 'failed':
+        allure.attach('Hello there!', name='attachment', attachment_type=allure.attachment_type.TEXT)
         allure.attach('screenshot', context.driver.get_screenshot_as_png(), type=AttachmentType.PNG)
-
 
 def after_all(context):
     context.driver.quit()

@@ -17,7 +17,3 @@ Feature: fitness-online.ru.com
     Examples:
       | page_name      | card      | type          |
       | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |

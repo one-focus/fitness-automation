@@ -1,6 +1,7 @@
 """
 Behave runner for running features asynchronously.
 """
+import time
 from multiprocessing import Pool
 from subprocess import call, Popen, PIPE
 from glob import glob
@@ -58,6 +59,8 @@ def main():
     """
     args = parse_arguments()
     pool = Pool(args.processes)
+    if args.timeout:
+        time.sleep(int(args.timeout)*60)
     if args.tags:
         p = Popen(f'behave -d -f json --no-summary -t {args.tags}',
                   stdout=PIPE, shell=True)
