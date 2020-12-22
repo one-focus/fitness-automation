@@ -1,0 +1,31 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Email -- @1.2 ",
+    "uid" : "293c0112ac807d68",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608638430110,
+      "stop" : 1608638457040,
+      "duration" : 26930
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "f.gum24.online" ]
+  }, {
+    "name" : "Email -- @1.1 ",
+    "uid" : "cb17bdc64ad96d7a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608638398392,
+      "stop" : 1608638430109,
+      "duration" : 31717
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "fitness-online.ru.com" ]
+  } ],
+  "name" : "timeline"
+}
