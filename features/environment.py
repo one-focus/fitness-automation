@@ -1,6 +1,7 @@
 import configparser
 
 import allure
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 from behave.contrib.scenario_autoretry import patch_scenario_with_autoretry
 
@@ -75,9 +76,7 @@ def before_all(context):
 
 def after_step(context, step) -> None:
     if step.status == 'failed':
-        allure.attach(context.driver.get_screenshot_as_png(),
-                      name='bug.png',
-                      attachment_type=allure.attachment_type.PNG)
+        allure.attach('screenshot', context.driver.get_screenshot_as_png(), type=AttachmentType.PNG)
 
 
 def after_all(context):

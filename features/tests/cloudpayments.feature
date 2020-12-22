@@ -8,6 +8,7 @@ Feature: fitness-online.ru.com
     When open <page_name> page
     When clear time
     When go to confirmation page
+    When calculate time for 'confirmation'
     When go to cloudpayments page
     When enter <card> details
     Then I see <type> element
