@@ -21,8 +21,3 @@ Feature: fitness-online.ru.com
       | f.gum24.online | fake card | cancel button |
       | f.gum24.online | fake card | cancel button |
       | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |
-      | f.gum24.online | fake card | cancel button |

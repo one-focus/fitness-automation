@@ -78,9 +78,9 @@ def step_impl(context):
 def step_impl(context, name):
     time_diff = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3) - context.time
     context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
-    context.data_worksheet.append_rows(
+    context.data_worksheet.insert_rows(
         values=[
-            [context.time.strftime('%Y-%m-%d %H:%M:%S'), name, float(time_diff.total_seconds()), context.landing]])
+            [context.time.strftime('%Y-%m-%d %H:%M:%S'), name, float(time_diff.total_seconds()), context.landing]], row=2)
 
 
 @then("I see {element_name} element")
