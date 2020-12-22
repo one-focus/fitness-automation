@@ -1,0 +1,362 @@
+{
+  "uid" : "4f0dc1e2c553a839",
+  "name" : "Email -- @1.2 ",
+  "fullName" : "features/tests/cloudpayments.feature:Email",
+  "historyId" : "27b56dcf654d50bff8e5c616a85a70ac",
+  "time" : {
+    "start" : 1608640872208,
+    "stop" : 1608640899855,
+    "duration" : 27647
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given clear time",
+      "time" : {
+        "start" : 1608640872209,
+        "stop" : 1608640872209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open f.gum24.online page",
+      "time" : {
+        "start" : 1608640872209,
+        "stop" : 1608640873564,
+        "duration" : 1355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When clear time",
+      "time" : {
+        "start" : 1608640873564,
+        "stop" : 1608640873564,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to confirmation page",
+      "time" : {
+        "start" : 1608640873565,
+        "stop" : 1608640876225,
+        "duration" : 2660
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When go to cloudpayments page",
+      "time" : {
+        "start" : 1608640876225,
+        "stop" : 1608640876692,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter real card details",
+      "time" : {
+        "start" : 1608640876692,
+        "stop" : 1608640880086,
+        "duration" : 3394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see 3d secure element",
+      "time" : {
+        "start" : 1608640880086,
+        "stop" : 1608640885239,
+        "duration" : 5153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When calculate time for 'cloudpayments'",
+      "time" : {
+        "start" : 1608640885239,
+        "stop" : 1608640899855,
+        "duration" : 14616
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "validation"
+  }, {
+    "name" : "feature",
+    "value" : "fitness-online.ru.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "card",
+    "value" : "real card"
+  }, {
+    "name" : "page_name",
+    "value" : "f.gum24.online"
+  }, {
+    "name" : "type",
+    "value" : "3d secure"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3fe7bafffd66e413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640678340,
+        "stop" : 1608640701667,
+        "duration" : 23327
+      }
+    }, {
+      "uid" : "bc25115ffe9c1ce2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640676526,
+        "stop" : 1608640701133,
+        "duration" : 24607
+      }
+    }, {
+      "uid" : "67c9381e215f1adf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640671751,
+        "stop" : 1608640693399,
+        "duration" : 21648
+      }
+    }, {
+      "uid" : "d009bf519af5774d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640671659,
+        "stop" : 1608640691919,
+        "duration" : 20260
+      }
+    }, {
+      "uid" : "2d3e54406595ee62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640621194,
+        "stop" : 1608640643099,
+        "duration" : 21905
+      }
+    }, {
+      "uid" : "391cb4f82aca8455",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: 3d secure not found\n",
+      "time" : {
+        "start" : 1608640618445,
+        "stop" : 1608640766501,
+        "duration" : 148056
+      }
+    }, {
+      "uid" : "89c79d032e342afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640618088,
+        "stop" : 1608640641964,
+        "duration" : 23876
+      }
+    }, {
+      "uid" : "6a5c1b12bc18b75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640617650,
+        "stop" : 1608640641858,
+        "duration" : 24208
+      }
+    }, {
+      "uid" : "431d1b998f6f5d84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640617187,
+        "stop" : 1608640638895,
+        "duration" : 21708
+      }
+    }, {
+      "uid" : "ea018862d65986bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640467266,
+        "stop" : 1608640488215,
+        "duration" : 20949
+      }
+    }, {
+      "uid" : "b01708c0c3bd60e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640467225,
+        "stop" : 1608640487790,
+        "duration" : 20565
+      }
+    }, {
+      "uid" : "71b2ecf78059b53b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640416907,
+        "stop" : 1608640437213,
+        "duration" : 20306
+      }
+    }, {
+      "uid" : "7076c2663c15581c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640410135,
+        "stop" : 1608640433457,
+        "duration" : 23322
+      }
+    }, {
+      "uid" : "736e4e05499599a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640405900,
+        "stop" : 1608640431781,
+        "duration" : 25881
+      }
+    }, {
+      "uid" : "326d0d9af5d69173",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILED SUB-STEP: And type \"random\" in email field\nSubstep info: Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: Unable to locate element: email field\n\n\nTraceback (of failed substep):\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 24, in step_impl\n    context.current_page.type_in(field_name, text)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 29, in type_in\n    element = self.get_clickable_element(element_name)\n  File \"/Users/kardash/Developer/fitness-automation/features/pages/base_page.py\", line 57, in get_clickable_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n\n",
+      "time" : {
+        "start" : 1608640349924,
+        "stop" : 1608640370535,
+        "duration" : 20611
+      }
+    }, {
+      "uid" : "3dd19a6390faebc",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: 3d secure not found\n",
+      "time" : {
+        "start" : 1608640349825,
+        "stop" : 1608640496500,
+        "duration" : 146675
+      }
+    }, {
+      "uid" : "5a3371444ac60c0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640348211,
+        "stop" : 1608640380328,
+        "duration" : 32117
+      }
+    }, {
+      "uid" : "477a1c8db68ec8bb",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: 3d secure not found\n",
+      "time" : {
+        "start" : 1608640347903,
+        "stop" : 1608640496835,
+        "duration" : 148932
+      }
+    }, {
+      "uid" : "714925f9f8f283cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640342534,
+        "stop" : 1608640373862,
+        "duration" : 31328
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "308030b355d5496b",
+        "reportUrl" : "https://one-focus.github.io/fitness-automation/92//#testresult/308030b355d5496b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608640872208,
+          "stop" : 1608640899855,
+          "duration" : 27647
+        }
+      } ]
+    },
+    "tags" : [ "validation" ]
+  },
+  "source" : "4f0dc1e2c553a839.json",
+  "parameterValues" : [ "real card", "f.gum24.online", "3d secure" ]
+}

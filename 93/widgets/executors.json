@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://one-focus.github.io/fitness-automation",
+  "buildOrder" : 93,
+  "buildName" : "GitHub Actions Run #438078948",
+  "buildUrl" : "https://github.com/one-focus/fitness-automation/actions/runs/438078948",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://one-focus.github.io/fitness-automation/93/"
+} ]
