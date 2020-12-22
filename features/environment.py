@@ -23,7 +23,7 @@ def before_all(context):
         # -- Chrome browser mobile emulation and headless options
         'goog:chromeOptions': {
             'mobileEmulation': {'deviceName': 'iPhone X'},
-            # 'args': ['headless']
+            'args': ['headless']
         }
     }
     '''
