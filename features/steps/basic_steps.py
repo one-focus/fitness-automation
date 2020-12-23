@@ -92,13 +92,17 @@ def step_impl(context, name):
 
 @step("send results to google sheet")
 def step_impl(context):
+    page = float(context.home) + float(context.confirmation)
+    payment = float(context.payment_before) + float(context.payment_after)
     context.data_worksheet.insert_rows(
         values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
                  float(context.home),
                  float(context.confirmation),
                  float(context.payment_before),
                  float(context.payment_after),
-                 context.landing]], row=2)
+                 context.landing,
+                 page,
+                 payment]], row=2)
 
 
 @then("I see {element_name} element")
