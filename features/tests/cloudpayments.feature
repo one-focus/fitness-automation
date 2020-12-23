@@ -18,6 +18,7 @@ Feature: fitness-online.ru.com
 
     Examples:
       | page_name             | bank          | card      | type          |
-      | antizhir365.ru        | alfabank      | alfa card | 3d page       |
-      | fitness-online.ru.com | cloudpayments | fake card | cancel button |
-      | f.gum24.online        | cloudpayments | fake card | cancel button |
+#      | antizhir365.ru        | alfabank      | alfa card | 3d page       |
+#      | fitness-online.ru.com | cloudpayments | fake card | cancel button |
+#      | f.gum24.online        | cloudpayments | fake card | cancel button |
+      | zhiry-net.ru          | cloudpayments | fake card | cancel button |
