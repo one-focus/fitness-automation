@@ -78,7 +78,8 @@ def before_all(context):
 def after_step(context, step) -> None:
     if step.status == 'failed':
         bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
-        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=step.name)
+        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(),
+                       caption=f'{context.landing} : {step.name}')
         allure.attach('screenshot', context.driver.get_screenshot_as_png(), type=AttachmentType.PNG)
 
 
