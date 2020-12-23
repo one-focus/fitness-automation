@@ -98,9 +98,7 @@ def step_impl(context):
                  float(context.confirmation),
                  float(context.payment_before),
                  float(context.payment_after),
-                 context.landing,
-                 '=SUM(B2:C2)',
-                 '=SUM(D2:E2)']], row=2)
+                 context.landing]], row=2)
 
 
 @then("I see {element_name} element")
