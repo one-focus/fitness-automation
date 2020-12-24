@@ -20,7 +20,7 @@ def step_impl(context, element_name):
 @step('type "{text}" in {field_name}')
 def step_impl(context, text, field_name):
     if text == 'random':
-        text = random_char(7) + "@gmail.com"
+        text = f"{random_char(7)}@{random_char(7)}.com"
     context.current_page.type_in(field_name, text)
 
 
