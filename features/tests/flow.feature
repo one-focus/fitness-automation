@@ -1,9 +1,9 @@
 # Created by kardash at 12/19/20
-Feature: fitness-online.ru.com
+Feature: flow
   # Enter feature description here
 
   @validation
-  Scenario Outline: cloudpayments
+  Scenario Outline: create order
     Given clear time
     When open <page_name> page
     When calculate time for "home"
