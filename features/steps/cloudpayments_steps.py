@@ -3,11 +3,10 @@ import random
 import time
 
 from behave import *
-from selenium.common.exceptions import TimeoutException
 
 
 @step('enter {card_type} details')
-def step_impl(context, card_type):
+def enter_details(context, card_type):
     if card_type == 'fake card':
         context.current_page.type_in('cardnumber field', '5555555555554444')
         context.current_page.type_in('month field', '10')
