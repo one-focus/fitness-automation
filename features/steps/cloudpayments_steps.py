@@ -35,12 +35,12 @@ def enter_details(context, card_type):
         context.current_page.type_in('cvc field', str(cvc))
         time.sleep(0.5)
         context.current_page.click_on('pay button')
+    context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
+    try:
+        context.current_page.get_element('exired error',timeout=2)
+        context.current_page.type_in('cvc field', str(random.randint(100, 300)))
+        context.current_page.click_on('pay button')
         context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
-        try:
-            context.current_page.get_element('exired error',timeout=1)
-            context.current_page.type_in('cvc field', str(random.randint(100, 300)))
-            context.current_page.click_on('pay button')
-            context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
-        except:
-            pass
+    except:
+        pass
 

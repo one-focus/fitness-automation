@@ -17,7 +17,7 @@ class CloudPayments(BasePage):
             'cvc field': (By.ID, 'cardCvv'),
             'pay button': (By.XPATH, '//*[@id="sizingContainer"]//button'),
 
-            '3d secure': (By.ID, 'pwdInputVisible'),
+            '3d secure widget': (By.ID, 'pwdInputVisible'),
             'repeat button': (By.XPATH, '//*[@id="statusContainer"]//button[1]'),
             'cancel button': (By.XPATH, '//*[@id="statusContainer"]//button[2]'),
         }

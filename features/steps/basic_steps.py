@@ -107,7 +107,7 @@ def step_impl(context):
 
 @then("I see {element_name} element")
 def step_impl(context, element_name):
-    if element_name != '3d secure':
+    if element_name != '3d secure widget':
         context.current_page.get_element(element_name, timeout=50)
     else:
         for i in range(50):
