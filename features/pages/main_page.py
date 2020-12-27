@@ -8,10 +8,9 @@ class MainPage(BasePage):
     def _elements_map(self):
         return {
             "activate button": (By.XPATH,
-                                '(//*[@data-id="email"]|//section[@id="prise_3"]//div[@class="prise_one silver"]//a)'),
+                                '(//*[@data-id="email"]|//section[@id="prise_1"]//div[@class="prise_one silver"]//a)'),
             "email field": (By.NAME, 'email'),
-            "next button": (
-            By.XPATH, '//button[contains(@type,"submit")]'),
+            "next button": (By.XPATH, '//button[contains(@type,"submit")]'),
 
             "policy link": (By.XPATH, '//a[@href="https://zhiry-net.ru/about/privacy/"]'),
             "oferta link": (By.XPATH, '//a[@href="https://zhiry-net.ru/about/oferta/"]')

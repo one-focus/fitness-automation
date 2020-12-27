@@ -27,7 +27,7 @@ def random_char(y):
 @when("go to {page_name} page")
 def step_impl(context, page_name):
     if page_name == 'confirmation':
-        context.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        context.current_page.scroll_to('activate button')
         context.current_page.click_on('activate button')
         context.current_page.click_on('email field')
         context.current_page.type_in('email field', f"{random_char(7)}@{random_char(7)}.com")

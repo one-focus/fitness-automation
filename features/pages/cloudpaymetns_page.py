@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
@@ -7,7 +9,7 @@ class CloudPayments(BasePage):
     @property
     def _elements_map(self):
         return {
-            'iframe': (By.TAG_NAME, 'iframe'),
+            'iframe': (By.XPATH, '//iframe[contains(@class,"with-appled")]'),
 
             'cardnumber field': (By.ID, 'cardNumber'),
             'cardnumber label': (By.XPATH, '//label[@for="cardNumber"]'),
@@ -23,5 +25,5 @@ class CloudPayments(BasePage):
         }
 
     def _verify_page(self):
-        self.on_this_page('iframe')
-        self.driver.switch_to.frame(self.driver.find_element_by_tag_name('iframe'))
+        element = self.get_element('iframe')
+        self.driver.switch_to.frame(element)

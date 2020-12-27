@@ -17,11 +17,16 @@ Feature: flow
     When send results to google sheet
 
     Examples:
-      | page_name             | bank          | card      | type             |
-      | fitness-online.ru.com | cloudpayments | fake card | cancel button    |
-      | f.gum24.online        | cloudpayments | fake card | cancel button    |
-      | zhiry-net.ru          | cloudpayments | fake card | cancel button    |
-      | antizhir365.ru        | alfabank      | alfa card | 3d secure page   |
+      | page_name             | bank          | card      | type           |
+      | shpagat7.ru           | cloudpayments | fake card | cancel button  |
+      | myslimbody.ru         | cloudpayments | fake card | cancel button  |
+      | twerk-twerk.ru        | cloudpayments | fake card | cancel button  |
+      | silaosanki.ru         | cloudpayments | fake card | cancel button  |
+      | minuszhir.com         | alfabank      | alfa card | 3d secure page |
+      | fitness-online.ru.com | cloudpayments | fake card | cancel button  |
+      | f.gum24.online        | cloudpayments | fake card | cancel button  |
+      | zhiry-net.ru          | cloudpayments | fake card | cancel button  |
+      | antizhir365.ru        | alfabank      | alfa card | 3d secure page |
 #      | fitness-online.ru.com | cloudpayments | real card | 3d secure widget |
 #      | f.gum24.online        | cloudpayments | real card | 3d secure widget |
 #      | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
