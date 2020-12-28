@@ -2,10 +2,10 @@
 
 name: Test2
 
-on:
-  push:
-  schedule:
-    - cron: '5,15,25,35,45,55 * * * *'
+#on:
+#  push:
+#  schedule:
+#    - cron: '5,15,25,35,45,55 * * * *'
 
 jobs:
   build:
