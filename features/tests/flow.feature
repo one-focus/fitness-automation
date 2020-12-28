@@ -18,11 +18,11 @@ Feature: flow
 
     Examples:
       | page_name      | bank          | card      | type             |
-      | shpagat7.ru    | cloudpayments | real card | 3d secure widget |
-      | myslimbody.ru  | cloudpayments | real card | 3d secure widget |
-      | twerk-twerk.ru | cloudpayments | real card | 3d secure widget |
-      | silaosanki.ru  | cloudpayments | real card | 3d secure widget |
-      | gym-face.ru    | cloudpayments | real card | 3d secure widget |
-      | zhiry-net.ru   | cloudpayments | real card | 3d secure widget |
-      | minuszhir.com  | alfabank      | alfa card | 3d secure page   |
       | antizhir365.ru | alfabank      | alfa card | 3d secure page   |
+      | gym-face.ru    | cloudpayments | real card | 3d secure widget |
+      | minuszhir.com  | alfabank      | alfa card | 3d secure page   |
+      | myslimbody.ru  | cloudpayments | real card | 3d secure widget |
+      | silaosanki.ru  | cloudpayments | real card | 3d secure widget |
+      | shpagat7.ru    | cloudpayments | real card | 3d secure widget |
+      | twerk-twerk.ru | cloudpayments | real card | 3d secure widget |
+      | zhiry-net.ru   | cloudpayments | real card | 3d secure widget |
