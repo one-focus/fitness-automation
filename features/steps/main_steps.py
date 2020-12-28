@@ -9,7 +9,7 @@ import steps
 from pages import MainPage
 
 
-@step('open {page_name} page')
+@step('открываю {page_name} страницу')
 def step_impl(context, page_name):
     if page_name.startswith(('http', 'www')):
         url = page_name
@@ -24,9 +24,9 @@ def random_char(y):
     return ''.join(random.choice(string.ascii_letters) for x in range(y))
 
 
-@when("go to {page_name} page")
+@when("перехожу на страницу {page_name}")
 def step_impl(context, page_name):
-    if page_name == 'confirmation':
+    if page_name == 'cart':
         context.current_page.scroll_to('activate button')
         context.current_page.click_on('activate button')
         context.current_page.click_on('email field')

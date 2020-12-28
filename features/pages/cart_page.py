@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
 
-class ConfirmationPage(BasePage):
+class CartPage(BasePage):
 
     @property
     def _elements_map(self):

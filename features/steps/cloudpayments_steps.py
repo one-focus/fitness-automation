@@ -5,7 +5,7 @@ import time
 from behave import *
 
 
-@step('enter {card_type} details')
+@step('ввожу карту {card_type}')
 def enter_details(context, card_type):
     if card_type == 'fake card':
         context.current_page.type_in('cardnumber field', '5555555555554444')

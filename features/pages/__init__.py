@@ -1,12 +1,12 @@
 from .main_page import MainPage
 from .alfabank_page import AlfaBank
 from .cloudpaymetns_page import CloudPayments
-from .confirmation_page import ConfirmationPage
+from .cart_page import CartPage
 
 page_map = {
     "main": MainPage,
     "alfabank": AlfaBank,
-    "confirmation": ConfirmationPage,
+    "cart": CartPage,
     "cloudpayments": CloudPayments
 }
 

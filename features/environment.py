@@ -4,7 +4,6 @@ import allure
 import telebot
 from allure_commons.types import AttachmentType
 from selenium import webdriver
-from behave.contrib.scenario_autoretry import patch_scenario_with_autoretry
 
 # TODO check all context attributes on https://behave.readthedocs.io/en/latest/context_attributes.html#user-attributes
 from utils.google_sheets import GoogleSheets
@@ -78,8 +77,7 @@ def before_all(context):
 def after_step(context, step) -> None:
     if step.status == 'failed':
         bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
-        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(),
-                       caption=f'{context.landing} : {step.name}')
+        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=f'{context.landing} : {step.name}')
         allure.attach('screenshot', context.driver.get_screenshot_as_png(), type=AttachmentType.PNG)
 
 

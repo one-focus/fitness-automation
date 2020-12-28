@@ -69,17 +69,17 @@ def step_impl(context):
     print(context.driver.page_source)
 
 
-@step("clear time")
+@step("обнулить таймер")
 def step_impl(context):
     context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
 
 
-@step('calculate time for "{name}"')
+@step('считаю время загрузки "{name}"')
 def step_impl(context, name):
     time_diff = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3) - context.time
     context.time = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
-    if name == 'confirmation':
-        context.confirmation = float(time_diff.total_seconds())
+    if name == 'cart':
+        context.cart = float(time_diff.total_seconds())
     elif name == 'home':
         context.home = float(time_diff.total_seconds())
     elif name == 'payment_before':
@@ -90,14 +90,14 @@ def step_impl(context, name):
         context.payment = float(time_diff.total_seconds())
 
 
-@step("send results to google sheet")
+@step("отсылаю результат в гугл таблицу")
 def step_impl(context):
-    page = float(context.home) + float(context.confirmation)
+    page = float(context.home) + float(context.cart)
     payment = float(context.payment_before) + float(context.payment_after)
     context.data_worksheet.insert_rows(
         values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
                  float(context.home),
-                 float(context.confirmation),
+                 float(context.cart),
                  float(context.payment_before),
                  float(context.payment_after),
                  context.landing,
@@ -105,7 +105,7 @@ def step_impl(context):
                  payment]], row=2)
 
 
-@then("I see {element_name} element")
+@then("проверяю наличие элемента {element_name}")
 def step_impl(context, element_name):
     if element_name != '3d secure widget':
         context.current_page.get_element(element_name, timeout=50)

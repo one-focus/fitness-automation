@@ -4,29 +4,29 @@ Feature: flow
 
   @validation
   Scenario Outline: create order
-    Given clear time
-    When open <page_name> page
-    When calculate time for "home"
-    When go to confirmation page
-    When calculate time for "confirmation"
-    When go to <bank> page
-    When calculate time for "payment_before"
-    When enter <card> details
-    Then I see <type> element
-    When calculate time for "payment_after"
-    When send results to google sheet
+    Given обнулить таймер
+    When открываю <page_name> страницу
+    When считаю время загрузки "home"
+    When перехожу на страницу cart
+    When считаю время загрузки "cart"
+    When перехожу на страницу <bank>
+    When считаю время загрузки "payment_before"
+    When ввожу карту <card>
+    Then проверяю наличие элемента <type>
+    When считаю время загрузки "payment_after"
+    When отсылаю результат в гугл таблицу
 
     Examples:
-      | page_name             | bank          | card      | type           |
-      | shpagat7.ru           | cloudpayments | fake card | cancel button  |
-      | myslimbody.ru         | cloudpayments | fake card | cancel button  |
-      | twerk-twerk.ru        | cloudpayments | fake card | cancel button  |
-      | silaosanki.ru         | cloudpayments | fake card | cancel button  |
-      | minuszhir.com         | alfabank      | alfa card | 3d secure page |
-      | fitness-online.ru.com | cloudpayments | fake card | cancel button  |
-      | f.gum24.online        | cloudpayments | fake card | cancel button  |
-      | zhiry-net.ru          | cloudpayments | fake card | cancel button  |
-      | antizhir365.ru        | alfabank      | alfa card | 3d secure page |
+      | page_name             | bank          | card      | type             |
+      | shpagat7.ru           | cloudpayments | real card | 3d secure widget |
+      | myslimbody.ru         | cloudpayments | real card | 3d secure widget |
+      | twerk-twerk.ru        | cloudpayments | real card | 3d secure widget |
+      | silaosanki.ru         | cloudpayments | real card | 3d secure widget |
+      | fitness-online.ru.com | cloudpayments | real card | 3d secure widget |
+      | f.gum24.online        | cloudpayments | real card | 3d secure widget |
+      | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
+      | minuszhir.com         | alfabank      | alfa card | 3d secure page   |
+      | antizhir365.ru        | alfabank      | alfa card | 3d secure page   |
 #      | fitness-online.ru.com | cloudpayments | real card | 3d secure widget |
 #      | f.gum24.online        | cloudpayments | real card | 3d secure widget |
 #      | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
