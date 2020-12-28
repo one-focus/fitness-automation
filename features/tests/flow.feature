@@ -17,16 +17,12 @@ Feature: flow
     When отсылаю результат в гугл таблицу
 
     Examples:
-      | page_name             | bank          | card      | type             |
-      | shpagat7.ru           | cloudpayments | real card | 3d secure widget |
-      | myslimbody.ru         | cloudpayments | real card | 3d secure widget |
-      | twerk-twerk.ru        | cloudpayments | real card | 3d secure widget |
-      | silaosanki.ru         | cloudpayments | real card | 3d secure widget |
-      | fitness-online.ru.com | cloudpayments | real card | 3d secure widget |
-      | f.gum24.online        | cloudpayments | real card | 3d secure widget |
-      | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
-      | minuszhir.com         | alfabank      | alfa card | 3d secure page   |
-      | antizhir365.ru        | alfabank      | alfa card | 3d secure page   |
-#      | fitness-online.ru.com | cloudpayments | real card | 3d secure widget |
-#      | f.gum24.online        | cloudpayments | real card | 3d secure widget |
-#      | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
+      | page_name      | bank          | card      | type             |
+      | shpagat7.ru    | cloudpayments | real card | 3d secure widget |
+      | myslimbody.ru  | cloudpayments | real card | 3d secure widget |
+      | twerk-twerk.ru | cloudpayments | real card | 3d secure widget |
+      | silaosanki.ru  | cloudpayments | real card | 3d secure widget |
+      | gym-face.ru    | cloudpayments | real card | 3d secure widget |
+      | zhiry-net.ru   | cloudpayments | real card | 3d secure widget |
+      | minuszhir.com  | alfabank      | alfa card | 3d secure page   |
+      | antizhir365.ru | alfabank      | alfa card | 3d secure page   |

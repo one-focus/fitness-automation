@@ -25,5 +25,5 @@ class CloudPayments(BasePage):
         }
 
     def _verify_page(self):
-        element = self.get_element('iframe')
+        element = self.get_element('iframe', timeout=20)
         self.driver.switch_to.frame(element)

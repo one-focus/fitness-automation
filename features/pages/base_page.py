@@ -32,7 +32,7 @@ class BasePage:
         element.click()
 
     def type_in(self, element_name, text):
-        element = self.get_element(element_name)
+        element = self.get_clickable_element(element_name)
         # from selenium.webdriver import ActionChains
         # hover = ActionChains(self.driver).move_to_element(element)
         # hover.perform()
