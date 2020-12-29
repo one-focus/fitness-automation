@@ -2,6 +2,7 @@ import datetime
 import random
 import string
 import time
+import telebot
 
 from behave import *
 from selenium.webdriver.common.by import By
@@ -54,7 +55,7 @@ def step_impl(context, url):
     context.driver.get(url)
 
 
-@step('wait for "{seconds}" sec')
+@step('жду "{seconds}" сек')
 def step_impl(context, seconds):
     time.sleep(int(seconds))
 
@@ -122,3 +123,22 @@ def step_impl(context, element_name):
         else:
             print(4)
             raise RuntimeError(f'{element_name} not found')
+
+
+@step('отправляю скриншот в чат "{chat_id}" для страницы "{page}"')
+def step_impl(context, chat_id, page):
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    driver = webdriver.Chrome(options=chrome_options)
+    driver.set_window_size(1910, 1890)
+    url = context.config.get('websites', page)
+    driver.get(url)
+    time.sleep(30)
+    bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
+    date = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=3)
+    s_date = date.strftime('%d-%b %H:%M')
+    screen = driver.get_screenshot_as_png()
+    bot.send_photo(chat_id=int(chat_id), photo=screen, caption=f'Отчет {str(s_date)}')
+    driver.quit()

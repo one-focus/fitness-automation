@@ -1,0 +1,41 @@
+# This workflow will install Python dependencies, run tests and post allure report on github pages with history
+
+name: Report
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tag: ["report"]
+        timeout: ['1']
+    steps:
+    - uses: actions/checkout@v2
+    - name: Cache requirements
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        pip install git+https://github.com/behave/behave
+    - name: Install allure
+      run: |
+        curl -o allure-2.7.0.tgz -Ls https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.7.0/allure-2.7.0.tgz
+        sudo tar -zxvf allure-2.7.0.tgz -C /opt/
+        sudo ln -s /opt/allure-2.7.0/bin/allure /usr/bin/allure
+        rm -rf allure-2.7.0.tgz
+    - name: Test with behave
+      run: |
+        python behave-parallel.py --tags=${{ matrix.tag }} --define=${{ matrix.timeout }}
