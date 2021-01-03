@@ -125,14 +125,16 @@ def step_impl(context, element_name):
             raise RuntimeError(f'{element_name} not found')
 
 
-@step('отправляю скриншот в чат "{chat_id}" для страницы "{page}"')
-def step_impl(context, chat_id, page):
+@step('отправляю скриншот в чат "{chat_id}" для страницы "{page}" с разрешением "{resolution}"')
+def step_impl(context, chat_id, page, resolution):
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(options=chrome_options)
-    driver.set_window_size(1910, 1890)
+    width = resolution.split('x')[0]
+    height = resolution.split('x')[1]
+    driver.set_window_size(width, height)
     url = context.config.get('websites', page)
     driver.get(url)
     time.sleep(30)

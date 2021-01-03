@@ -17,5 +17,4 @@ class CartPage(BasePage):
         }
 
     def _verify_page(self):
-       pass
-        # self.on_this_page('oferta link', 'policy link')
+        self.on_this_page('confirm checkbox')
