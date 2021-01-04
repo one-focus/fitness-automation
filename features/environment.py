@@ -70,15 +70,47 @@ def before_all(context):
 #         patch_scenario_with_autoretry(scenario, max_attempts=2)
 
 
-# def before_scenario(context, scenario):
+def before_scenario(context, scenario):
+    context.home = ''
+    context.cart = ''
+    context.payment_before = ''
+    context.payment_after = ''
+    context.landing = ''
 #     context.driver.delete_all_cookies()
 
 
 def after_step(context, step) -> None:
     if step.status == 'failed':
+
+        if not context.home:
+            context.home = 'err'
+        if not context.cart:
+            context.cart = 'err'
+        if 'err' not in (context.home, context.cart):
+            page = float(context.home) + float(context.cart)
+        else:
+            page = 'err'
+
+        if not context.payment_before:
+            context.payment_before = 'err'
+        if not context.payment_after:
+            context.payment_after = 'err'
+        if 'err' not in (context.payment_before, context.payment_after):
+            payment = float(context.payment_before) + float(context.payment_after)
+        else:
+            payment = 'err'
+        context.data_worksheet.insert_rows(
+            values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
+                     float(context.home),
+                     float(context.cart),
+                     float(context.payment_before),
+                     float(context.payment_after),
+                     context.landing,
+                     page,
+                     payment]], row=2)
         bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
         bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=f'{context.landing} : {step.name}')
-        allure.attach('screenshot', context.driver.get_screenshot_as_png(), type=AttachmentType.PNG)
+        # allure.attach('screenshot', context.driver.get_screenshot_as_png())
 
 
 def after_all(context):
