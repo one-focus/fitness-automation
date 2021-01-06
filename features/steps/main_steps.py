@@ -34,7 +34,7 @@ def step_impl(context, page_name):
         context.time = datetime.now(timezone.utc) + timedelta(hours=3)
         context.current_page.click_on('next button')
     elif page_name in ('alfabank', 'cloudpayments'):
-        context.current_page.click_on('confirm checkbox')
+        context.current_page.click_on('confirm checkbox', timeout=20)
         context.time = datetime.now(timezone.utc) + timedelta(hours=3)
         context.current_page.click_on('continue button')
     page_class = pages.factory(page_name)

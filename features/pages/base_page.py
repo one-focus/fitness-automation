@@ -24,8 +24,8 @@ class BasePage:
         element = self.get_element(element_name)
         action.move_to_element(element).perform()
 
-    def click_on(self, element_name):
-        element = self.get_clickable_element(element_name)
+    def click_on(self, element_name, timeout=10):
+        element = self.get_clickable_element(element_name, timeout)
         # from selenium.webdriver import ActionChains
         # hover = ActionChains(self.driver).move_to_element(element)
         # hover.perform()
