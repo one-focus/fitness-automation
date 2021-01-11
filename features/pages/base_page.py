@@ -50,10 +50,10 @@ class BasePage:
     def get_element(self, element_name, timeout=5):
         locator = self._elements_map.get(element_name)
         if locator is None:
-            raise RuntimeError(f'Failed to find element "{element_name}" at "elements_map" dictionary on screen')
+            raise RuntimeError(f'Элемент "{element_name}" не описан в списке "elements_map" на экране')
         expected_condition = ec.presence_of_element_located(locator)
         return WebDriverWait(self.driver, timeout).until(
-            expected_condition, message=f'Unable to locate element: "{element_name}"')
+            expected_condition, message=f'Не могу найти элемент: "{element_name}"  за {timeout} сек')
 
     def get_clickable_element(self, element_name, timeout=10):
         locator = self._elements_map.get(element_name)
@@ -61,4 +61,4 @@ class BasePage:
             locator = (By.XPATH, f'//*[text() = "{element_name}"]')
         expected_condition = ec.element_to_be_clickable(locator)
         return WebDriverWait(self.driver, timeout).until(
-            expected_condition, message=f'Unable to locate element: {element_name}')
+            expected_condition, message=f'Не могу найти элемент: {element_name} за {timeout} сек')

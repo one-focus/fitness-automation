@@ -95,7 +95,7 @@ def after_step(context, step) -> None:
             values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
                      home, cart, payment_before, payment_after, context.landing, page, payment]], row=2)
         bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
-        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=f'{context.landing} : {step.name}')
+        bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=f'{context.landing} : {step.name}\n🐞{step.exception}')
         # allure.attach('screenshot', context.driver.get_screenshot_as_png())
 
 
