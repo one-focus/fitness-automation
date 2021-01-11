@@ -7,7 +7,7 @@ from behave import *
 
 @step('ввожу карту {card_type}')
 def enter_details(context, card_type):
-    month = random.randint(1, 12)
+    month = random.randint(1, 9)
     if month < 10:
         month = f'0{month}'
     year = random.randint(22, 24)
