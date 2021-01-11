@@ -30,7 +30,7 @@ def enter_details(context, card_type):
         context.current_page.click_on('pay button')
     elif card_type == 'alfa card':
         context.current_page.type_in('cardnumber field', '5351041063604498')
-        context.current_page.type_in('cardholder field', 'qwerqwer qwer')
+        context.current_page.type_in('cardholder field', 'USERNAME USERNAME')
         context.current_page.type_in('expired field', f'{month}{year}')
         context.current_page.type_in('cvc field', str(cvc))
         time.sleep(0.5)
