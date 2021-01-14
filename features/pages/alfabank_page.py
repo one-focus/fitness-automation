@@ -17,7 +17,7 @@ class AlfaBank(BasePage):
             'cvc field': (By.ID, 'iCVC'),
             'pay button': (By.ID, 'buttonPayment'),
 
-            '3d secure page': (By.ID, 'sms_token'),
+            '3d secure page': (By.XPATH, '//img[@class="bankLogoImageClass"]'),
             'repeat button': (By.XPATH, '//*[@id="statusContainer"]//button[1]'),
             'cancel button': (By.XPATH, '//*[@id="statusContainer"]//button[2]'),
         }
