@@ -26,5 +26,5 @@ Feature: flow
       | shpagat7.ru           | cloudpayments | real card | 3d secure widget |
       | twerk-twerk.ru        | cloudpayments | real card | 3d secure widget |
       | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
-      | fitsbody.life/promo   | cloudpayments | real card | 3d secure widget |
-      | fitsbody.life/agpromo | alfabank      | alfa card | 3d secure page   |
+#      | fitsbody.life/promo   | cloudpayments | real card | 3d secure widget |
+#      | fitsbody.life/agpromo | alfabank      | alfa card | 3d secure page   |
