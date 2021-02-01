@@ -94,16 +94,12 @@ def step_impl(context, name):
 @step("отсылаю результат в гугл таблицу")
 def step_impl(context):
     page = float(context.home) + float(context.cart)
-    payment = float(context.payment_before) + float(context.payment_after)
     context.data_worksheet.insert_rows(
         values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
                  float(context.home),
                  float(context.cart),
-                 float(context.payment_before),
-                 float(context.payment_after),
                  context.landing,
-                 page,
-                 payment]], row=2)
+                 page]], row=2)
 
 
 @then("проверяю наличие элемента {element_name}")
