@@ -11,20 +11,17 @@ Feature: flow
     When считаю время загрузки "cart"
     When перехожу на страницу <bank>
     When считаю время загрузки "payment_before"
-    When ввожу карту <card>
-    Then проверяю наличие элемента <type>
-    When считаю время загрузки "payment_after"
     When отсылаю результат в гугл таблицу
 
     Examples:
-      | page_name             | bank          | card      | type             |
-      | antizhir365.ru        | alfabank      | alfa card | 3d secure page   |
-      | gym-face.ru           | cloudpayments | real card | 3d secure widget |
-      | minuszhir.com         | alfabank      | alfa card | 3d secure page   |
-      | myslimbody.ru         | cloudpayments | real card | 3d secure widget |
-      | silaosanki.ru         | cloudpayments | real card | 3d secure widget |
-      | shpagat7.ru           | cloudpayments | real card | 3d secure widget |
-      | twerk-twerk.ru        | cloudpayments | real card | 3d secure widget |
-      | zhiry-net.ru          | cloudpayments | real card | 3d secure widget |
+      | page_name             | bank          |
+      | antizhir365.ru        | alfabank      |
+      | gym-face.ru           | cloudpayments |
+      | minuszhir.com         | alfabank      |
+      | myslimbody.ru         | cloudpayments |
+      | silaosanki.ru         | cloudpayments |
+      | shpagat7.ru           | cloudpayments |
+      | twerk-twerk.ru        | cloudpayments |
+      | zhiry-net.ru          | cloudpayments |
 #      | fitsbody.life/promo   | cloudpayments | real card | 3d secure widget |
 #      | fitsbody.life/agpromo | alfabank      | alfa card | 3d secure page   |
