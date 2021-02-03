@@ -3,6 +3,7 @@
 name: Report
 
 on:
+  push:
   schedule:
     - cron: '0 4 * * *'
 
