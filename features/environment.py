@@ -73,8 +73,6 @@ def before_all(context):
 def before_scenario(context, scenario):
     context.home = ''
     context.cart = ''
-    context.payment_before = ''
-    context.payment_after = ''
     context.landing = ''
 
 
@@ -87,13 +85,11 @@ def after_step(context, step) -> None:
         cart = 'err' if not context.cart else context.cart
         page = 'err' if 'err' in (home, cart) else float(home) + float(cart)
 
-        payment_before = 'err' if not context.payment_before else context.payment_before
-        payment_after = 'err' if not context.payment_after else context.payment_after
-        payment = 'err' if 'err' in (payment_before, payment_after) else float(payment_before) + float(payment_after)
+        # payment_before = 'err' if not context.payment_before else context.payment_before
 
         context.data_worksheet.insert_rows(
             values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
-                     home, cart, payment_before, payment_after, context.landing, page, payment]], row=2)
+                     home, cart, context.landing, page]], row=2)
         bot = telebot.TeleBot("1461082086:AAGUnZJyEcDwkW1LPHLmezbrXEDzIu6nD8k")
         bot.send_photo(chat_id=-447406725, photo=context.driver.get_screenshot_as_png(), caption=f'{context.landing} : {step.name}\n🐞{step.exception}')
         # allure.attach('screenshot', context.driver.get_screenshot_as_png())

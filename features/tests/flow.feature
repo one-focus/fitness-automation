@@ -10,7 +10,6 @@ Feature: flow
     When перехожу на страницу cart
     When считаю время загрузки "cart"
     When перехожу на страницу <bank>
-    When считаю время загрузки "payment_before"
     When отсылаю результат в гугл таблицу
 
     Examples:

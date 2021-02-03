@@ -10,10 +10,10 @@ Feature: test
     When перехожу на страницу cart
     When считаю время загрузки "cart"
     When перехожу на страницу <bank>
-    When считаю время загрузки "payment_before"
-    When ввожу карту <card>
-    Then проверяю наличие элемента <type>
-    When считаю время загрузки "payment_after"
+#    When считаю время загрузки "payment_before"
+#    When ввожу карту <card>
+#    Then проверяю наличие элемента <type>
+#    When считаю время загрузки "payment_after"
 #    When отсылаю результат в гугл таблицу
 
     Examples:

@@ -83,10 +83,10 @@ def step_impl(context, name):
         context.cart = float(time_diff.total_seconds())
     elif name == 'home':
         context.home = float(time_diff.total_seconds())
-    elif name == 'payment_before':
-        context.payment_before = float(time_diff.total_seconds())
-    elif name == 'payment_after':
-        context.payment_after = float(time_diff.total_seconds())
+    # elif name == 'payment_before':
+    #     context.payment_before = float(time_diff.total_seconds())
+    # elif name == 'payment_after':
+    #     context.payment_after = float(time_diff.total_seconds())
     else:
         context.payment = float(time_diff.total_seconds())
 
