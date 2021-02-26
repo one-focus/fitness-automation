@@ -29,6 +29,7 @@ Feature: flow
     Given обнулить таймер
     When открываю <page_name> страницу
     When считаю время загрузки "home"
+    When click on quiz button
     When отсылаю результат в гугл таблицу
 
     Examples:

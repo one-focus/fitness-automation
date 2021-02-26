@@ -13,7 +13,8 @@ class MainPage(BasePage):
             "next button": (By.XPATH, '//button[contains(@type,"submit")]'),
 
             "policy link": (By.XPATH, '//a[@href="https://zhiry-net.ru/about/privacy/"]'),
-            "oferta link": (By.XPATH, '//a[@href="https://zhiry-net.ru/about/oferta/"]')
+            "oferta link": (By.XPATH, '//a[@href="https://zhiry-net.ru/about/oferta/"]'),
+            "quiz button": (By.XPATH, '(//a[@data-action="link"])[1]')
         }
 
     def _verify_page(self):
