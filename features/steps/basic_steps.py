@@ -93,11 +93,12 @@ def step_impl(context, name):
 
 @step("отсылаю результат в гугл таблицу")
 def step_impl(context):
-    page = float(context.home) + float(context.cart)
+    cart = float(context.cart) if context.cart else 0
+    page = float(context.home) + cart
     context.data_worksheet.insert_rows(
         values=[[context.time.strftime('%Y-%m-%d %H:%M:%S'),
                  float(context.home),
-                 float(context.cart),
+                 cart,
                  context.landing,
                  page]], row=2)
 
