@@ -8,7 +8,7 @@ class MainPage(BasePage):
     def _elements_map(self):
         return {
             "activate button": (By.XPATH,
-                                '(//*[@data-id="email"]|//section[@id="prise_1"]//div[@class="prise_one silver"]//a)'),
+                                '(//*[@data-id="email"]|//section[@id="prise_1"]//div[@class="prise_one silver"]//a|(//div[@class="pris_one silver"]//a)[1])'),
             "email field": (By.NAME, 'email'),
             "next button": (By.XPATH, '//button[contains(@type,"submit")]'),
 

@@ -22,7 +22,7 @@ Feature: flow
       | shpagat7.ru    | cloudpayments |
       | twerk-twerk.ru | cloudpayments |
       | zhiry-net.ru   | cloudpayments |
-      | zhiry-net.ru   | cloudpayments |
+      | notfats.com    | cloudpayments |
 
   @validation
   Scenario Outline: open home page
