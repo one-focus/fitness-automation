@@ -2,7 +2,6 @@
 Feature: flow
   # Enter feature description here
 
-  @validation
   Scenario Outline: create order
     Given обнулить таймер
     When открываю <page_name> страницу
